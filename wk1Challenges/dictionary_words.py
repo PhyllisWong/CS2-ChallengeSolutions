@@ -1,6 +1,6 @@
 import random, sys
 
-
+ 
 def load_word():
     """Read the usr/shared/dict/words file to get a list of words."""
     with open("/usr/share/dict/words", "r") as f:
