@@ -5,9 +5,9 @@ def load_word():
     """Read a text file with a list of words."""
     f = open('randomWords.txt', 'r')
     words_list = f.readlines()
+    striped_words = [item.strip() for item in words_list]
     f.close()
-    words_list = words_list[0].split(' ')
-    random_word = random.choice(words_list)
+    random_word = random.choice(striped_words)
     return random_word
 
 
