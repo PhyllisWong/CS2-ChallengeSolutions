@@ -6,6 +6,7 @@ def load_word():
     with open("/usr/share/dict/words", "r") as f:
         words_list = f.readlines()
         random_word = random.choice(words_list)
+        f.close()
         return random_word.strip()
 
 
