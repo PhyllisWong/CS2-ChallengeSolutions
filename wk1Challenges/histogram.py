@@ -1,18 +1,13 @@
-import sys, string
+import sys, string, re
 
 
-def clean_source_txt():
-    with open("alice-in-wonderland.txt", "r") as f:
-        # store the text in an array, each index is a line of text
-        text = f.readlines()
-        f.close()
-        # cleans all new lines and special chars from list
-        stripped = [line.strip() for line in text]
-        # splits each index into single words
-        word_list = [words for segment in stripped for words in segment.split()]
-        lowered = [word.lower() for word in word_list]
-        no_punc = [punc.strip("():?;,.!/") for punc in lowered]
-        print(no_punc)
+def clean_source_txt(raw_data):
+    # Removes punctuation from text
+    no_punc = ''.join([char for char in raw_data if char not in
+                       string.punctuation])
+    # Splits text based on match zero or more of ANY whitespace character (SPACE, TAB, FORMFEED, etc.)
+    clean_data = re.split('\s*', no_punc)[:-1]
+    print(clean_data)
 
 
 def histogram():
@@ -37,16 +32,12 @@ def frequency():
 
 
 def main():
-    # collect command line arguments into a list and return list
-    arguments = []
-    for arg in sys.argv[1:]:
-        arguments.append(arg)
-        print(arguments)
-    # return arguments
-    pass
+    '''Read the source text, perform the clean_data function.'''
+    with open("alice-in-wonderland.txt", "r") as f:
+        raw_data = f.read()
+        clean_source_txt(raw_data)
 
 
 if __name__ == '__main__':
-    print(__name__)
+    # print(__name__)
     main()
-    clean_source_txt()
