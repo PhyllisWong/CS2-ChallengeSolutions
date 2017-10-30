@@ -23,18 +23,32 @@ def histogram_dict(text_list):
     return alice_histogram
 
 
-def histogram_list(clean_txt_list):
+def histogram_list(txt_list):
     # Very slow: refactor using list comprehension
     '''Store each unique word and frequency of the word as a list of lists.'''
     result_list = []
-    for word in range(0, len(clean_txt_list)-1):
-        wrd = clean_txt_list[word]
-        freq = clean_txt_list.count(wrd)
+    for word in range(0, len(txt_list)-1):
+        wrd = txt_list[word]
+        freq = txt_list.count(wrd)
         first_list = [wrd, freq]
         # prevent adding duplicated item to the list
         if first_list not in result_list:
             result_list.append(first_list)
     return result_list
+
+
+def histogram_list_tuples(txt_list):
+    # Very slow: refactor using list comprehension
+    '''Store each unique word and frequency of the word as a list of lists.'''
+    list_tpl = []
+    for word in range(0, len(txt_list)-1):
+        wrd = txt_list[word]
+        freq = txt_list.count(wrd)
+        first_tpl = (wrd, freq)
+        # prevent adding duplicated item to the list
+        if first_tpl not in list_tpl:
+            list_tpl.append(first_tpl)
+    print(list_tpl)
 
 
 def unique_words(alice_dict):
@@ -65,7 +79,8 @@ def main():
     alice_dict = histogram_dict(text_list)
     unique_words(alice_dict)
     frequency(alice_dict, "alice")
-    histogram_list(text_list)
+    # histogram_list(text_list)
+    histogram_list_tuples(text_list)
 
 
 if __name__ == '__main__':
