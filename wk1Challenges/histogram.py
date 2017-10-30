@@ -3,13 +3,14 @@ from urllib import request
 
 
 def clean_source_txt(raw_txt):
-    '''Takes a txt file as an argument, returns a string with all puncuation
-    removed.'''
-    # Removes punctuation from text
+    '''Take a txt file as an argument, return a list of individual words.'''
+    # Removes punctuation from text, returns a string
     no_punc = ''.join([char.lower() for char in raw_txt if char not in string.punctuation])
-    # # cleans all new lines and special chars from list
+    # cleans all new lines and special chars from string, returns a list
     clean_txt = re.split('\s*\W+', no_punc)[:-1]
-    print(clean_txt)
+    return clean_txt
+    # print(clean_txt)
+
 
 # def source_text_arr(txt_str):
 #     '''Takes in a string with no puncuation, returns a list of .'''
@@ -19,33 +20,39 @@ def clean_source_txt(raw_txt):
 #     print(clean_data)
 
 
-def histogram(source_text_str):
-    '''Takes a source_text argument string, and returns a histogram data
-    structure that stores each unique word as the key, with frequency the word
-    appears in the text as the value.'''
-    pass
+def histogram(text_list):
+    '''Take a source_text argument string, return a histogram data structure.
+    Store each unique word as the key and frequency of the word as value.'''
+    histogram = {}
+    for word in text_list:
+        if word not in histogram:
+            histogram[word] = 1
+        else:
+            histogram[word] += 1
+    return histogram
 
 
 def unique_words():
-    '''Takes a histogram argument and returns the total count of unique words
-    in the histogram. For example, when given the histogram for The Adventures
-    of Sherlock Holmes, returns the integer 8475.'''
+    '''Take a histogram argument and return the total count of unique words.
+    Example: when given the histogram for The Adventures of Sherlock Holmes,
+    returns the integer 8475.'''
     pass
 
 
 def frequency():
-    '''Takes a word and histogram argument and returns the number of times that
+    '''Take a word and histogram argument and returns the number of times that
     word appears in a text. For example, when given the word "mystery" and the
     Holmes histogram, it will return the integer 20.'''
     pass
 
 
 def main():
-    '''Reads the source text, perform the clean_data function.'''
+    '''Read the source text, perform the clean_data function.'''
     with open("alice-in-wonderland.txt", "rt") as f:
         raw_txt = f.readlines()
         f.close()
-    clean_source_txt(raw_txt)
+    text_list = clean_source_txt(raw_txt)
+    histogram(text_list)
 
 
 if __name__ == '__main__':
