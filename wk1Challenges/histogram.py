@@ -9,18 +9,9 @@ def clean_source_txt(raw_txt):
     # cleans all new lines and special chars from string, returns a list
     clean_txt = re.split('\s*\W+', no_punc)[:-1]
     return clean_txt
-    # print(clean_txt)
 
 
-# def source_text_arr(txt_str):
-#     '''Takes in a string with no puncuation, returns a list of .'''
-#     no_punc = clean_source_txt(txt_str)
-#     # Splits text based on ANY whitespace character (SPACE,TAB,FORMFEED,etc.)
-#
-#     print(clean_data)
-
-
-def histogram(text_list):
+def histogram_dict(text_list):
     '''Take a source_text argument string, return a histogram data structure.
     Store each unique word as the key and frequency of the word as value.'''
     alice_histogram = {}
@@ -32,6 +23,20 @@ def histogram(text_list):
     return alice_histogram
 
 
+def histogram_list(clean_txt_list):
+    # Very slow: refactor using list comprehension
+    '''Store each unique word and frequency of the word as a list of lists.'''
+    result_list = []
+    for word in range(0, len(clean_txt_list)-1):
+        wrd = clean_txt_list[word]
+        freq = clean_txt_list.count(wrd)
+        first_list = [wrd, freq]
+        # prevent adding duplicated item to the list
+        if first_list not in result_list:
+            result_list.append(first_list)
+    return result_list
+
+
 def unique_words(alice_dict):
     '''Take a histogram argument and return the total count of unique words.
     Example: when given the histogram for The Adventures of Sherlock Holmes,
@@ -41,24 +46,27 @@ def unique_words(alice_dict):
 
 
 def frequency(alice_dict, word):
-    '''Take a word and histogram argument and returns the number of times that
-    word appears in a text. For example, when given the word "mystery" and the
-    Holmes histogram, it will return the integer 20.'''
-    print(alice_dict[word])
+    '''Take a word and a histogram as arguments and return the number of times
+    the word appears. Ex: given the word "mystery" and the Holmes histogram,
+    returns the integer 20.'''
+    # print(alice_dict[word])
     return alice_dict[word]
 
 
 def main():
-    '''Read the source text, perform the clean_data function.'''
+    '''
+    Read the source text, run the helper functions.
+    perform the clean_data function.
+    '''
     with open("alice-in-wonderland.txt", "rt") as f:
         raw_txt = f.readlines()
         f.close()
     text_list = clean_source_txt(raw_txt)
-    alice_dict = histogram(text_list)
+    alice_dict = histogram_dict(text_list)
     unique_words(alice_dict)
     frequency(alice_dict, "alice")
+    histogram_list(text_list)
 
 
 if __name__ == '__main__':
-    # print(__name__)
     main()
