@@ -23,27 +23,29 @@ def clean_source_txt(raw_txt):
 def histogram(text_list):
     '''Take a source_text argument string, return a histogram data structure.
     Store each unique word as the key and frequency of the word as value.'''
-    histogram = {}
+    alice_histogram = {}
     for word in text_list:
-        if word not in histogram:
-            histogram[word] = 1
+        if word not in alice_histogram:
+            alice_histogram[word] = 1
         else:
-            histogram[word] += 1
-    return histogram
+            alice_histogram[word] += 1
+    return alice_histogram
 
 
-def unique_words():
+def unique_words(alice_dict):
     '''Take a histogram argument and return the total count of unique words.
     Example: when given the histogram for The Adventures of Sherlock Holmes,
     returns the integer 8475.'''
-    pass
+    num_of_keys = len(alice_dict.keys())
+    print(num_of_keys)
 
 
-def frequency():
+def frequency(alice_dict, word):
     '''Take a word and histogram argument and returns the number of times that
     word appears in a text. For example, when given the word "mystery" and the
     Holmes histogram, it will return the integer 20.'''
-    pass
+    print(alice_dict[word])
+    return alice_dict[word]
 
 
 def main():
@@ -52,7 +54,9 @@ def main():
         raw_txt = f.readlines()
         f.close()
     text_list = clean_source_txt(raw_txt)
-    histogram(text_list)
+    alice_dict = histogram(text_list)
+    unique_words(alice_dict)
+    frequency(alice_dict, "alice")
 
 
 if __name__ == '__main__':
