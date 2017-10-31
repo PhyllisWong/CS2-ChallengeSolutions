@@ -2,6 +2,14 @@ import sys, string, re, time
 from operator import itemgetter
 
 
+def take_usr_input():
+    # User intputs the file to read, returns file
+    usr_input = sys.argv[1]
+    with open(usr_input, 'rt') as f:
+        raw_txt = f.readlines()
+        return raw_txt
+
+
 def clean_source_txt(raw_txt):
     '''Take a txt file as an argument, return a list of individual words.'''
     # Removes punctuation from text, returns a string
@@ -39,7 +47,7 @@ def histogram_list(clean_txt):
 
 def histogram_list_tuples(txt_list):
     # Refactor using list comprehension
-    '''Store each unique word and frequency of the word as a list of lists.'''
+    '''Store each unique word and frequency of the word as a list of tuples.'''
     # word_freq = [(w, txt_list.count(w)) for w in txt_list]
     word_freq = []
     for word in range(0, len(txt_list)-1):
@@ -69,27 +77,24 @@ def frequency(alice_dict, word):
     return alice_dict[word]
 
 
-def main():
+def run_histogram():
     '''
     Read the source text, run the helper functions.
     perform the clean_data function.
     '''
-    time1 = time.time()
-    print(time.time())
-
-    with open("alice-in-wonderland.txt", "rt") as f:
-        raw_txt = f.readlines()
-        f.close()
+    start_time = time.time()
+    print(start_time)
+    raw_txt = take_usr_input()
     text_list = clean_source_txt(raw_txt)
-    # alice_dict = histogram_dict(text_list)
-    # print(alice_dict)
+    alice_dict = histogram_dict(text_list)
+    print(alice_dict)
     # unique_words(alice_dict)
     # print(frequency(alice_dict, "alice"))
-    histogram_list(text_list)
+    # histogram_list(text_list)
     # histogram_list_tuples(text_list)
-    time2 = time.time()
-    print(time1-time2)
+    end_time = time.time()
+    print(abs(start_time-end_time))
 
 
 if __name__ == '__main__':
-    main()
+    run_histogram()
