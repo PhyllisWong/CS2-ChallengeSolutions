@@ -1,4 +1,5 @@
 import sys, string, re, time
+from operator import itemgetter
 
 
 def clean_source_txt(raw_txt):
@@ -21,31 +22,28 @@ def histogram_dict(text_list):
 
 
 def histogram_list(txt_list):
-    # Very slow: refactor using list comprehension
+    # Refactor using list comprehension
     '''Store each unique word and frequency of the word as a list of lists.'''
-    result_list = []
-    for word in range(0, len(txt_list)-1):
-        wrd = txt_list[word]
-        freq = txt_list.count(wrd)
-        first_list = [wrd, freq]
-        # prevent adding duplicated item to the list
-        if first_list not in result_list:
-            result_list.append(first_list)
-    return result_list
+    word_freq = [[w, txt_list.count(w)] for w in txt_list]
+    print(word_freq)
+    return word_freq
 
 
 def histogram_list_tuples(txt_list):
-    # Very slow: refactor using list comprehension
+    # Refactor using list comprehension
     '''Store each unique word and frequency of the word as a list of lists.'''
-    list_tpl = []
-    for word in range(0, len(txt_list)-1):
-        wrd = txt_list[word]
-        freq = txt_list.count(wrd)
-        first_tpl = (wrd, freq)
-        # prevent adding duplicated item to the list
-        if first_tpl not in list_tpl:
-            list_tpl.append(first_tpl)
-    print(list_tpl)
+    word_freq = [(w, txt_list.count(w)) for w in txt_list]
+    # list_tpl = []
+    # for word in range(0, len(txt_list)-1):
+    #     wrd = txt_list[word]
+    #     freq = txt_list.count(wrd)
+    #     first_tpl = (wrd, freq)
+    #     # prevent adding duplicated item to the list
+    #     if first_tpl not in list_tpl:
+    #         list_tpl.append(first_tpl)
+    # # Sort list of tuples by least frequent to most frequent
+    sorted_lst = sorted(word_freq, key=itemgetter(1))
+    print(sorted_lst)
 
 
 def unique_words(alice_dict):
@@ -76,14 +74,14 @@ def main():
         raw_txt = f.readlines()
         f.close()
     text_list = clean_source_txt(raw_txt)
-    alice_dict = histogram_dict(text_list)
-    print(alice_dict)
-    time2 = time.time()
-    print(time1-time2)
+    # alice_dict = histogram_dict(text_list)
+    # print(alice_dict)
     # unique_words(alice_dict)
     # frequency(alice_dict, "alice")
     # histogram_list(text_list)
-    # histogram_list_tuples(text_list)
+    histogram_list_tuples(text_list)
+    time2 = time.time()
+    print(time1-time2)
 
 
 if __name__ == '__main__':
