@@ -1,5 +1,4 @@
-import sys, string, re, nltk
-from urllib import request
+import sys, string, re, time
 
 
 def clean_source_txt(raw_txt):
@@ -14,13 +13,11 @@ def clean_source_txt(raw_txt):
 def histogram_dict(text_list):
     '''Take a source_text argument string, return a histogram data structure.
     Store each unique word as the key and frequency of the word as value.'''
-    alice_histogram = {}
+    alice_dict = {}
+    get = alice_dict.get
     for word in text_list:
-        if word not in alice_histogram:
-            alice_histogram[word] = 1
-        else:
-            alice_histogram[word] += 1
-    return alice_histogram
+        alice_dict[word] = get(word, 0) + 1
+    return alice_dict
 
 
 def histogram_list(txt_list):
@@ -72,15 +69,21 @@ def main():
     Read the source text, run the helper functions.
     perform the clean_data function.
     '''
+    time1 = time.time()
+    print(time.time())
+
     with open("alice-in-wonderland.txt", "rt") as f:
         raw_txt = f.readlines()
         f.close()
     text_list = clean_source_txt(raw_txt)
     alice_dict = histogram_dict(text_list)
-    unique_words(alice_dict)
-    frequency(alice_dict, "alice")
+    print(alice_dict)
+    time2 = time.time()
+    print(time1-time2)
+    # unique_words(alice_dict)
+    # frequency(alice_dict, "alice")
     # histogram_list(text_list)
-    histogram_list_tuples(text_list)
+    # histogram_list_tuples(text_list)
 
 
 if __name__ == '__main__':
