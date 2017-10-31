@@ -21,12 +21,9 @@ def histogram_dict(text_list):
     return alice_dict
 
 
-def histogram_list(raw_txt):
-    # Refactor using list comprehension
+def histogram_list(clean_txt):
+    # Refactor using list comprehension resulted in duplicates
     '''Store each unique word and frequency of the word as a list of lists.'''
-    no_punc = ''.join([char.lower() for char in raw_txt if char not in string.punctuation])
-    # cleans all new lines and special chars from string, returns a list
-    clean_txt = re.split('\s*\W+', no_punc)[:-1]
     word_freq = []
     for word in range(0, len(clean_txt)-1):
         wrd = clean_txt[word]
@@ -34,11 +31,10 @@ def histogram_list(raw_txt):
         first_list = [wrd, freq]
         if first_list not in word_freq:
             word_freq.append(first_list)
-    # txt_list = sorted(txt_list)
-    # b = list(set(txt_list))
+    # Sort the list by frequency of word
     word_freq = sorted(word_freq, key=itemgetter(1))
     print(word_freq)
-    # return word_freq
+    return word_freq
 
 
 def histogram_list_tuples(txt_list):
@@ -55,7 +51,6 @@ def histogram_list_tuples(txt_list):
             word_freq.append(first_tpl)
     return word_freq
     print(word_freq)
-    # print(sorted_lst)
 
 
 def unique_words(alice_dict):
@@ -90,7 +85,7 @@ def main():
     # print(alice_dict)
     # unique_words(alice_dict)
     # print(frequency(alice_dict, "alice"))
-    histogram_list(raw_txt)
+    histogram_list(text_list)
     # histogram_list_tuples(text_list)
     time2 = time.time()
     print(time1-time2)
