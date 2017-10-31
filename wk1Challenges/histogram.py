@@ -33,15 +33,6 @@ def histogram_list_tuples(txt_list):
     # Refactor using list comprehension
     '''Store each unique word and frequency of the word as a list of lists.'''
     word_freq = [(w, txt_list.count(w)) for w in txt_list]
-    # list_tpl = []
-    # for word in range(0, len(txt_list)-1):
-    #     wrd = txt_list[word]
-    #     freq = txt_list.count(wrd)
-    #     first_tpl = (wrd, freq)
-    #     # prevent adding duplicated item to the list
-    #     if first_tpl not in list_tpl:
-    #         list_tpl.append(first_tpl)
-    # # Sort list of tuples by least frequent to most frequent
     sorted_lst = sorted(word_freq, key=itemgetter(1))
     print(sorted_lst)
 
