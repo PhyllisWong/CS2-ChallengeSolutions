@@ -31,6 +31,7 @@ def histogram_dict(text_list):
 
 def histogram_list(clean_txt):
     # Refactor using list comprehension resulted in duplicates
+    # Refactor without using the itemgetter library
     '''Store each unique word and frequency of the word as a list of lists.'''
     word_freq = []
     for word in range(0, len(clean_txt)-1):
