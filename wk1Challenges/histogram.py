@@ -78,6 +78,12 @@ def frequency(alice_dict, word):
     return alice_dict[word]
 
 
+def write_to_file(alice_dict):
+    with open('histogram_dict.txt', 'w') as f:
+        for k, v in alice_dict.items():
+            f.write(str(k) + ' : ' + str(v) + '\n\n')
+
+
 def run_histogram():
     '''
     Read the source text, run the helper functions.
@@ -88,7 +94,8 @@ def run_histogram():
     raw_txt = take_usr_input()
     text_list = clean_source_txt(raw_txt)
     alice_dict = histogram_dict(text_list)
-    print(alice_dict)
+    write_to_file(alice_dict)
+    # print(alice_dict)
     # unique_words(alice_dict)
     # print(frequency(alice_dict, "alice"))
     # histogram_list(text_list)
