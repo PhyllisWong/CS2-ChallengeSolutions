@@ -5,17 +5,20 @@ from operator import itemgetter
 def take_usr_input():
     # User intputs the file to read, returns file
     usr_input = sys.argv[1]
-    with open(usr_input, 'rt') as f:
+    with open(usr_input, 'r') as f:
         raw_txt = f.readlines()
         return raw_txt
 
 
-def clean_source_txt(raw_txt):
-    '''Take a txt file as an argument, return a list of individual words.'''
+def clean_source_txt(raw_txt_lst):
+    '''Take list as argument, return a cleaned list of individual words.'''
     # Removes punctuation from text, returns a string
-    no_punc = ''.join([char.lower() for char in raw_txt if char not in string.punctuation])
+    for char in raw_txt_lst:
+        if char not in string.punctuation:
+            no_punc = ''.join(char.lower())
     # cleans all new lines and special chars from string, returns a list
     clean_txt = re.split('\s*\W+', no_punc)[:-1]
+    print(clean_txt)
     return clean_txt
 
 
