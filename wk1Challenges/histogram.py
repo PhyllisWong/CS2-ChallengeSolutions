@@ -20,7 +20,7 @@ def clean_source_txt(raw_txt):
 
 
 def histogram_dict(text_list):
-    '''Take a source_text argument string, return a histogram data structure.
+    '''Take a list argument, return a histogram dictionary structure.
     Store each unique word as the key and frequency of the word as value.'''
     alice_dict = {}
     get = alice_dict.get
