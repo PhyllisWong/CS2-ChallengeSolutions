@@ -13,12 +13,10 @@ def take_usr_input():
 def clean_source_txt(raw_txt_lst):
     '''Take list as argument, return a cleaned list of individual words.'''
     # Removes punctuation from text, returns a string
-    for char in raw_txt_lst:
-        if char not in string.punctuation:
-            no_punc = ''.join(char.lower())
+    no_punc = ''.join([char.lower() for char in raw_txt_lst if char not in string.punctuation])
     # cleans all new lines and special chars from string, returns a list
     clean_txt = re.split('\s*\W+', no_punc)[:-1]
-    print(clean_txt)
+    # print(clean_txt)
     return clean_txt
 
 
@@ -45,7 +43,7 @@ def histogram_list(clean_txt):
             word_freq.append(first_list)
     # Sort the list by frequency of word
     word_freq = sorted(word_freq, key=itemgetter(1))
-    print(word_freq)
+    # print(word_freq)
     return word_freq
 
 
@@ -62,7 +60,6 @@ def histogram_list_tuples(txt_list):
         if first_tpl not in word_freq:
             word_freq.append(first_tpl)
     return word_freq
-    print(word_freq)
 
 
 def unique_words(alice_dict):
@@ -70,14 +67,14 @@ def unique_words(alice_dict):
     Example: when given the histogram for The Adventures of Sherlock Holmes,
     returns the integer 8475.'''
     num_of_keys = len(alice_dict.keys())
-    print(num_of_keys)
+    return num_of_keys
 
 
 def frequency(alice_dict, word):
     '''Take a word and a histogram as arguments and return the number of times
     the word appears. Ex: given the word "mystery" and the Holmes histogram,
     returns the integer 20.'''
-    print(alice_dict[word])
+    # print(alice_dict[word])
     return alice_dict[word]
 
 
