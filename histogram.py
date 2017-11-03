@@ -2,10 +2,10 @@ import sys, string, re, time
 from operator import itemgetter
 
 
-def take_usr_input():
+def take_usr_input(file_name):
     # User intputs the file to read, returns file
-    usr_input = sys.argv[1]
-    with open(usr_input, 'r') as f:
+    # usr_input = sys.argv[1]
+    with open(file_name, 'r') as f:
         raw_txt = f.readlines()
         return raw_txt
 
