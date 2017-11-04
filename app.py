@@ -12,7 +12,7 @@ def hello():
     # Get random word using probability
     # s.get_random_wrd_prob(dict_w_weights)
     # usr_input_count = int(sys.argv[-1])
-    rand_sentence = s.create_sentence(9, dict_w_weights)
+    rand_sentence = s.create_sentence(10, dict_w_weights)
 
     return rand_sentence
 

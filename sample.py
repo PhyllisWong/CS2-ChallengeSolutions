@@ -80,4 +80,4 @@ if __name__ == '__main__':
     rand_sentence = create_sentence(usr_input_count, dict_w_weights)
     print(rand_sentence)
     # Proof that many random words returns each word within the desired range
-    # get_many_rand_wrds(dict_w_weights, usr_input_count)
+    get_many_rand_wrds(dict_w_weights, usr_input_count)
