@@ -41,3 +41,6 @@ def hello():
 # def print_to_web():
 #     my_dict = s.create_dict_from_file()
 #     return my_dict
+
+if __name__ == '__main__':
+    app.run()
