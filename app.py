@@ -42,5 +42,5 @@ def hello():
 #     my_dict = s.create_dict_from_file()
 #     return my_dict
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
