@@ -1,7 +1,14 @@
 from flask import Flask
+from flask.ext.sqlalchemy import SQLAlchemy
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/[TweetGenerator]'
+db = SQLAlchemy(app)
 import sample as s
 # import histogram as h
 app = Flask(__name__)
+
+
+from sqlalchemy import create_engine
+engine = create_engine('postgresql://localhost/[YOUR_DATABASE_NAME]')
 
 
 @app.route('/')
