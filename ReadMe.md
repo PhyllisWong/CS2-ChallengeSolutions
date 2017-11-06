@@ -44,10 +44,8 @@ Please read [CONTRIBUTING.md] for details on our code of conduct, and the proces
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - [LICENSE.md](LICENSE.md) for details *coming soon.*
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Hat tip to [neptunius](https://github.com/Product-College-Courses/CS-2-Tweet-Generator) for the awesome tutorial
