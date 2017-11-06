@@ -11,8 +11,12 @@ import sample as s
 app = Flask(__name__)
 
 # MIDDLEWARE
+if os.environ.get('DATABASE_URL'):
+    db_url = os.environ.get('DATABASE_URL')
+else:
+    db_url = 'postgresql://localhost/TweetGenerator'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL') or 'postgresql://localhost/TweetGenerator'
+app.config['SQLALCHEMY_DATABASE_URI'] = db_url
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
