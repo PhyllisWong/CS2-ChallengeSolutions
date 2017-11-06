@@ -7,7 +7,7 @@ This is a python application that generates a 140 character phrase that sounds l
 To get this project up and running locally, fork the repo, clone to your git, and run the app using your own server and database.
 
 ```
-git clone <your the url for your fork of the repo>
+git clone <the url for your fork of the repo>
 ```
 
 ### Prerequisites
