@@ -1,5 +1,5 @@
 [[source]]
-url = "https://git.heroku.com/protected-forest-82445.git"
+url = "https://git.heroku.com/phyllis-tweet-generator.git"
 verify_ssl = true
 
 [packages]

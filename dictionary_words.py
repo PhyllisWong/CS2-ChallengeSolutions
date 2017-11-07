@@ -8,23 +8,7 @@ def load_word_list(file_name):
         words_list = f.readlines()
         random_word = random.choice(words_list)
         return random_word.strip()
-#
-#
-# def construct_sentence(num):
-#     """Build a sentence with random words from load_word() func."""
-#     # sentence = ""
-#     sentence = []
-#     while len(sentence) < num:
-#     # for index in range(0, num):
-#         # sentence += (load_word() + " ")
-#         sentence.append(load_word())
-#     # print(sentence)
-#     joined = " ".join(sentence)
-#     return (joined + ".")
 
-
-# time2 = time.time()
-# print("construct time: " + str(time2))
 
 # V2
 def random_word():
@@ -32,12 +16,14 @@ def random_word():
     random_index = random.randint(0, len(dict_words) - 1)
     return dict_words[random_index].rstrip('\n')
 
+
 def multiple_rand_words(number_of_words):
     list_of_words = ''
     for i in range(0, number_of_words):
         list_of_words += (random_word() + ' ')
     return list_of_words
 # multiple_rand_words(number_of_words)
+
 
 timestamp1 = time.time()
 print(timestamp1)

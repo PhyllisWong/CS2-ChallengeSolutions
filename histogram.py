@@ -16,7 +16,6 @@ def clean_source_txt(raw_txt_lst):
     no_punc = ''.join([char.lower() for char in raw_txt_lst if char not in string.punctuation])
     # cleans all new lines and special chars from string, returns a list
     clean_txt = re.split('\s*\W+', no_punc)[:-1]
-    # print(clean_txt)
     return clean_txt
 
 
