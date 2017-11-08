@@ -1,4 +1,5 @@
 import histogram as h
+import cleanup as c
 import random, sys
 # import sys, string, re, time coming from the histogram file
 
@@ -6,9 +7,10 @@ import random, sys
 def create_dict_from_file():
     '''Take a user input, convert to a clean list, return dictionary structure.
     Each unique wrd stored as key : frequency of the word stored as value.'''
-    raw_txt_lst = h.take_usr_input('alice-in-wonderland.txt')
-    txt_list = h.clean_source_txt(raw_txt_lst)
-    dictionary = h.histogram_dict(txt_list)
+    # raw_txt_lst = h.take_usr_input('alice-in-wonderland.txt')
+    # txt_list = h.clean_source_txt(raw_txt_lst)
+    clean_text = c.clean_text('alice-in-wonderland.txt')
+    dictionary = h.histogram_dict(clean_text)
     return dictionary
 
 

@@ -20,8 +20,7 @@ def clean_source_txt(raw_txt_lst):
     return clean_txt
 
 
-def main():
-    file_name = sys.argv[1]
+def clean_file(file_name):
     raw_txt_lst = take_usr_input(file_name)
     clean_source_txt(raw_txt_lst)
 
