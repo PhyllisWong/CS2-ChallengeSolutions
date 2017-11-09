@@ -35,7 +35,7 @@ class Dictogram(dict):
 
 
 def print_histogram(word_list):
-    print(word_list)
+    # print(word_list)
     print('word list: {}'.format(word_list))
     # Create a dictogram and display its contents
     histogram = Dictogram(word_list)
