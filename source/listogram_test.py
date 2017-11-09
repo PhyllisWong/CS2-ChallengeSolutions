@@ -10,7 +10,7 @@ class ListogramTest(unittest.TestCase):
 
     # Test fixtures: known inputs and their expected results
     fish_words = ['one', 'fish', 'two', 'fish', 'red', 'fish', 'blue', 'fish']
-    fish_list = [('one', 1), ('fish', 4), ('two', 1), ('red', 1), ('blue', 1)]
+    fish_list = [('one', 1), ('two', 1), ('red', 1), ('blue', 1), ('fish', 4)]
     fish_dict = {'one': 1, 'fish': 4, 'two': 1, 'red': 1, 'blue': 1}
 
     def test_entries(self):
@@ -46,7 +46,7 @@ class ListogramTest(unittest.TestCase):
         assert histogram.frequency('blue') == 1
         assert histogram.frequency('fish') == 4
         # Verify frequency count of unseen words
-        assert histogram.frequency('food') == 0
+        assert histogram.frequency('food') is None
 
     def test_add_count(self):
         histogram = Listogram(self.fish_words)
