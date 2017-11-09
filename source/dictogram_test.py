@@ -1,4 +1,6 @@
 #!python
+import pytest
+
 
 from dictogram import Dictogram
 import unittest
