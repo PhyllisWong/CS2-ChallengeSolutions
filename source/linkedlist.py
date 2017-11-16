@@ -6,11 +6,20 @@ class Node(object):
     def __init__(self, data):
         """Initialize this node with the given data."""
         self.data = data
-        self.next = None
+        self.next = next
 
     def __repr__(self):
         """Return a string representation of this node."""
         return 'Node({!r})'.format(self.data)
+
+    def get_data(self):
+        return self.data
+
+    def get_next(self):
+        return self.next_node
+
+    def set_next(self, new_next):
+        self.next_node = new_next
 
 
 class LinkedList(object):
@@ -54,20 +63,34 @@ class LinkedList(object):
 
     def length(self):
         """Return the length of this linked list by traversing its nodes.
-        TODO: Running time: O(???) Why and under what conditions?"""
+        TODO: Running time: O(n) Why and under what conditions?"""
         # TODO: Loop through all nodes and count one for each
+        current = self.head
+        count = 0
+        while current:
+            count += 1
+            current.get_next()
+        return count
 
     def append(self, item):
         """Insert the given item at the tail of this linked list.
-        TODO: Running time: O(???) Why and under what conditions?"""
+        TODO: Running time: O(1) Why and under what conditions?"""
         # TODO: Create new node to hold given item
         # TODO: Append node after tail, if it exists
+        current = self.head
+        while current:
+            previous = current
+            current = current.get_next()
+        previous.set_next(Node(data))
 
-    def prepend(self, item):
+    def prepend(self, data):
         """Insert the given item at the head of this linked list.
         TODO: Running time: O(???) Why and under what conditions?"""
         # TODO: Create new node to hold given item
         # TODO: Prepend node before head, if it exists
+        new_node = Node(data)
+        new_node.next(self.head)
+        self.head = new_node
 
     def find(self, quality):
         """Return an item from this linked list satisfying the given quality.

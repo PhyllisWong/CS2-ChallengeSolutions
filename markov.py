@@ -3,12 +3,12 @@ from __future__ import division, print_function  # Python 2 and 3 compatibility
 import random
 
 
-class Dictogram(dict):
+class Markov(dict):
     """Dictogram is a histogram implemented as a subclass of the dict type."""
 
     def __init__(self, word_list=None):
         """Initialize this histogram as a new dict and count given words."""
-        super(Dictogram, self).__init__()  # Initialize this as a new dict
+        super(Markov, self).__init__()  # Initialize this as a new dict
 
         self.types = 0
         self.tokens = 0
@@ -42,7 +42,7 @@ def markov_chain(word_list):
         current = word_list[index]
         next_word = word_list[index+1]
         if current not in markov.keys():
-            markov[current] = Dictogram() # {} Dictogram is empty array
+            markov[current] = Markov() # {} Dictogram is empty array
             print(markov)
         markov[current].add_count(next_word)
         index+=1
@@ -53,7 +53,7 @@ def markov_chain(word_list):
 def print_histogram(word_list):
     print('word list: {}'.format(word_list))
     # Create a dictogram and display its contents
-    histogram = Dictogram(word_list)
+    histogram = Markov(word_list)
     print('dictogram: {}'.format(histogram))
     print('{} tokens, {} types'.format(histogram.tokens, histogram.types))
     for word in word_list[-2:]:
