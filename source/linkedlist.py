@@ -54,8 +54,8 @@ class LinkedList(object):
 
     def length(self):
         """Return the length of this linked list by traversing its nodes.
-        TODO: Running time: O(n) Why and under what conditions?"""
-        # TODO: Loop through all nodes and count one for each
+        TODO: Running time: O(n) because we always need to loop through all n
+        nodes to get each item."""
         # pdb.set_trace()
         count = 0
         node = self.head
@@ -107,7 +107,7 @@ class LinkedList(object):
         # If the linked list is not empty
         while node is not None:
             # Check if the current node has the data we are looking for
-            if node.data == quality(node.data):
+            if quality(node.data):
                 return node.data
             node = node.next
         return None
