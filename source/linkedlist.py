@@ -105,12 +105,12 @@ class LinkedList(object):
         # TODO: Check if node's data satisfies given quality function
         node = self.head
         # If the linked list is not empty
-        while current is not None:
-            if current.data == quality(current.data):
-                return current.data
-            current = current.next
-        if current is None:
-            raise ValueError('Item not found: {}'.format(current.data))
+        while node is not None:
+            # Check if the current node has the data we are looking for
+            if node.data == quality(node.data):
+                return node.data
+            node = node.next
+        return None
 
     def delete(self, item):
         """Delete the given item from this linked list, or raise ValueError.
@@ -120,33 +120,23 @@ class LinkedList(object):
         # TODO: Update previous node to skip around node with matching data
         # TODO: Otherwise raise error to tell user that delete has failed
         # Hint: raise ValueError('Item not found: {}'.format(item))
-        current = self.head
-        previous = None
+        node = self.head
+        previous_node = None
         # If the linked list is not empty
-        while current is not None:
-            if current.data == item:
-                # Removes the item by setting the head and tail pointers to None
-                if current == self.head and current == self.tail:
-                    self.head = None
-                    self.tail = None
-                # Item is the first in the list
-                elif current == self.head:
-                    # assign the tail to the previous
-                    self.head.next = self.head
-                    # previous points to None
-                    previous = None
-                # Item found at the end
-                elif current == self.tail:
-                # Reassign the head to the next
-                    self.tail.previous = self.tail
-                    self.tail.next = None
-                # item found in the middle
+        while node is not None:
+            if node.data == item:
+                # Move the node's next pointer to the next node
+                if previous_node is None:
+                    self.head = node.next
                 else:
                     # have the previous pointer skip the current node
-                    previous.next = current.next
-            # keeps the loop moving forward
-            previous = current
-            current = current.next
+                    previous_node.next = node.next
+                if node.next is None:
+                    self.tail = previous_node
+                return
+            # keep the loop moving forward
+            previous_node = node
+            node = node.next
         raise ValueError('Item not found: {}'.format(item))
 
 
