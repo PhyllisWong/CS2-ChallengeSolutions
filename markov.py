@@ -36,18 +36,22 @@ class Markov(dict):
 
 
 def markov_chain(word_list):
+    # Holds the Dictionary of histograms
     markov = {}
     index = 0
+    # Search through the list of words
     while index < len(word_list)-1:
-        current = word_list[index]
+        curr_word = word_list[index]
         next_word = word_list[index+1]
-        if current not in markov.keys():
-            markov[current] = Markov() # {} Dictogram is empty array
-            print(markov)
-        markov[current].add_count(next_word)
+        # Add the word to the dictionary if not in in there
+        if curr_word not in markov.keys():
+            # Set newly added word with the value of a dictionary object
+            markov[curr_word] = Markov()
+        # If the word is already in the dictionary, increase the count
+        markov[curr_word].add_count(next_word)
+        # Look at the next word, repeat the loop
         index+=1
-    print(markov)
-    print('this shit')
+    return markov
 
 
 def print_histogram(word_list):
@@ -62,24 +66,71 @@ def print_histogram(word_list):
     print()
 
 
+def get_random_wrd(dictionary):
+    '''Return a random word from a dictionary.'''
+    rand_index = random.randint(0, len(dictionary) - 1)
+    # Convert dictionary into list of unique words with indecies
+    key_list = list(dictionary)
+    rand_wrd = key_list[rand_index]
+    return rand_wrd
+
+
+def calculate_probability(dictionary):
+    '''Take a random word and a dictionary, return a new dictionary.
+    Convert the values from frequencies, to weights.'''
+    total_tokens = sum(dictionary.values())
+    dict_w_weights = {}
+    for (wrd, value) in dictionary.items():
+        weight = float(value / total_tokens)
+        # Set the value to the weight
+        dict_w_weights[wrd] = weight
+    return dict_w_weights
+
+
+def get_random_wrd_prob(dict_w_weights):
+    '''Take a dictionary, select random word based on its probability.'''
+    rand_float = random.random()
+    probability = 0.0
+    for wrd, wrd_weight in dict_w_weights.items():
+        # print(wrd_weight, rand_float, probability)
+        probability += wrd_weight
+        if rand_float < probability:
+            break
+    return wrd
+
+
+def create_sentence(wrd_num, dict_w_weights):
+    '''Create a sentence using stocastic sampling.
+    Take in num of words in sentence, and histogram. Return a sentence.'''
+    sentence = []
+    while len(sentence) < wrd_num:
+        rand_wrd = get_random_wrd_prob(dict_w_weights)
+        sentence.append(rand_wrd)
+    joined = " ".join(sentence) + "."
+    # print(joined)
+    return joined
+
+
 def main():
     import sys
+    # Import the module to clean text
+    import cleanup as clean
     arguments = sys.argv[1:]  # Exclude script name in first argument
     if len(arguments) >= 1:
         # Test histogram on given arguments
         print_histogram(arguments)
     else:
-        # Test histogram on letters in a word
-        word = 'abracadabra'
-        print_histogram(list(word))
-        # Test histogram on words in a classic book title
-        fish_text = 'one fish two fish red fish blue fish'
-        print_histogram(fish_text.split())
+        onefish_list = clean.clean_txt('onefish.txt')
+        print(onefish_list)
+        # Create the Dictionary of Histograms
+        markov_list = markov_chain(onefish_list)
+        print(markov_list)
+        
         # Test histogram on words in a long repetitive sentence
-        woodchuck_text = ('how much wood would a wood chuck chuck'
-                          ' if a wood chuck could chuck wood')
-        print_histogram(woodchuck_text.split())
-        markov_chain("one fish two fish two fish red fish blue fish".split())
+        # woodchuck_text = ('how much wood would a wood chuck chuck'
+        #                   ' if a wood chuck could chuck wood')
+        # print_histogram(woodchuck_text.split())
+        # markov_chain("one fish two fish two fish red fish blue fish".split())
 
 
 if __name__ == '__main__':

@@ -13,15 +13,15 @@ def clean_txt(filename):
 
     items = re.findall("[A-z]+\'?[A-z]*|\$[0-9]*", words_list)
     for item in items:
-        result.append(item)
+        results.append(item)
     return results
 
 
 def remove_punctuation(text):
     no_punc_txt = re.sub('[,.()]', '', text)
-    no_punc_text = re.sub('--', ' ', no_punc_text)
-    no_punc_text = re.sub(':', ' ', no_punc_text)
-    return no_punc_text
+    no_punc_txt = re.sub('--', ' ', no_punc_txt)
+    no_punc_txt = re.sub(':', ' ', no_punc_txt)
+    return no_punc_txt
 
 
 def main():
