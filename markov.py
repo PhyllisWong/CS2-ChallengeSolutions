@@ -123,9 +123,10 @@ def main():
         onefish_list = clean.clean_txt('onefish.txt')
         print(onefish_list)
         # Create the Dictionary of Histograms
-        markov_list = markov_chain(onefish_list)
-        print(markov_list)
-        
+        markov_dict = markov_chain(onefish_list)
+        print(markov_dict)
+        rand_wrd = get_random_wrd(markov_dict)
+        print(rand_wrd)
         # Test histogram on words in a long repetitive sentence
         # woodchuck_text = ('how much wood would a wood chuck chuck'
         #                   ' if a wood chuck could chuck wood')
