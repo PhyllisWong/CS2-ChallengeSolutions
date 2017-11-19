@@ -99,14 +99,13 @@ class LinkedList(object):
 
     def find(self, quality):
         """Return an item from this linked list satisfying the given quality.
-        TODO: Best case running time: O(???) Why and under what conditions?
-        TODO: Worst case running time: O(???) Why and under what conditions?"""
-        # TODO: Loop through all nodes to find item where quality(item) is True
-        # TODO: Check if node's data satisfies given quality function
+        Best case running time: O(1) If the head has the data. Worst case running
+        time: O(n) When the list is long, and the data is at the end."""
+        # TODO:
         node = self.head
-        # If the linked list is not empty
+        # Loop through all nodes to find item where quality(item) is True
         while node is not None:
-            # Check if the current node has the data we are looking for
+            # Check if node's data satisfies given quality function
             if quality(node.data):
                 return node.data
             node = node.next
@@ -114,8 +113,9 @@ class LinkedList(object):
 
     def delete(self, item):
         """Delete the given item from this linked list, or raise ValueError.
-        TODO: Best case running time: O(???) Why and under what conditions?
-        TODO: Worst case running time: O(???) Why and under what conditions?"""
+        TODO: Best case running time: O(1) When the node to delete is at the head or tail.
+        TODO: Worst case running time: O(n) When it is in the middle, and you have to
+        loop through the entire list."""
         # TODO: Loop through all nodes to find one whose data matches given item
         # TODO: Update previous node to skip around node with matching data
         # TODO: Otherwise raise error to tell user that delete has failed
@@ -125,13 +125,13 @@ class LinkedList(object):
         # If the linked list is not empty
         while node is not None:
             if node.data == item:
-                # Move the node's next pointer to the next node
-                if previous_node is None:
+                if self.head.data == item:
                     self.head = node.next
-                else:
+                # Traverse the linked list if the item not found at the head
+                else: # If the item is found in the middle of the liked list
                     # have the previous pointer skip the current node
                     previous_node.next = node.next
-                if node.next is None:
+                if self.tail.data == item:
                     self.tail = previous_node
                 return
             # keep the loop moving forward
