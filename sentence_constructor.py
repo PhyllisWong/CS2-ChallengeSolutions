@@ -61,7 +61,7 @@ def get_many_rand_wrds(dictionary, num):
     return rand_dict
 
 
-def create_sentence(dict_w_weights, markov_dict):
+def create_sentence(wrd_num, dict_w_weights, markov_dict):
     '''Create a sentence using stocastic sampling.
     Take in num of words in sentence, and histogram. Return a sentence.'''
     sentence = []
