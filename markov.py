@@ -1,6 +1,5 @@
 #!python
 from __future__ import division, print_function  # Python 2 and 3 compatibility
-import random
 
 
 class Markov(dict):
@@ -66,50 +65,6 @@ def print_histogram(word_list):
     print()
 
 
-def get_random_wrd(dictionary):
-    '''Return a random word from a dictionary.'''
-    rand_index = random.randint(0, len(dictionary) - 1)
-    # Convert dictionary into list of unique words with indecies
-    key_list = list(dictionary)
-    rand_wrd = key_list[rand_index]
-    return rand_wrd
-
-
-def calculate_probability(dictionary):
-    '''Take a random word and a dictionary, return a new dictionary.
-    Convert the values from frequencies, to weights.'''
-    total_tokens = sum(dictionary.values())
-    dict_w_weights = {}
-    for (wrd, value) in dictionary.items():
-        weight = float(value / total_tokens)
-        # Set the value to the weight
-        dict_w_weights[wrd] = weight
-    return dict_w_weights
-
-
-def get_random_wrd_prob(dict_w_weights):
-    '''Take a dictionary, select random word based on its probability.'''
-    rand_float = random.random()
-    probability = 0.0
-    for wrd, wrd_weight in dict_w_weights.items():
-        # print(wrd_weight, rand_float, probability)
-        probability += wrd_weight
-        if rand_float < probability:
-            break
-    return wrd
-
-
-def create_sentence(wrd_num, dict_w_weights):
-    '''Create a sentence using stocastic sampling.
-    Take in num of words in sentence, and histogram. Return a sentence.'''
-    sentence = []
-    while len(sentence) < wrd_num:
-        rand_wrd = get_random_wrd_prob(dict_w_weights)
-        sentence.append(rand_wrd)
-    joined = " ".join(sentence) + "."
-    # print(joined)
-    return joined
-
 
 def main():
     import sys
@@ -125,8 +80,6 @@ def main():
         # Create the Dictionary of Histograms
         markov_dict = markov_chain(onefish_list)
         print(markov_dict)
-        rand_wrd = get_random_wrd(markov_dict)
-        print(rand_wrd)
         # Test histogram on words in a long repetitive sentence
         # woodchuck_text = ('how much wood would a wood chuck chuck'
         #                   ' if a wood chuck could chuck wood')

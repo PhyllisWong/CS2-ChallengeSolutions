@@ -1,23 +1,7 @@
 import sys, string, re, time
 from operator import itemgetter
-
-
-def take_usr_input(file_name):
-    # User intputs the file to read, returns file
-    # usr_input = sys.argv[1]
-    with open(file_name, 'r') as f:
-        raw_txt = f.readlines()
-        return raw_txt
-
-
-def clean_source_txt(raw_txt_lst):
-    '''Take list as argument, return a cleaned list of individual words.'''
-    # Removes punctuation from text, returns a string
-    no_punc = ''.join([char.lower() for char in raw_txt_lst if char not in string.punctuation])
-    # cleans all new lines and special chars from string, returns a list
-    clean_txt = re.split('\s*\W+', no_punc)[:-1]
-    return clean_txt
-
+import cleanup as c
+'''Cleanup has .clean_txt() method that reads a text file, removes all punctuation, and returns a list of individual words.'''
 
 def histogram_dict(text_list):
     '''Take a list argument, return a histogram dictionary structure.
@@ -90,8 +74,9 @@ def run_histogram():
     '''
     start_time = time.time()
     print(start_time)
-    raw_txt = take_usr_input()
-    text_list = clean_source_txt(raw_txt)
+    # Takes in a text file, cleans it, and returns a list of words.
+    text_list = c.clean_txt("alice-in-wonderland.txt")
+    print(text_list)
     alice_dict = histogram_dict(text_list)
     write_to_file(alice_dict)
     # print(alice_dict)

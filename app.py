@@ -4,7 +4,8 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine
 import os
 
-import sample as s
+import sentence_constructor as s
+'''sentence_constructor methods generate random words and construct sentences.'''
 # import histogram as h
 
 app = Flask(__name__)
@@ -26,11 +27,11 @@ app = Flask(__name__)
 # ROUTES
 @app.route('/')
 def rand_sentence():
-    dictionary = s.create_dict_from_file()
-    dict_w_weights = s.calculate_probability(dictionary)
-    rand_sentence = s.create_sentence(10, dict_w_weights)
-    return rand_sentence
+    sentence = s.construct_sentence(10)
+    # rand_sentence = s.create_sentence(10, dict_w_weights)
+    return sentence
 
 
+rand_sentence()
 # if __name__ == '__main__':
 #     app.run()

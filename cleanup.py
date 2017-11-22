@@ -9,12 +9,12 @@ def clean_txt(filename):
     txt_file = open(filename, 'r')
     words_list = txt_file.read().lower()
     remove_punctuation(words_list)
-    results = []
+    result_list = []
 
     items = re.findall("[A-z]+\'?[A-z]*|\$[0-9]*", words_list)
     for item in items:
-        results.append(item)
-    return results
+        result_list.append(item)
+    return result_list
 
 
 def remove_punctuation(text):
@@ -36,3 +36,7 @@ def main():
         items = re.findall("[A-z]+\'?[A-z]*|\$[0-9]*", words_list)
         for item in items:
             print(item)
+
+
+if __name__ == '__main__':
+    main()
