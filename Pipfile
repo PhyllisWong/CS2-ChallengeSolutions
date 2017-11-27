@@ -1,5 +1,6 @@
 [[source]]
 url = "https://git.heroku.com/protected-forest-82445.git"
+url = "https://george-carlin-tweet-generator.herokuapp.com/"
 verify_ssl = true
 
 [packages]
