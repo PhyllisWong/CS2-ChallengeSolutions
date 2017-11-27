@@ -27,8 +27,9 @@ app = Flask(__name__)
 # ROUTES
 @app.route('/')
 def rand_sentence():
-    sentence = s.construct_sentence(13)
+    sentence = s.construct_sentence(18)
     # rand_sentence = s.create_sentence(10, dict_w_weights)
+    print(sentence)
     return sentence
 
 
