@@ -39,6 +39,11 @@ class HashTable(object):
         TODO: Running time: O(???) Why and under what conditions?"""
         # TODO: Loop through all buckets
         # TODO: Collect all values in each bucket
+        all_values = []
+        for bucket in self.buckets:
+            for key, val in bucket.items():
+                all_values.append(val)
+        return all_values
 
     def items(self):
         """Return a list of all items (key-value pairs) in this hash table.
@@ -54,12 +59,21 @@ class HashTable(object):
         TODO: Running time: O(???) Why and under what conditions?"""
         # TODO: Loop through all buckets
         # TODO: Count number of key-value entries in each bucket
+        counter = 0
+        for _ in self.buckets:
+            counter += 1
+        return counter
 
     def contains(self, key):
         """Return True if this hash table contains the given key, or False.
-        TODO: Running time: O(???) Why and under what conditions?"""
+        TODO: Running time: O(n) Why and under what conditions?"""
         # TODO: Find bucket where given key belongs
         # TODO: Check if key-value entry exists in bucket
+        ''' Use the _bucket_index() on the key, then use the linkedlist find()
+        to see if the key is there.'''
+        index = self._bucket_index(key)
+        ll = LinkedList()
+        return ll.find(lambda item: item == self[index]) is not None
 
     def get(self, key):
         """Return the value associated with the given key, or raise KeyError.
