@@ -9,6 +9,7 @@ class HashTable(object):
         """Initialize this hash table with the given initial size."""
         # Create a new list (used as fixed-size array) of empty linked lists
         self.buckets = [LinkedList() for _ in range(init_size)]
+        self.size = 0
 
     def __str__(self):
         """Return a formatted string representation of this hash table."""
@@ -59,9 +60,9 @@ class HashTable(object):
         TODO: Running time: O(???) Why and under what conditions?"""
         counter = 0
         # TODO: Loop through all buckets
-        for _ in self.buckets:
+        for bucket in self.buckets:
             # TODO: Count number of key-value entries in each bucket
-            counter += 1
+            counter += bucket.length()
         return counter
 
     def contains(self, key):
@@ -69,9 +70,10 @@ class HashTable(object):
         TODO: Running time: O(n) Why and under what conditions?"""
         # TODO: Find bucket where given key belongs
         index = self._bucket_index(key)
-        ll = LinkedList()
+        bucket = self.buckets[index]
         # TODO: Check if key-value entry exists in bucket - return boolean
-        return ll.find(lambda item: item == self[index]) is not None
+        data = bucket.find(lambda item: item[0] == key)
+        return data is not None
 
     def get(self, key):
         """Return the value associated with the given key, or raise KeyError.
@@ -95,23 +97,29 @@ class HashTable(object):
         index = self._bucket_index(key)
         bucket = self.buckets[index]
         # TODO: Check if key-value entry exists in bucket
-        data = bucket.find(lambda item: item[0] == key)
+        node = bucket.find(lambda tuple: tuple[0] == key)
         # TODO: If found, update value associated with given key
-        if data is not None:
+        if node is not None:
             # delate the node with a new node with a tuple data[1] += 1
-        # TODO: Otherwise, insert given key-value entry into bucket
-            # check if node.head is None and node.tail is None
-            # add node and
-            pass
+            bucket.delete(node)
+            # TODO: Otherwise, insert given key-value entry into bucket
+        bucket.append((key, value))
 
     def delete(self, key):
         """Delete the given key from this hash table, or raise KeyError.
         TODO: Running time: O(???) Why and under what conditions?"""
         # TODO: Find bucket where given key belongs
+        index = self._bucket_index(key)
+        bucket = self.buckets[index]
         # TODO: Check if key-value entry exists in bucket
+        node = bucket.find(lambda tuple: tuple[0] == key)
         # TODO: If found, delete entry associated with given key
+        if node is not None:
+            # delate the node with a new node with a tuple data[1] += 1
+            bucket.delete(node)
         # TODO: Otherwise, raise error to tell user delete failed
-        # Hint: raise KeyError('Key not found: {}'.format(key))
+        else:
+            raise KeyError('Key not found: {}'.format(key))
 
 
 def test_hash_table():
@@ -133,7 +141,7 @@ def test_hash_table():
     print('length: {}'.format(ht.length()))
 
     # Enable this after implementing delete method
-    delete_implemented = False
+    delete_implemented = True
     if delete_implemented:
         print('\nTesting delete:')
         for key in ['I', 'V', 'X']:
