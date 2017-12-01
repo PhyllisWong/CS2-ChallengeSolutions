@@ -95,8 +95,8 @@ def find_word_after_rand_wrd(rand_wrd, markov_dict):
             # print("-> {}: {}".format(types, histogram))
 
 def construct_sentence(wrd_num):
-    clean_list = c.clean_txt('george_carlin.txt')
-    dictionary = create_dict_from_file('george_carlin.txt')
+    clean_list = c.clean_txt('sherlock_holmes.txt')
+    dictionary = create_dict_from_file('sherlock_holmes.txt')
     dict_w_weights = calculate_probability(dictionary)
     rand_wrd = get_random_wrd_prob(dict_w_weights)
     markov_dict = m.markov_chain(clean_list)
