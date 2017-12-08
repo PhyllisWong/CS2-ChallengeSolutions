@@ -1,1000 +1,990 @@
-alice : 398
+alice : 852
 
-s : 201
+was : 714
 
-adventures : 7
+beginning : 30
 
-in : 369
+to : 1466
 
-wonderland : 3
+get : 97
 
-lewis : 1
+very : 292
 
-carroll : 1
+tired : 10
 
-chapter : 12
+of : 999
 
-i : 543
+sitting : 29
 
-down : 102
+by : 118
 
-the : 1642
+her : 520
 
-rabbit : 51
+sister : 14
 
-hole : 5
+on : 442
 
-was : 357
+the : 3232
 
-beginning : 14
+bank : 5
 
-to : 729
+and : 1779
 
-get : 46
+having : 20
 
-very : 144
+nothing : 63
 
-tired : 7
+do : 203
 
-of : 514
+once : 54
 
-sitting : 10
+or : 130
 
-by : 58
+twice : 11
 
-her : 248
+she : 1097
 
-sister : 9
-
-on : 193
-
-bank : 3
-
-and : 872
-
-having : 10
-
-nothing : 34
-
-do : 81
-
-once : 34
-
-or : 77
-
-twice : 5
-
-she : 553
-
-had : 178
+had : 314
 
 peeped : 3
 
-into : 67
+into : 138
 
-book : 11
+book : 23
 
 reading : 3
 
-but : 170
+but : 373
 
-it : 595
+it : 1261
 
-no : 90
+no : 157
 
-pictures : 4
+pictures : 5
 
 conversations : 2
 
-what : 141
+in : 777
 
-is : 108
+what : 289
 
-use : 18
+is : 234
 
-a : 632
+use : 33
 
-thought : 74
+a : 1393
 
-without : 26
+thought : 160
 
-so : 151
+without : 45
 
-considering : 3
+so : 355
 
-own : 10
+considering : 5
 
-mind : 11
+own : 24
 
-as : 263
+mind : 27
 
-well : 63
+as : 578
 
-could : 77
+well : 126
 
-for : 153
+could : 148
 
-hot : 7
+for : 352
 
-day : 29
+hot : 11
 
-made : 30
+day : 56
 
-feel : 8
+made : 52
 
-sleepy : 5
+feel : 14
 
-stupid : 6
+sleepy : 9
 
-whether : 11
+stupid : 7
 
-pleasure : 2
+whether : 23
 
-making : 8
+pleasure : 3
 
-daisy : 1
+making : 13
+
+daisy : 3
 
 chain : 1
 
-would : 83
+would : 173
 
-be : 148
+be : 305
 
-worth : 4
+worth : 9
 
-trouble : 6
+trouble : 8
 
-getting : 22
+getting : 50
 
-up : 100
+up : 218
 
 picking : 2
 
-daisies : 1
+daisies : 5
 
-when : 79
+when : 159
 
-suddenly : 13
+suddenly : 34
 
-white : 30
+white : 97
 
-with : 181
+rabbit : 50
 
-pink : 1
+with : 402
 
-eyes : 29
+pink : 2
 
-ran : 16
+eyes : 69
 
-close : 13
+ran : 26
 
-there : 99
+close : 25
+
+there : 235
 
 remarkable : 2
 
-that : 315
+that : 674
 
-nor : 3
+nor : 5
 
-did : 63
+did : 118
 
-think : 53
+think : 105
 
-much : 51
+much : 109
 
-out : 117
+out : 233
 
-way : 56
+way : 123
 
-hear : 14
+hear : 34
 
-say : 51
+say : 106
 
-itself : 14
+itself : 26
 
-oh : 45
+oh : 86
 
-dear : 29
+dear : 53
 
-shall : 25
+i : 1183
 
-late : 6
+shall : 46
 
-over : 40
+late : 10
 
-afterwards : 2
+over : 93
+
+afterwards : 15
 
 occurred : 2
 
-ought : 14
+ought : 33
 
-have : 80
+have : 178
 
-wondered : 1
+wondered : 3
 
-at : 212
+at : 442
 
-this : 134
+this : 259
 
-time : 71
+time : 141
 
-all : 182
+all : 374
 
-seemed : 27
+seemed : 53
 
-quite : 55
+quite : 117
 
-natural : 4
+natural : 7
 
-actually : 1
+actually : 3
 
-took : 24
+took : 58
 
-watch : 8
+watch : 13
 
-its : 57
+its : 91
 
-waistcoat : 2
+waistcoat : 3
 
-pocket : 7
+pocket : 11
 
-looked : 45
+looked : 100
 
-then : 94
+then : 204
 
-hurried : 11
+hurried : 13
 
-started : 2
+started : 5
 
-feet : 19
+feet : 39
 
 flashed : 1
 
-across : 5
+across : 13
 
-never : 48
+never : 105
 
-before : 38
+before : 69
 
-seen : 15
+seen : 27
 
-either : 10
+either : 15
 
-take : 22
+take : 50
 
-burning : 1
+burning : 2
 
-curiosity : 5
+curiosity : 10
 
-field : 1
+field : 3
 
-after : 43
+after : 86
 
 fortunately : 1
 
-just : 52
+just : 126
 
-see : 67
+see : 153
 
 pop : 1
 
-large : 33
+down : 176
 
-under : 16
+large : 60
+
+hole : 4
+
+under : 38
 
 hedge : 2
 
-another : 22
+another : 54
 
-moment : 31
+moment : 74
 
-went : 83
+went : 171
 
-how : 68
+how : 124
 
-world : 7
+world : 12
 
-again : 83
+again : 161
 
-straight : 2
+straight : 11
 
-like : 85
+like : 210
 
 tunnel : 1
 
-some : 51
+some : 106
 
 dipped : 2
 
-not : 145
+not : 240
 
-about : 94
+about : 162
 
-stopping : 1
+stopping : 3
 
-herself : 83
+herself : 158
 
-found : 32
+found : 51
 
-falling : 2
+falling : 8
 
-deep : 7
+deep : 13
 
-fell : 6
+fell : 18
 
-slowly : 8
+slowly : 16
 
-plenty : 2
+plenty : 10
 
-look : 29
+look : 64
 
-wonder : 18
+wonder : 33
 
-going : 27
+going : 50
 
-happen : 8
+happen : 18
 
-next : 30
+next : 57
 
-first : 51
+first : 84
 
-tried : 19
+tried : 31
 
-make : 27
+make : 78
 
-coming : 9
+coming : 20
 
-too : 26
+too : 61
 
-dark : 3
+dark : 12
 
-anything : 20
+anything : 38
 
-sides : 4
+sides : 5
 
-noticed : 8
+noticed : 14
 
-they : 152
+they : 320
 
-were : 85
+were : 165
 
-filled : 3
+filled : 4
 
 cupboards : 2
 
-shelves : 2
+shelves : 3
 
-here : 51
+here : 113
 
-saw : 14
+saw : 28
 
 maps : 1
 
-hung : 1
+hung : 7
 
-upon : 26
+upon : 41
 
-pegs : 1
+pegs : 3
 
 jar : 2
 
-from : 36
+from : 101
 
-one : 104
+one : 259
 
-passed : 5
+passed : 8
 
-labelled : 1
+labelled : 2
 
 orange : 1
 
 marmalade : 1
 
-great : 39
+great : 89
 
 disappointment : 1
 
-empty : 1
+empty : 4
 
-drop : 1
+drop : 3
 
-fear : 4
+fear : 11
 
 killing : 1
 
-somebody : 7
+somebody : 10
 
-managed : 4
+managed : 13
 
-put : 31
+put : 64
 
-past : 3
+past : 5
 
-such : 41
+such : 76
 
-fall : 7
+fall : 18
 
-tumbling : 2
+tumbling : 4
 
-stairs : 3
+stairs : 6
 
-brave : 1
+brave : 2
 
-ll : 57
+ll : 146
 
-me : 68
+me : 164
 
-home : 5
+home : 10
 
-why : 40
+why : 79
 
-wouldn : 13
+wouldn : 36
 
-t : 218
+t : 541
 
-even : 19
+even : 35
 
-if : 96
+if : 252
 
-off : 73
+off : 139
 
-top : 8
+top : 20
 
-house : 18
+house : 33
 
-which : 49
+which : 105
 
-likely : 5
+likely : 10
 
-true : 4
+true : 5
 
-come : 46
+come : 95
 
-an : 57
+an : 114
 
-end : 17
+end : 32
 
-many : 12
+many : 33
 
 miles : 3
 
-ve : 44
+ve : 105
 
-fallen : 4
+fallen : 5
 
-said : 462
+said : 935
 
-aloud : 5
+aloud : 10
 
-must : 44
+must : 91
 
-somewhere : 3
+somewhere : 8
 
-near : 15
+near : 22
 
 centre : 1
 
 earth : 4
 
-let : 22
+let : 52
 
-four : 8
+four : 20
 
-thousand : 2
+thousand : 9
 
-you : 411
+you : 1027
 
 learnt : 2
 
-several : 4
+several : 13
 
-things : 31
+things : 81
 
-sort : 20
+sort : 36
 
-lessons : 10
+lessons : 16
 
 schoolroom : 1
 
-though : 11
+though : 34
 
-good : 27
+good : 65
 
-opportunity : 8
+opportunity : 10
 
 showing : 2
 
 knowledge : 3
 
-listen : 7
+listen : 10
 
-still : 13
+still : 33
 
-practice : 1
+practice : 8
 
-yes : 13
+yes : 27
 
-right : 32
+s : 498
 
-distance : 8
+right : 51
+
+distance : 11
 
 latitude : 2
 
 longitude : 2
 
-got : 45
+got : 112
 
-idea : 15
+idea : 26
 
-nice : 6
+nice : 20
 
-grand : 3
+grand : 10
 
-words : 21
+words : 34
 
 presently : 2
 
-began : 58
+began : 106
 
-through : 14
+through : 56
 
-funny : 3
+funny : 4
 
-seem : 8
+seem : 13
 
-among : 12
+among : 28
 
-people : 13
+people : 27
 
-walk : 5
+walk : 13
 
-their : 52
+their : 80
 
-heads : 10
+heads : 14
 
 downward : 1
 
 antipathies : 1
 
-rather : 25
+rather : 62
 
-glad : 11
+glad : 21
 
-listening : 3
+listening : 5
 
-didn : 14
+didn : 52
 
-sound : 4
+sound : 6
 
-word : 10
+word : 25
 
-ask : 11
+ask : 24
 
-them : 88
+them : 177
 
-name : 10
+name : 37
 
-country : 1
+country : 8
 
-know : 87
+know : 213
 
-please : 19
+please : 36
 
 ma : 3
 
-am : 16
+am : 31
 
-new : 5
+new : 17
 
 zealand : 1
 
 australia : 1
 
-curtsey : 1
+curtsey : 4
 
-spoke : 17
+spoke : 35
 
-fancy : 7
+fancy : 8
 
 curtseying : 1
 
-re : 38
+re : 87
 
-air : 15
+air : 30
 
-manage : 7
+manage : 17
 
-ignorant : 1
+ignorant : 2
 
-little : 128
+little : 245
 
-girl : 4
+girl : 7
 
-asking : 5
+asking : 10
 
-perhaps : 17
+perhaps : 24
 
-written : 6
+written : 10
 
-else : 12
+else : 24
 
-soon : 25
+soon : 42
 
-talking : 17
+talking : 35
 
-dinah : 14
+dinah : 24
 
-miss : 4
+miss : 7
 
-night : 5
+night : 13
 
-should : 27
+should : 59
 
-cat : 37
+cat : 39
 
-hope : 3
+hope : 17
 
-remember : 14
+remember : 27
 
-saucer : 1
+saucer : 2
 
-milk : 2
+milk : 5
 
-tea : 19
+tea : 25
 
-my : 58
+my : 133
 
-wish : 21
+wish : 40
 
-are : 54
+are : 129
 
-mice : 4
+mice : 8
 
-m : 63
+m : 128
 
-afraid : 12
+afraid : 27
 
-might : 28
+might : 51
 
-catch : 4
+catch : 8
 
 bat : 3
 
-mouse : 44
+mouse : 46
 
-cats : 13
+cats : 14
 
-eat : 18
+eat : 21
 
 bats : 4
 
-saying : 15
+saying : 29
 
 dreamy : 1
 
-sometimes : 5
+sometimes : 17
 
-couldn : 9
+couldn : 46
 
-answer : 9
+answer : 31
 
-question : 17
+question : 27
 
-matter : 9
+matter : 13
 
-felt : 23
+felt : 40
 
 dozing : 1
 
-begun : 7
+begun : 11
 
-dream : 7
+dream : 22
 
-walking : 5
+walking : 18
 
-hand : 21
+hand : 56
 
 earnestly : 2
 
-now : 60
+now : 141
 
-tell : 32
+tell : 66
 
-truth : 1
+truth : 2
 
-ever : 21
+ever : 43
 
-thump : 2
+thump : 6
 
-came : 40
+came : 89
 
-heap : 1
+heap : 5
 
-sticks : 1
+sticks : 4
 
-dry : 8
+dry : 12
 
-leaves : 6
+leaves : 12
 
-bit : 16
+bit : 27
 
-hurt : 3
+hurt : 9
 
-jumped : 6
+jumped : 11
 
 overhead : 1
 
-long : 32
+long : 70
 
-passage : 4
+passage : 7
 
-sight : 10
+sight : 17
 
 hurrying : 1
 
-lost : 3
+lost : 11
 
-away : 25
+away : 62
 
-wind : 2
+wind : 8
 
-turned : 16
+turned : 34
 
-corner : 4
+corner : 7
 
-ears : 5
+ears : 9
 
-whiskers : 3
+whiskers : 6
 
-behind : 13
+behind : 24
 
-longer : 3
+longer : 5
 
-low : 15
+low : 21
 
-hall : 9
+hall : 11
 
 lit : 1
 
-row : 2
+row : 5
 
 lamps : 1
 
-hanging : 3
+hanging : 5
 
-roof : 6
+roof : 7
 
-doors : 2
+doors : 3
 
-round : 41
+round : 96
 
-locked : 1
+locked : 2
 
-been : 38
+been : 84
 
-side : 17
+side : 49
 
-other : 40
+other : 104
 
-trying : 14
+trying : 24
 
-every : 12
+every : 31
 
-door : 30
+door : 47
 
-walked : 10
+walked : 19
 
-sadly : 5
+sadly : 8
 
-middle : 7
+middle : 17
 
-wondering : 7
+wondering : 12
 
-three : 28
+three : 46
 
 legged : 2
 
-table : 18
+table : 38
 
 solid : 1
 
-glass : 10
+glass : 37
 
-except : 4
+except : 5
 
-tiny : 4
+tiny : 6
 
-golden : 7
+golden : 9
 
 key : 9
 
-belong : 1
+belong : 3
 
 alas : 4
 
 locks : 2
 
-small : 10
+small : 14
 
-any : 39
+any : 79
 
-rate : 9
+rate : 15
 
-open : 7
+open : 20
 
-however : 20
+however : 48
 
-second : 4
+second : 7
 
 curtain : 1
 
 fifteen : 1
 
-inches : 6
+inches : 9
 
-high : 16
+high : 21
 
 lock : 1
 
-delight : 3
+delight : 9
 
-fitted : 1
+fitted : 3
 
-opened : 10
+opened : 15
 
-led : 4
+led : 6
 
-larger : 7
+larger : 11
 
-than : 24
+than : 59
 
 rat : 1
 
 knelt : 1
 
-along : 6
+along : 21
 
 loveliest : 1
 
-garden : 16
+garden : 25
 
 longed : 2
 
 wander : 1
 
-those : 10
+those : 19
 
-beds : 2
+beds : 5
 
-bright : 8
+bright : 16
 
-flowers : 2
+flowers : 10
 
-cool : 2
+cool : 3
 
 fountains : 2
 
-head : 50
+head : 113
 
-doorway : 1
+doorway : 2
 
-go : 50
+go : 109
 
-poor : 27
+poor : 49
 
 shoulders : 4
 
-shut : 5
+shut : 17
 
-telescope : 3
+telescope : 4
 
-only : 50
+only : 144
 
-knew : 15
+knew : 22
 
-begin : 13
+begin : 31
 
-happened : 7
+happened : 24
 
 lately : 1
 
-few : 9
+few : 16
 
-indeed : 16
+indeed : 25
 
-really : 13
+really : 43
 
-impossible : 3
+impossible : 6
 
-waiting : 9
+waiting : 12
 
-back : 39
+back : 72
 
-half : 23
+half : 38
 
-hoping : 3
+hoping : 8
 
-find : 21
+find : 40
 
-rules : 3
+rules : 5
 
-shutting : 2
+shutting : 3
 
 telescopes : 1
 
-bottle : 10
+bottle : 12
 
 [ : 5
 
-certainly : 14
+certainly : 26
 
-neck : 7
+neck : 17
 
-paper : 4
+paper : 8
 
 label : 2
 
-drink : 7
+drink : 12
 
-beautifully : 2
+beautifully : 3
 
 printed : 1
 
-letters : 1
+letters : 2
 
-wise : 2
+wise : 3
 
-hurry : 11
+hurry : 12
 
-marked : 6
+marked : 13
 
 poison : 3
 
-read : 11
+read : 15
 
 histories : 1
 
-children : 10
+children : 13
 
-who : 63
+who : 96
 
 burnt : 1
 
-eaten : 1
+eaten : 2
 
-wild : 2
+wild : 3
 
 beasts : 2
 
-unpleasant : 2
+unpleasant : 3
 
-because : 15
+because : 45
 
-simple : 5
+simple : 6
 
-friends : 2
+friends : 3
 
-taught : 4
+taught : 6
 
-red : 3
+red : 72
 
-poker : 1
+poker : 2
 
-will : 33
+will : 52
 
 burn : 2
 
-hold : 10
+hold : 25
 
-cut : 5
+cut : 15
 
-your : 62
+your : 133
 
-finger : 5
+finger : 17
 
-deeply : 4
+deeply : 7
 
-knife : 3
+knife : 8
 
 usually : 2
 
@@ -1002,23 +992,23 @@ bleeds : 1
 
 forgotten : 6
 
-almost : 6
+almost : 18
 
-certain : 3
+certain : 10
 
 disagree : 1
 
-sooner : 2
+sooner : 3
 
-later : 1
+later : 2
 
-ventured : 4
+ventured : 10
 
-taste : 2
+taste : 3
 
-finding : 3
+finding : 5
 
-fact : 8
+fact : 15
 
 mixed : 2
 
@@ -1034,241 +1024,243 @@ pine : 1
 
 apple : 1
 
-roast : 1
+roast : 2
 
 turkey : 1
 
 toffee : 1
 
-buttered : 1
+buttered : 3
 
 toast : 1
 
-finished : 12
+finished : 18
 
-curious : 19
+curious : 27
 
-feeling : 7
+feeling : 12
 
-ten : 6
+ten : 9
 
-face : 15
+face : 34
 
-brightened : 2
+brightened : 3
 
-size : 13
+size : 17
 
-lovely : 2
+lovely : 6
 
-waited : 11
+waited : 15
 
-minutes : 11
+minutes : 16
 
 shrink : 1
 
-further : 3
+further : 11
 
-nervous : 5
+nervous : 8
 
-altogether : 5
+altogether : 6
 
-candle : 3
+candle : 4
 
-flame : 1
+flame : 2
 
-blown : 1
+blown : 4
 
-thing : 49
+thing : 83
 
-while : 25
+while : 49
 
-more : 49
+more : 111
 
 decided : 3
 
-possibly : 3
+possibly : 6
 
-reach : 4
+reach : 7
 
 plainly : 1
 
-best : 12
+best : 29
 
 climb : 1
 
-legs : 3
+legs : 5
 
 slippery : 1
 
-sat : 17
+sat : 30
 
-cried : 20
+cried : 76
 
-crying : 2
+crying : 5
 
-sharply : 4
+sharply : 5
 
-advise : 1
+advise : 2
 
-leave : 9
+leave : 22
 
-minute : 21
+minute : 47
 
-generally : 7
+generally : 14
 
-gave : 15
+gave : 31
 
-advice : 2
+advice : 5
 
 seldom : 1
 
-followed : 8
+followed : 10
 
 scolded : 1
 
-severely : 4
+severely : 5
 
-bring : 3
+bring : 7
 
-tears : 11
+tears : 20
 
-remembered : 5
+remembered : 7
 
-box : 10
+box : 17
 
 cheated : 1
 
-game : 13
+game : 19
 
 croquet : 9
 
-playing : 2
+playing : 4
 
-against : 9
+against : 14
 
-child : 11
+child : 27
 
-fond : 4
+fond : 7
 
-pretending : 1
+pretending : 4
 
-two : 40
+two : 95
 
-pretend : 1
+pretend : 8
 
-hardly : 12
+hardly : 23
 
-enough : 18
+enough : 35
 
-left : 14
+left : 24
 
-respectable : 1
+respectable : 2
 
-person : 4
+person : 8
 
-eye : 7
+eye : 12
 
-lying : 8
+lying : 16
 
-cake : 3
+cake : 14
 
 currants : 1
 
-makes : 11
+makes : 19
 
 grow : 13
 
-can : 63
+can : 170
 
 smaller : 3
 
-creep : 1
+creep : 2
 
-don : 61
+don : 141
 
-care : 4
+care : 12
 
-happens : 5
+happens : 8
 
-ate : 1
+ate : 4
 
-anxiously : 14
+anxiously : 22
 
-holding : 3
+holding : 11
 
-growing : 11
+growing : 17
 
-surprised : 7
+surprised : 18
 
 remained : 3
 
-same : 24
+same : 43
 
-sure : 24
+sure : 45
 
 eats : 1
 
-expecting : 3
+expecting : 4
 
-dull : 3
+dull : 4
 
-life : 12
+life : 20
 
-common : 1
+common : 2
 
-set : 14
+set : 30
 
-work : 8
+work : 14
 
-ii : 1
+chapter : 22
+
+ii : 2
 
 pool : 11
 
 curiouser : 2
 
-forgot : 2
+forgot : 5
 
-speak : 15
+speak : 31
 
-english : 6
+english : 9
 
-opening : 3
+opening : 5
 
-largest : 1
+largest : 2
 
-bye : 2
+bye : 7
 
-far : 13
+far : 27
 
-shoes : 7
+shoes : 9
 
 stockings : 1
 
 dears : 3
 
-_i_ : 2
+_i_ : 20
 
-shan : 6
+shan : 8
 
-able : 1
+able : 7
 
-deal : 12
+deal : 21
 
-myself : 7
+myself : 14
 
-kind : 7
+kind : 17
 
-won : 26
+won : 38
 
-want : 9
+want : 24
 
-give : 12
+give : 26
 
-pair : 5
+pair : 11
 
-boots : 4
+boots : 5
 
-christmas : 1
+christmas : 2
 
 planning : 1
 
@@ -1276,51 +1268,51 @@ carrier : 1
 
 sending : 2
 
-presents : 2
+presents : 5
 
-odd : 1
+odd : 5
 
-directions : 3
+directions : 7
 
-foot : 10
+foot : 13
 
 esq : 1
 
 hearthrug : 1
 
-fender : 1
+fender : 3
 
-love : 3
+love : 5
 
-nonsense : 7
+nonsense : 14
 
-struck : 2
+struck : 5
 
-nine : 5
+nine : 10
 
 hopeless : 1
 
-cry : 3
+cry : 11
 
-ashamed : 2
+ashamed : 4
 
-yourself : 10
+yourself : 21
 
-stop : 6
+stop : 12
 
 shedding : 1
 
 gallons : 1
 
-until : 5
+until : 6
 
 reaching : 1
 
-heard : 30
+heard : 41
 
 pattering : 3
 
-hastily : 16
+hastily : 23
 
 dried : 1
 
@@ -1328,119 +1320,119 @@ returning : 1
 
 splendidly : 1
 
-dressed : 1
+dressed : 6
 
 kid : 5
 
 gloves : 11
 
-fan : 10
+fan : 12
 
-he : 125
+he : 348
 
-trotting : 2
+trotting : 3
 
-muttering : 3
+muttering : 4
 
-himself : 6
+himself : 21
 
 duchess : 42
 
 savage : 4
 
-kept : 13
+kept : 22
 
-desperate : 1
+desperate : 2
 
-ready : 8
+ready : 17
 
-help : 9
+help : 38
 
-timid : 3
+timid : 5
 
-voice : 48
+voice : 86
 
-sir : 7
+sir : 10
 
-violently : 4
+violently : 5
 
-dropped : 5
+dropped : 6
 
 skurried : 1
 
 darkness : 1
 
-hard : 8
+hard : 17
 
-fanning : 1
+fanning : 2
 
-queer : 12
+queer : 18
 
-everything : 14
+everything : 22
 
-yesterday : 3
+yesterday : 7
 
-usual : 5
+usual : 11
 
-changed : 8
+changed : 11
 
-morning : 5
+morning : 9
 
-different : 9
+different : 15
 
-ah : 5
+ah : 10
 
-puzzle : 1
+puzzle : 2
 
-thinking : 11
+thinking : 26
 
-age : 4
+age : 8
 
 ada : 1
 
-hair : 7
+hair : 27
 
-goes : 7
+goes : 18
 
 ringlets : 2
 
-mine : 10
+mine : 11
 
-doesn : 16
+doesn : 27
 
 mabel : 4
 
-sorts : 3
+sorts : 5
 
-knows : 2
+knows : 3
 
-besides : 4
+besides : 8
 
-puzzling : 4
+puzzling : 6
 
-try : 12
+try : 26
 
-used : 13
+used : 18
 
-times : 6
+times : 20
 
-five : 8
+five : 20
 
 twelve : 4
 
-six : 2
+six : 7
 
 thirteen : 1
 
-seven : 6
+seven : 15
 
-twenty : 3
+twenty : 4
 
 multiplication : 1
 
 signify : 1
 
-geography : 1
+geography : 2
 
 london : 1
 
@@ -1450,33 +1442,33 @@ paris : 2
 
 rome : 2
 
-wrong : 5
+wrong : 12
 
 doth : 3
 
-crossed : 3
+crossed : 8
 
-hands : 12
+hands : 52
 
-lap : 2
+lap : 6
 
-repeat : 7
+repeat : 13
 
-sounded : 5
+sounded : 13
 
-hoarse : 3
+hoarse : 8
 
-strange : 5
+strange : 8
 
 crocodile : 1
 
 improve : 1
 
-his : 96
+his : 244
 
-shining : 1
+shining : 6
 
-tail : 9
+tail : 11
 
 pour : 1
 
@@ -1486,117 +1478,117 @@ nile : 1
 
 scale : 1
 
-cheerfully : 1
+cheerfully : 4
 
-seems : 5
+seems : 13
 
-grin : 6
+grin : 7
 
 neatly : 2
 
-spread : 3
+spread : 8
 
-claws : 2
+claws : 3
 
-welcome : 1
+welcome : 3
 
-fishes : 1
+fishes : 10
 
-gently : 3
+gently : 17
 
-smiling : 2
+smiling : 4
 
-jaws : 2
+jaws : 3
 
-live : 8
+live : 20
 
 poky : 1
 
 toys : 1
 
-play : 8
+play : 12
 
 learn : 7
 
-stay : 5
+stay : 9
 
-putting : 3
+putting : 17
 
-being : 19
+being : 41
 
-till : 21
+till : 51
 
-sudden : 5
+sudden : 16
 
 burst : 1
 
-alone : 4
+alone : 9
 
-done : 15
+done : 32
 
 measure : 1
 
-nearly : 11
+nearly : 21
 
-guess : 3
+guess : 10
 
 shrinking : 4
 
 rapidly : 2
 
-cause : 3
+cause : 6
 
 avoid : 1
 
-narrow : 2
+narrow : 4
 
 escape : 4
 
-frightened : 7
+frightened : 22
 
-change : 14
+change : 16
 
 existence : 1
 
-speed : 1
+speed : 2
 
-worse : 3
+worse : 6
 
-declare : 2
+declare : 6
 
-bad : 2
+bad : 5
 
-these : 14
+these : 21
 
-slipped : 3
+slipped : 4
 
 splash : 1
 
-chin : 7
+chin : 10
 
 salt : 2
 
-water : 5
+water : 16
 
-somehow : 1
+somehow : 8
 
-sea : 14
+sea : 18
 
-case : 5
+case : 8
 
-railway : 2
+railway : 4
 
 seaside : 1
 
-general : 3
+general : 4
 
 conclusion : 2
 
-wherever : 2
+wherever : 3
 
 coast : 1
 
-number : 5
+number : 12
 
 bathing : 1
 
@@ -1604,9 +1596,9 @@ machines : 1
 
 digging : 4
 
-sand : 1
+sand : 3
 
-wooden : 1
+wooden : 2
 
 spades : 1
 
@@ -1616,39 +1608,39 @@ houses : 1
 
 station : 1
 
-wept : 1
+wept : 2
 
-hadn : 8
+hadn : 25
 
 swam : 5
 
-punished : 1
+punished : 6
 
-suppose : 14
+suppose : 37
 
-drowned : 1
+drowned : 2
 
-something : 18
+something : 44
 
 splashing : 2
 
-nearer : 5
+nearer : 6
 
-walrus : 1
+walrus : 14
 
-hippopotamus : 1
+hippopotamus : 2
 
-talk : 14
+talk : 31
 
-harm : 1
+harm : 2
 
-o : 6
+o : 13
 
 swimming : 2
 
-speaking : 5
+speaking : 11
 
-brother : 1
+brother : 5
 
 latin : 1
 
@@ -1656,25 +1648,25 @@ grammar : 1
 
 inquisitively : 1
 
-wink : 2
+wink : 3
 
-understand : 6
+understand : 15
 
-daresay : 1
+daresay : 5
 
-french : 4
+french : 7
 
 william : 8
 
 conqueror : 2
 
-history : 7
+history : 11
 
-clear : 2
+clear : 6
 
-notion : 3
+notion : 4
 
-ago : 2
+ago : 4
 
 ou : 1
 
@@ -1682,7 +1674,7 @@ est : 1
 
 chatte : 1
 
-sentence : 6
+sentence : 9
 
 lesson : 3
 
@@ -1690,85 +1682,85 @@ leap : 1
 
 quiver : 1
 
-fright : 2
+fright : 3
 
-beg : 8
+beg : 13
 
-pardon : 6
+pardon : 9
 
-animal : 2
+animal : 3
 
-feelings : 2
+feelings : 5
 
-shrill : 5
+shrill : 10
 
 passionate : 1
 
-soothing : 1
+soothing : 5
 
-tone : 40
+tone : 81
 
-angry : 5
+angry : 10
 
-yet : 25
+yet : 42
 
-show : 3
+show : 8
 
-our : 8
+our : 17
 
-d : 29
+d : 76
 
-quiet : 2
+quiet : 3
 
-lazily : 1
+lazily : 2
 
 sits : 1
 
 purring : 2
 
-nicely : 2
+nicely : 4
 
-fire : 4
+fire : 14
 
-licking : 1
+licking : 2
 
-paws : 4
+paws : 5
 
-washing : 3
+washing : 4
 
-soft : 1
+soft : 7
 
-nurse : 3
+nurse : 5
 
-catching : 2
+catching : 6
 
 bristling : 1
 
-offended : 10
+offended : 15
 
-we : 34
+we : 87
 
-trembling : 6
+trembling : 9
 
-subject : 6
+subject : 14
 
 family : 1
 
-always : 13
+always : 43
 
 hated : 1
 
-nasty : 1
+nasty : 3
 
 vulgar : 1
 
-conversation : 9
+conversation : 18
 
-dogs : 3
+dogs : 4
 
-eagerly : 8
+eagerly : 17
 
-dog : 3
+dog : 8
 
 eyed : 1
 
@@ -1776,27 +1768,27 @@ terrier : 1
 
 curly : 1
 
-brown : 2
+brown : 9
 
-fetch : 7
+fetch : 10
 
-throw : 3
+throw : 6
 
-sit : 8
+sit : 13
 
-dinner : 2
+dinner : 10
 
-belongs : 2
+belongs : 4
 
 farmer : 1
 
-says : 4
+says : 7
 
-useful : 2
+useful : 4
 
-hundred : 1
+hundred : 8
 
-pounds : 1
+pounds : 6
 
 kills : 1
 
@@ -1806,25 +1798,25 @@ sorrowful : 2
 
 commotion : 1
 
-called : 15
+called : 30
 
-softly : 1
+softly : 3
 
-pale : 4
+pale : 6
 
-passion : 3
+passion : 5
 
-us : 14
+us : 28
 
-shore : 4
+shore : 5
 
-hate : 2
+hate : 3
 
-crowded : 5
+crowded : 6
 
-birds : 10
+birds : 14
 
-animals : 4
+animals : 5
 
 duck : 4
 
@@ -1834,63 +1826,63 @@ lory : 7
 
 eaglet : 3
 
-creatures : 10
+creatures : 15
 
-whole : 13
+whole : 18
 
-party : 10
+party : 12
 
-iii : 1
+iii : 2
 
 caucus : 3
 
 race : 6
 
-tale : 4
+tale : 7
 
-looking : 32
+looking : 94
 
 assembled : 2
 
 draggled : 1
 
-feathers : 1
+feathers : 2
 
 fur : 3
 
 clinging : 1
 
-dripping : 1
+dripping : 2
 
-wet : 2
+wet : 4
 
-cross : 3
+cross : 4
 
-uncomfortable : 4
+uncomfortable : 8
 
-course : 26
+course : 62
 
 consultation : 1
 
 familiarly : 1
 
-known : 1
+known : 3
 
-argument : 4
+argument : 11
 
-last : 33
+last : 83
 
-sulky : 3
+sulky : 6
 
-older : 2
+older : 3
 
-better : 14
+better : 45
 
 allow : 3
 
-knowing : 2
+knowing : 4
 
-old : 19
+old : 45
 
 positively : 1
 
@@ -1898,21 +1890,21 @@ refused : 1
 
 authority : 2
 
-ring : 2
+ring : 5
 
-fixed : 1
+fixed : 3
 
-cold : 1
+cold : 7
 
 ahem : 1
 
-important : 7
+important : 8
 
 driest : 1
 
-silence : 14
+silence : 31
 
-whose : 2
+whose : 8
 
 favoured : 1
 
@@ -1920,7 +1912,7 @@ pope : 1
 
 submitted : 1
 
-wanted : 4
+wanted : 13
 
 leaders : 1
 
@@ -1944,15 +1936,15 @@ ugh : 2
 
 shiver : 1
 
-frowning : 4
+frowning : 6
 
-politely : 6
+politely : 12
 
 proceed : 2
 
 declared : 1
 
-him : 43
+him : 108
 
 stigand : 1
 
@@ -1964,17 +1956,17 @@ canterbury : 1
 
 advisable : 2
 
-replied : 29
+replied : 49
 
 crossly : 1
 
-means : 5
+means : 13
 
-frog : 3
+frog : 9
 
 worm : 1
 
-notice : 5
+notice : 9
 
 hurriedly : 2
 
@@ -1982,11 +1974,11 @@ edgar : 1
 
 atheling : 1
 
-meet : 2
+meet : 8
 
 offer : 2
 
-crown : 3
+crown : 12
 
 conduct : 1
 
@@ -1996,17 +1988,17 @@ insolence : 1
 
 normans : 1
 
-continued : 9
+continued : 12
 
-turning : 12
+turning : 25
 
-melancholy : 6
+melancholy : 10
 
-solemnly : 4
+solemnly : 6
 
-rising : 1
+rising : 2
 
-move : 3
+move : 9
 
 meeting : 1
 
@@ -2020,15 +2012,15 @@ energetic : 1
 
 remedies : 1
 
-meaning : 8
+meaning : 13
 
-believe : 9
+believe : 22
 
-bent : 1
+bent : 2
 
-hide : 1
+hide : 2
 
-smile : 2
+smile : 8
 
 tittered : 1
 
@@ -2036,31 +2028,31 @@ audibly : 1
 
 paused : 1
 
-inclined : 1
+inclined : 2
 
-explain : 10
+explain : 11
 
-winter : 1
+winter : 4
 
 circle : 1
 
-exact : 1
+exact : 3
 
-shape : 1
+shape : 7
 
-placed : 1
+placed : 2
 
-running : 8
+running : 19
 
-liked : 6
+liked : 9
 
-easy : 2
+easy : 10
 
-hour : 2
+hour : 4
 
-panting : 2
+panting : 5
 
-has : 7
+has : 24
 
 pressed : 3
 
@@ -2070,41 +2062,41 @@ position : 2
 
 shakespeare : 1
 
-rest : 10
+rest : 18
 
-everybody : 8
+everybody : 14
 
 prizes : 5
 
-chorus : 6
+chorus : 13
 
-voices : 3
+voices : 10
 
-asked : 17
+asked : 45
 
-pointing : 4
+pointing : 7
 
-calling : 1
+calling : 2
 
-confused : 4
+confused : 5
 
-despair : 1
+despair : 3
 
-pulled : 1
+pulled : 4
 
 comfits : 2
 
-luckily : 2
+luckily : 3
 
-handed : 3
+handed : 5
 
-exactly : 8
+exactly : 21
 
-piece : 6
+piece : 13
 
 prize : 1
 
-gravely : 3
+gravely : 9
 
 thimble : 4
 
@@ -2114,31 +2106,31 @@ acceptance : 1
 
 elegant : 1
 
-short : 4
+short : 8
 
-speech : 3
+speech : 7
 
 cheered : 3
 
 absurd : 2
 
-grave : 3
+grave : 4
 
-dare : 5
+dare : 8
 
-laugh : 1
+laugh : 7
 
-simply : 3
+simply : 6
 
 bowed : 4
 
-solemn : 3
+solemn : 6
 
 caused : 2
 
-noise : 3
+noise : 8
 
-confusion : 5
+confusion : 7
 
 complained : 1
 
@@ -2146,31 +2138,31 @@ theirs : 1
 
 ones : 1
 
-choked : 3
+choked : 4
 
 patted : 1
 
 begged : 1
 
-promised : 1
+promised : 3
 
-c : 1
+c : 2
 
-added : 23
+added : 44
 
-whisper : 3
+whisper : 11
 
-sad : 3
+sad : 4
 
 sighing : 3
 
-call : 9
+call : 24
 
-fury : 3
+fury : 5
 
-met : 3
+met : 5
 
-both : 14
+both : 33
 
 law : 2
 
@@ -2178,7 +2170,7 @@ prosecute : 1
 
 denial : 1
 
-trial : 10
+trial : 11
 
 cur : 1
 
@@ -2186,9 +2178,9 @@ jury : 22
 
 judge : 4
 
-wasting : 2
+wasting : 3
 
-breath : 4
+breath : 20
 
 cunning : 1
 
@@ -2200,11 +2192,11 @@ attending : 3
 
 humbly : 2
 
-fifth : 1
+fifth : 4
 
 bend : 2
 
-angrily : 9
+angrily : 13
 
 knot : 2
 
@@ -2212,63 +2204,63 @@ undo : 1
 
 insult : 1
 
-mean : 10
+mean : 32
 
-pleaded : 3
+pleaded : 5
 
-easily : 3
+easily : 8
 
-growled : 1
+growled : 4
 
-reply : 5
+reply : 10
 
 finish : 5
 
 story : 8
 
-others : 7
+others : 9
 
-joined : 3
+joined : 5
 
-shook : 9
+shook : 21
 
-impatiently : 5
+impatiently : 12
 
 quicker : 1
 
 pity : 3
 
-sighed : 5
+sighed : 9
 
-crab : 3
+crab : 7
 
-daughter : 1
+daughter : 2
 
-lose : 1
+lose : 6
 
-temper : 5
+temper : 13
 
-tongue : 4
+tongue : 5
 
-young : 5
+young : 10
 
 snappishly : 1
 
-patience : 1
+patience : 2
 
-oyster : 1
+oyster : 5
 
-addressing : 1
+addressing : 4
 
-nobody : 8
+nobody : 21
 
-particular : 4
+particular : 5
 
-venture : 3
+venture : 5
 
-pet : 1
+pet : 2
 
-bird : 2
+bird : 5
 
 sensation : 2
 
@@ -2276,7 +2268,7 @@ magpie : 1
 
 wrapping : 1
 
-carefully : 3
+carefully : 8
 
 remarking : 3
 
@@ -2286,7 +2278,7 @@ throat : 2
 
 canary : 1
 
-bed : 1
+bed : 5
 
 various : 1
 
@@ -2296,13 +2288,13 @@ moved : 5
 
 mentioned : 3
 
-lonely : 2
+lonely : 3
 
-spirited : 1
+spirited : 2
 
 footsteps : 2
 
-iv : 1
+iv : 2
 
 sends : 1
 
@@ -2312,47 +2304,47 @@ executed : 6
 
 ferrets : 2
 
-where : 15
+where : 37
 
-guessed : 3
+guessed : 4
 
-naturedly : 1
+naturedly : 2
 
 hunting : 3
 
-nowhere : 2
+nowhere : 3
 
 since : 4
 
 swim : 5
 
-vanished : 4
+vanished : 7
 
-completely : 1
+completely : 2
 
 mary : 4
 
 ann : 4
 
-doing : 5
+doing : 11
 
-run : 4
+run : 16
 
-quick : 2
+quick : 9
 
-direction : 5
+direction : 9
 
-pointed : 1
+pointed : 4
 
-mistake : 3
+mistake : 4
 
 housemaid : 1
 
 finds : 1
 
-neat : 1
+neat : 3
 
-brass : 1
+brass : 2
 
 plate : 3
 
@@ -2360,135 +2352,135 @@ w : 1
 
 engraved : 1
 
-knocking : 3
+knocking : 5
 
 upstairs : 1
 
 lest : 1
 
-real : 3
+real : 13
 
 messages : 2
 
 fancying : 1
 
-directly : 2
+directly : 7
 
 ordering : 2
 
-tidy : 1
+tidy : 4
 
-room : 13
+room : 27
 
-window : 8
+window : 15
 
 hoped : 1
 
-pairs : 1
+pairs : 2
 
-stood : 7
+stood : 23
 
 nevertheless : 1
 
 uncorked : 1
 
-lips : 1
+lips : 4
 
-interesting : 5
+interesting : 6
 
-whenever : 1
+whenever : 8
 
-does : 9
+does : 22
 
-expected : 1
+expected : 3
 
 drunk : 2
 
 pressing : 1
 
-ceiling : 1
+ceiling : 4
 
 stoop : 2
 
-save : 1
+save : 3
 
-broken : 6
+broken : 8
 
 kneel : 1
 
-floor : 3
+floor : 6
 
-effect : 3
+effect : 4
 
-elbow : 3
+elbow : 5
 
-arm : 15
+arm : 24
 
-curled : 2
+curled : 4
 
 resource : 1
 
-chimney : 6
+chimney : 8
 
-whatever : 3
+whatever : 7
 
-become : 5
+become : 6
 
 magic : 1
 
-full : 6
+full : 19
 
-grew : 1
+grew : 4
 
-chance : 4
+chance : 7
 
-unhappy : 2
+unhappy : 5
 
 pleasanter : 1
 
-wasn : 11
+wasn : 23
 
 ordered : 4
 
 rabbits : 1
 
-gone : 13
+gone : 19
 
 fairy : 1
 
 tales : 1
 
-fancied : 2
+fancied : 3
 
-write : 6
+write : 9
 
-grown : 7
+grown : 8
 
-least : 9
+least : 17
 
-comfort : 1
+comfort : 7
 
 woman : 2
 
-shouldn : 5
+shouldn : 18
 
-foolish : 1
+foolish : 4
 
-answered : 4
+answered : 9
 
-books : 2
+books : 5
 
-taking : 5
+taking : 14
 
-outside : 4
+outside : 6
 
-stopped : 3
+stopped : 9
 
-trembled : 2
+trembled : 3
 
-forgetting : 3
+forgetting : 6
 
-reason : 9
+reason : 14
 
 inwards : 1
 
@@ -2502,59 +2494,59 @@ snatch : 2
 
 shriek : 5
 
-crash : 3
+crash : 4
 
 concluded : 2
 
-possible : 1
+possible : 4
 
 cucumber : 2
 
 frame : 1
 
-pat : 3
+pat : 4
 
 apples : 2
 
 yer : 4
 
-honour : 4
+honour : 7
 
-sounds : 4
+sounds : 7
 
-pronounced : 1
+pronounced : 2
 
 arrum : 1
 
-goose : 2
+goose : 3
 
 fills : 1
 
-business : 7
+business : 10
 
 whispers : 1
 
 coward : 1
 
-shrieks : 1
+shrieks : 2
 
 frames : 1
 
 pulling : 1
 
-hearing : 4
+hearing : 5
 
 rumbling : 1
 
 cartwheels : 1
 
-together : 9
+together : 21
 
 ladder : 1
 
 lad : 1
 
-em : 3
+em : 8
 
 tie : 1
 
@@ -2562,71 +2554,71 @@ rope : 1
 
 bear : 2
 
-loose : 1
+loose : 2
 
 slate : 4
 
 below : 3
 
-loud : 6
+loud : 19
 
 nay : 1
 
-master : 4
+master : 5
 
-shy : 1
+shy : 4
 
-place : 8
+place : 20
 
-fireplace : 1
+fireplace : 3
 
-kick : 3
+kick : 5
 
-drew : 5
+drew : 10
 
 scratching : 1
 
-scrambling : 1
+scrambling : 3
 
-above : 3
+above : 5
 
-sharp : 6
+sharp : 9
 
-brandy : 1
+brandy : 2
 
 choke : 1
 
-fellow : 4
+fellow : 5
 
 feeble : 2
 
-squeaking : 2
+squeaking : 3
 
-thank : 4
+thank : 11
 
-ye : 1
+ye : 4
 
 flustered : 1
 
-comes : 2
+comes : 8
 
 jack : 1
 
-sky : 5
+sky : 8
 
 rocket : 1
 
-dead : 4
+dead : 8
 
-instantly : 5
+instantly : 9
 
-sense : 3
+sense : 5
 
-moving : 3
+moving : 6
 
 barrowful : 2
 
-doubt : 4
+doubt : 7
 
 shower : 2
 
@@ -2634,93 +2626,93 @@ pebbles : 2
 
 rattling : 2
 
-hit : 2
+hit : 5
 
-shouted : 9
+shouted : 13
 
 produced : 1
 
-surprise : 5
+surprise : 10
 
-cakes : 3
+cakes : 4
 
-lay : 4
+lay : 9
 
-swallowed : 1
+swallowed : 2
 
 delighted : 2
 
-crowd : 4
+crowd : 5
 
 lizard : 6
 
-held : 4
+held : 13
 
 guinea : 6
 
-pigs : 6
+pigs : 8
 
-giving : 2
+giving : 6
 
 rush : 2
 
-appeared : 8
+appeared : 9
 
-safe : 2
+safe : 3
 
-thick : 1
+thick : 5
 
-wood : 8
+wood : 38
 
-wandered : 2
+wandered : 3
 
-plan : 4
+plan : 12
 
 excellent : 2
 
-arranged : 1
+arranged : 2
 
-difficulty : 4
+difficulty : 8
 
 smallest : 2
 
 peering : 1
 
-trees : 7
+trees : 15
 
 bark : 2
 
-enormous : 1
+enormous : 5
 
 puppy : 7
 
-feebly : 1
+feebly : 2
 
-stretching : 2
+stretching : 3
 
-paw : 3
+paw : 10
 
 touch : 1
 
 coaxing : 2
 
-whistle : 1
+whistle : 2
 
 terribly : 1
 
-hungry : 3
+hungry : 5
 
-spite : 1
+spite : 3
 
-picked : 3
+picked : 9
 
-stick : 4
+stick : 6
 
 whereupon : 1
 
 yelp : 1
 
-rushed : 1
+rushed : 2
 
 worry : 1
 
@@ -2728,39 +2720,39 @@ dodged : 1
 
 thistle : 2
 
-keep : 11
+keep : 31
 
-tumbled : 1
+tumbled : 4
 
-heels : 1
+heels : 2
 
 cart : 1
 
-horse : 1
+horse : 27
 
 trampled : 1
 
-series : 1
+series : 2
 
 charges : 1
 
-forwards : 1
+forwards : 4
 
-each : 8
+each : 29
 
 barking : 1
 
 hoarsely : 1
 
-mouth : 10
+mouth : 23
 
-faint : 1
+faint : 5
 
-leant : 1
+leant : 3
 
 buttercup : 1
 
-fanned : 1
+fanned : 2
 
 teaching : 1
 
@@ -2768,75 +2760,75 @@ tricks : 1
 
 blades : 1
 
-grass : 4
+grass : 8
 
-circumstances : 1
+circumstances : 2
 
 mushroom : 8
 
 height : 5
 
-stretched : 2
+stretched : 4
 
-tiptoe : 2
+tiptoe : 3
 
-edge : 3
+edge : 7
 
-immediately : 3
+immediately : 5
 
 caterpillar : 28
 
-arms : 6
+arms : 18
 
-folded : 3
+folded : 4
 
-quietly : 5
+quietly : 13
 
 smoking : 2
 
 hookah : 5
 
-v : 1
+v : 2
 
-addressed : 2
+addressed : 3
 
 languid : 1
 
 encouraging : 2
 
-shyly : 1
+shyly : 2
 
-present : 3
+present : 7
 
 sternly : 1
 
-clearly : 1
+clearly : 3
 
 sizes : 1
 
-confusing : 3
+confusing : 4
 
-isn : 7
+isn : 23
 
-haven : 8
+haven : 18
 
-turn : 11
+turn : 28
 
 chrysalis : 1
 
-butterfly : 1
+butterfly : 3
 
-may : 13
+may : 34
 
-contemptuously : 2
+contemptuously : 4
 
-brought : 3
+brought : 7
 
 irritated : 1
 
-remarks : 3
+remarks : 4
 
-state : 1
+state : 3
 
 promising : 1
 
@@ -2844,7 +2836,7 @@ swallowing : 1
 
 anger : 2
 
-wait : 1
+wait : 10
 
 puffed : 1
 
@@ -2852,35 +2844,35 @@ unfolded : 2
 
 busy : 2
 
-bee : 1
+bee : 6
 
 father : 6
 
-man : 5
+man : 15
 
 incessantly : 1
 
-stand : 6
+stand : 9
 
 youth : 6
 
-son : 1
+son : 2
 
-feared : 1
+feared : 3
 
 injure : 1
 
 brain : 1
 
-perfectly : 4
+perfectly : 5
 
-none : 4
+none : 11
 
-most : 8
+most : 20
 
 uncommonly : 1
 
-fat : 1
+fat : 4
 
 somersault : 2
 
@@ -2898,23 +2890,23 @@ ointment : 1
 
 shilling : 1
 
-sell : 2
+sell : 6
 
-couple : 1
+couple : 2
 
-weak : 2
+weak : 3
 
 tougher : 1
 
 suet : 1
 
-bones : 1
+bones : 2
 
-beak : 1
+beak : 2
 
-argued : 1
+argued : 2
 
-wife : 1
+wife : 2
 
 muscular : 1
 
@@ -2928,63 +2920,63 @@ steady : 1
 
 balanced : 1
 
-eel : 2
+eel : 3
 
-nose : 8
+nose : 13
 
 awfully : 1
 
-clever : 2
+clever : 6
 
-questions : 4
+questions : 7
 
 airs : 1
 
-stuff : 4
+stuff : 6
 
-timidly : 9
+timidly : 17
 
 altered : 1
 
-decidedly : 4
+decidedly : 7
 
 changing : 2
 
-often : 5
+often : 12
 
 contradicted : 1
 
-losing : 1
+losing : 2
 
-content : 1
+content : 3
 
 wretched : 2
 
 rearing : 1
 
-upright : 1
+upright : 3
 
-piteous : 1
+piteous : 2
 
-patiently : 2
+patiently : 3
 
 chose : 2
 
 yawned : 2
 
-crawled : 1
+crawled : 2
 
 merely : 2
 
-taller : 2
+taller : 3
 
-shorter : 2
+shorter : 4
 
-thoughtfully : 4
+thoughtfully : 11
 
-difficult : 2
+difficult : 4
 
-broke : 2
+broke : 5
 
 nibbled : 2
 
@@ -3002,31 +2994,31 @@ morsel : 1
 
 lefthand : 2
 
-free : 3
+free : 5
 
-alarm : 2
+alarm : 9
 
 immense : 1
 
-length : 1
+length : 2
 
-rise : 1
+rise : 5
 
 stalk : 1
 
-green : 4
+green : 10
 
 result : 1
 
-follow : 2
+follow : 4
 
-shaking : 3
+shaking : 9
 
 distant : 2
 
 serpent : 9
 
-succeeded : 3
+succeeded : 5
 
 curving : 1
 
@@ -3038,25 +3030,25 @@ dive : 1
 
 tops : 1
 
-wandering : 2
+wandering : 4
 
 hiss : 1
 
-draw : 7
+draw : 10
 
-pigeon : 12
+pigeon : 13
 
-flown : 1
+flown : 2
 
-beating : 2
+beating : 3
 
-wings : 1
+wings : 8
 
-screamed : 4
+screamed : 6
 
-indignantly : 4
+indignantly : 7
 
-repeated : 10
+repeated : 25
 
 subdued : 1
 
@@ -3064,95 +3056,95 @@ sob : 1
 
 roots : 2
 
-banks : 1
+banks : 3
 
-hedges : 1
+hedges : 3
 
 serpents : 3
 
-pleasing : 1
+pleasing : 2
 
-puzzled : 9
+puzzled : 20
 
 hatching : 1
 
-eggs : 5
+eggs : 6
 
-sleep : 6
+sleep : 8
 
 weeks : 1
 
-sorry : 1
+sorry : 4
 
-annoyed : 1
+annoyed : 2
 
-taken : 4
+taken : 8
 
 highest : 1
 
-tree : 8
+tree : 30
 
 raising : 1
 
 needs : 1
 
-wriggling : 1
+wriggling : 2
 
-invent : 1
+invent : 2
 
-doubtfully : 2
+doubtfully : 6
 
 changes : 2
 
-deepest : 1
+deepest : 2
 
-contempt : 1
+contempt : 2
 
 girls : 3
 
-denying : 1
+denying : 2
 
-telling : 2
+telling : 5
 
 tasted : 3
 
-egg : 1
+egg : 9
 
 truthful : 1
 
-silent : 7
+silent : 13
 
 adding : 1
 
 matters : 2
 
-yours : 3
+yours : 5
 
 raw : 1
 
-settled : 3
+settled : 6
 
-nest : 1
+nest : 3
 
 crouched : 1
 
-entangled : 2
+entangled : 3
 
-branches : 2
+branches : 5
 
 untwist : 1
 
-pieces : 3
+pieces : 5
 
 nibbling : 3
 
 bringing : 3
 
-beautiful : 13
+beautiful : 20
 
 whoever : 1
 
-lives : 4
+lives : 6
 
 frighten : 1
 
@@ -3160,23 +3152,23 @@ wits : 1
 
 righthand : 1
 
-vi : 1
+vi : 2
 
-pig : 11
+pig : 12
 
-pepper : 8
+pepper : 9
 
 footman : 14
 
 livery : 3
 
-considered : 3
+considered : 6
 
-otherwise : 4
+otherwise : 5
 
 judging : 1
 
-fish : 8
+fish : 16
 
 rapped : 1
 
@@ -3192,25 +3184,25 @@ crept : 1
 
 producing : 1
 
-letter : 3
+letter : 4
 
 invitation : 2
 
-queen : 75
+queen : 260
 
-order : 3
+order : 5
 
 curls : 1
 
-laughed : 2
+laughed : 7
 
-ground : 8
+ground : 20
 
 staring : 3
 
 stupidly : 1
 
-knocked : 1
+knocked : 4
 
 reasons : 1
 
@@ -3218,9 +3210,9 @@ secondly : 2
 
 inside : 2
 
-extraordinary : 2
+extraordinary : 4
 
-within : 2
+within : 4
 
 constant : 2
 
@@ -3228,19 +3220,19 @@ howling : 3
 
 sneezing : 6
 
-dish : 4
+dish : 19
 
-kettle : 1
+kettle : 3
 
-between : 6
+between : 10
 
-instance : 3
+instance : 7
 
-knock : 1
+knock : 3
 
 uncivil : 1
 
-remarked : 10
+remarked : 36
 
 tomorrow : 1
 
@@ -3248,31 +3240,31 @@ skimming : 1
 
 grazed : 1
 
-maybe : 2
+maybe : 3
 
-louder : 1
+louder : 2
 
-told : 6
+told : 9
 
-dreadful : 2
+dreadful : 5
 
-muttered : 2
+muttered : 5
 
-argue : 1
+argue : 2
 
 drive : 2
 
 crazy : 1
 
-repeating : 3
+repeating : 7
 
-remark : 10
+remark : 24
 
 variations : 1
 
-days : 4
+days : 9
 
-whistling : 1
+whistling : 3
 
 desperately : 1
 
@@ -3280,23 +3272,23 @@ idiotic : 1
 
 kitchen : 4
 
-smoke : 1
+smoke : 3
 
 stool : 1
 
 nursing : 3
 
-baby : 14
+baby : 16
 
-cook : 13
+cook : 14
 
-leaning : 2
+leaning : 3
 
 stirring : 2
 
 cauldron : 2
 
-soup : 18
+soup : 23
 
 sneezed : 1
 
@@ -3304,17 +3296,17 @@ occasionally : 1
 
 alternately : 1
 
-pause : 2
+pause : 10
 
-sneeze : 2
+sneeze : 3
 
-hearth : 1
+hearth : 5
 
-grinning : 1
+grinning : 2
 
-ear : 6
+ear : 21
 
-manners : 1
+manners : 5
 
 grins : 1
 
@@ -3322,57 +3314,57 @@ cheshire : 7
 
 violence : 1
 
-courage : 3
+courage : 4
 
-grinned : 3
+grinned : 6
 
-pleased : 7
+pleased : 13
 
-introduce : 2
+introduce : 4
 
 fix : 1
 
-throwing : 2
+throwing : 3
 
-irons : 1
+irons : 3
 
 saucepans : 1
 
-plates : 2
+plates : 4
 
-dishes : 2
+dishes : 4
 
-already : 2
+already : 9
 
-blows : 1
+blows : 3
 
-jumping : 4
+jumping : 8
 
 agony : 1
 
-terror : 1
+terror : 2
 
-precious : 1
+precious : 2
 
 unusually : 1
 
-saucepan : 1
+saucepan : 2
 
-flew : 1
+flew : 3
 
-carried : 4
+carried : 6
 
-minded : 1
+minded : 2
 
-growl : 3
+growl : 4
 
-faster : 3
+faster : 13
 
-advantage : 3
+advantage : 4
 
-takes : 2
+takes : 3
 
-hours : 4
+hours : 9
 
 axis : 1
 
@@ -3380,13 +3372,13 @@ axes : 1
 
 chop : 1
 
-glanced : 1
+glanced : 3
 
-meant : 5
+meant : 17
 
-hint : 2
+hint : 3
 
-busily : 4
+busily : 5
 
 bother : 1
 
@@ -3394,19 +3386,19 @@ abide : 1
 
 figures : 1
 
-singing : 2
+singing : 6
 
-lullaby : 1
+lullaby : 2
 
-shake : 1
+shake : 8
 
-line : 2
+line : 3
 
 roughly : 1
 
-boy : 3
+boy : 6
 
-beat : 4
+beat : 7
 
 sneezes : 2
 
@@ -3416,17 +3408,17 @@ teases : 1
 
 wow : 6
 
-sang : 2
+sang : 4
 
-verse : 4
+verse : 7
 
-song : 7
+song : 23
 
 tossing : 3
 
 howled : 1
 
-thoroughly : 2
+thoroughly : 4
 
 enjoy : 1
 
@@ -3434,39 +3426,39 @@ pleases : 1
 
 flinging : 1
 
-threw : 2
+threw : 3
 
 frying : 1
 
 pan : 1
 
-missed : 2
+missed : 4
 
-caught : 3
+caught : 13
 
-shaped : 3
+shaped : 4
 
-creature : 4
+creature : 12
 
 star : 1
 
 snorting : 1
 
-steam : 1
+steam : 3
 
-engine : 1
+engine : 6
 
 doubling : 1
 
 straightening : 1
 
-proper : 3
+proper : 5
 
-twist : 2
+twist : 3
 
-tight : 1
+tight : 4
 
-prevent : 1
+prevent : 3
 
 undoing : 1
 
@@ -3482,41 +3474,41 @@ expressing : 1
 
 snout : 1
 
-also : 2
+also : 4
 
-extremely : 2
+extremely : 4
 
 sobbing : 3
 
-seriously : 1
+seriously : 3
 
 sobbed : 1
 
-neither : 2
+neither : 4
 
-less : 4
+less : 5
 
-carry : 1
+carry : 4
 
-relieved : 1
+relieved : 3
 
-trot : 1
+trot : 2
 
-dreadfully : 6
+dreadfully : 8
 
-ugly : 2
+ugly : 3
 
-handsome : 1
+handsome : 2
 
-startled : 2
+startled : 5
 
-seeing : 1
+seeing : 2
 
-bough : 1
+bough : 2
 
-yards : 1
+yards : 8
 
-natured : 1
+natured : 3
 
 teeth : 1
 
@@ -3526,15 +3518,15 @@ respect : 1
 
 puss : 1
 
-wider : 1
+wider : 2
 
 depends : 1
 
-explanation : 2
+explanation : 3
 
 denied : 2
 
-waving : 5
+waving : 10
 
 hatter : 56
 
@@ -3542,7 +3534,7 @@ march : 34
 
 hare : 31
 
-visit : 1
+visit : 3
 
 mad : 15
 
@@ -3560,7 +3552,7 @@ growling : 1
 
 invited : 2
 
-happening : 1
+happening : 2
 
 became : 2
 
@@ -3570,7 +3562,7 @@ hatters : 1
 
 raving : 2
 
-branch : 1
+branch : 5
 
 fig : 1
 
@@ -3578,31 +3570,31 @@ appearing : 1
 
 vanishing : 1
 
-giddy : 2
+giddy : 6
 
 ending : 2
 
-farther : 1
+farther : 2
 
-chimneys : 1
+chimneys : 2
 
 thatched : 1
 
-raised : 2
+raised : 4
 
-towards : 1
+towards : 8
 
-instead : 3
+instead : 6
 
-vii : 1
+vii : 2
 
-front : 2
+front : 7
 
 dormouse : 40
 
-fast : 4
+fast : 20
 
-asleep : 8
+asleep : 12
 
 using : 2
 
@@ -3610,39 +3602,39 @@ cushion : 2
 
 resting : 2
 
-elbows : 1
+elbows : 2
 
-chair : 1
+chair : 8
 
-wine : 2
+wine : 5
 
-civil : 3
+civil : 7
 
-laid : 2
+laid : 5
 
-wants : 2
+wants : 4
 
-cutting : 1
+cutting : 2
 
 personal : 2
 
-severity : 1
+severity : 2
 
-rude : 2
+rude : 3
 
-wide : 2
+wide : 6
 
 raven : 1
 
-writing : 6
+writing : 9
 
 desk : 1
 
-fun : 3
+fun : 9
 
-riddles : 2
+riddles : 3
 
-breathe : 3
+breathe : 4
 
 ravens : 1
 
@@ -3654,11 +3646,11 @@ month : 2
 
 uneasily : 2
 
-fourth : 1
+fourth : 4
 
-butter : 9
+butter : 17
 
-works : 1
+works : 6
 
 meekly : 2
 
@@ -3666,41 +3658,41 @@ crumbs : 4
 
 grumbled : 1
 
-bread : 7
+bread : 22
 
 gloomily : 1
 
-cup : 2
+cup : 3
 
-shoulder : 4
+shoulder : 10
 
 tells : 2
 
-clock : 5
+clock : 9
 
-year : 2
+year : 5
 
-readily : 1
+readily : 2
 
 stays : 1
 
 poured : 1
 
-riddle : 1
+riddle : 5
 
 slightest : 1
 
-wearily : 1
+wearily : 2
 
 waste : 1
 
-answers : 1
+answers : 2
 
-cautiously : 3
+cautiously : 5
 
-music : 3
+music : 7
 
-accounts : 1
+accounts : 2
 
 terms : 1
 
@@ -3714,15 +3706,15 @@ spoon : 2
 
 concert : 2
 
-given : 1
+given : 3
 
 hearts : 8
 
-sing : 6
+sing : 12
 
 twinkle : 8
 
-fly : 3
+fly : 9
 
 tray : 1
 
@@ -3732,29 +3724,29 @@ bawled : 1
 
 murdering : 1
 
-exclaimed : 6
+exclaimed : 14
 
 mournful : 1
 
-sigh : 4
+sigh : 9
 
 wash : 2
 
 whiles : 1
 
-interrupted : 9
+interrupted : 24
 
-yawning : 2
+yawning : 3
 
 vote : 1
 
-lady : 3
+lady : 7
 
-alarmed : 1
+alarmed : 2
 
 proposal : 1
 
-wake : 2
+wake : 9
 
 pinched : 2
 
@@ -3762,7 +3754,7 @@ fellows : 1
 
 sisters : 2
 
-names : 2
+names : 10
 
 elsie : 1
 
@@ -3774,43 +3766,43 @@ lived : 3
 
 bottom : 4
 
-interest : 1
+interest : 5
 
-eating : 1
+eating : 4
 
-drinking : 1
+drinking : 2
 
-treacle : 7
+treacle : 8
 
 ill : 2
 
-ways : 1
+ways : 7
 
-living : 2
+living : 5
 
-opinion : 1
+opinion : 2
 
-triumphantly : 2
+triumphantly : 8
 
-helped : 1
+helped : 2
 
 sh : 2
 
-sulkily : 2
+sulkily : 5
 
-interrupt : 1
+interrupt : 3
 
 consented : 1
 
-learning : 2
+learning : 3
 
 promise : 1
 
-clean : 1
+clean : 2
 
 unwillingly : 1
 
-upset : 3
+upset : 4
 
 jug : 1
 
@@ -3818,35 +3810,35 @@ offend : 1
 
 eh : 1
 
-choosing : 1
+choosing : 3
 
 interrupting : 2
 
-rubbing : 2
+rubbing : 5
 
-manner : 2
+manner : 5
 
-begins : 4
+begins : 5
 
 closed : 2
 
 doze : 1
 
-woke : 1
+woke : 2
 
 traps : 1
 
-moon : 1
+moon : 2
 
-memory : 1
+memory : 3
 
 muchness : 3
 
-drawing : 1
+drawing : 3
 
 rudeness : 1
 
-disgust : 1
+disgust : 2
 
 teapot : 1
 
@@ -3858,11 +3850,11 @@ today : 1
 
 unlocking : 1
 
-flower : 2
+flower : 6
 
-viii : 1
+viii : 2
 
-rose : 4
+rose : 16
 
 entrance : 1
 
@@ -3872,53 +3864,53 @@ gardeners : 8
 
 painting : 2
 
-paint : 1
+paint : 2
 
 jogged : 1
 
 blame : 1
 
-deserved : 1
+deserved : 2
 
 beheaded : 3
 
-spoken : 1
+spoken : 6
 
 tulip : 1
 
 onions : 1
 
-flung : 1
+flung : 2
 
-brush : 1
+brush : 4
 
 unjust : 1
 
 chanced : 1
 
-watching : 3
+watching : 12
 
-checked : 3
+checked : 4
 
 afore : 1
 
-themselves : 3
+themselves : 5
 
-flat : 2
+flat : 5
 
-faces : 5
+faces : 10
 
-eager : 3
+eager : 8
 
-soldiers : 10
+soldiers : 14
 
-carrying : 2
+carrying : 3
 
-clubs : 1
+clubs : 2
 
 oblong : 1
 
-corners : 1
+corners : 2
 
 courtiers : 2
 
@@ -3928,53 +3920,53 @@ diamonds : 1
 
 royal : 2
 
-merrily : 1
+merrily : 2
 
 couples : 1
 
-guests : 3
+guests : 8
 
-mostly : 2
+mostly : 4
 
-kings : 1
+kings : 3
 
-queens : 1
+queens : 13
 
 recognised : 1
 
-noticing : 1
+noticing : 3
 
 knave : 9
 
-king : 63
+king : 129
 
-crimson : 2
+crimson : 3
 
 velvet : 1
 
 procession : 5
 
-doubtful : 2
+doubtful : 3
 
-lie : 2
+lie : 4
 
-rule : 5
+rule : 17
 
 processions : 1
 
-opposite : 1
+opposite : 5
 
-smiled : 2
+smiled : 8
 
 idiot : 1
 
-majesty : 12
+majesty : 21
 
 pack : 5
 
 cards : 3
 
-needn : 3
+needn : 9
 
 rosetree : 1
 
@@ -3984,17 +3976,17 @@ backs : 1
 
 glaring : 1
 
-beast : 1
+beast : 2
 
-consider : 4
+consider : 10
 
 bowing : 1
 
-humble : 1
+humble : 2
 
-knee : 5
+knee : 7
 
-meanwhile : 1
+meanwhile : 3
 
 examining : 1
 
@@ -4010,29 +4002,29 @@ pot : 1
 
 marched : 1
 
-evidently : 1
+evidently : 6
 
 roared : 1
 
-fine : 2
+fine : 4
 
-peeping : 1
+peeping : 4
 
-hush : 3
+hush : 5
 
-whispered : 5
+whispered : 12
 
 execution : 3
 
 boxed : 1
 
-scream : 2
+scream : 7
 
-laughter : 1
+laughter : 2
 
-places : 2
+places : 4
 
-thunder : 1
+thunder : 3
 
 ridges : 1
 
@@ -4046,7 +4038,7 @@ mallets : 1
 
 flamingoes : 2
 
-double : 1
+double : 2
 
 arches : 4
 
@@ -4056,11 +4048,11 @@ managing : 1
 
 flamingo : 5
 
-body : 2
+body : 6
 
 tucked : 3
 
-comfortably : 1
+comfortably : 4
 
 straightened : 1
 
@@ -4070,21 +4062,21 @@ expression : 1
 
 bursting : 1
 
-laughing : 2
+laughing : 7
 
-provoking : 1
+provoking : 7
 
 unrolled : 2
 
-act : 1
+act : 2
 
-crawling : 1
+crawling : 2
 
 ridge : 1
 
 furrow : 1
 
-send : 1
+send : 3
 
 doubled : 1
 
@@ -4092,19 +4084,19 @@ parts : 1
 
 players : 4
 
-played : 1
+played : 2
 
-turns : 3
+turns : 5
 
 quarrelling : 2
 
-fighting : 1
+fighting : 5
 
 furious : 1
 
 stamping : 2
 
-shouting : 2
+shouting : 5
 
 uneasy : 1
 
@@ -4112,11 +4104,11 @@ dispute : 2
 
 beheading : 1
 
-alive : 3
+alive : 8
 
 appearance : 1
 
-nodded : 1
+nodded : 2
 
 account : 1
 
@@ -4124,25 +4116,25 @@ someone : 1
 
 fairly : 1
 
-complaining : 1
+complaining : 2
 
-quarrel : 1
+quarrel : 4
 
-oneself : 1
+oneself : 2
 
 attends : 1
 
-arch : 1
+arch : 2
 
 croqueted : 1
 
-win : 1
+win : 2
 
 finishing : 1
 
-friend : 3
+friend : 6
 
-kiss : 1
+kiss : 3
 
 likes : 1
 
@@ -4150,7 +4142,7 @@ impertinent : 1
 
 removed : 2
 
-passing : 1
+passing : 3
 
 settling : 1
 
@@ -4158,155 +4150,155 @@ difficulties : 1
 
 executioner : 6
 
-screaming : 1
+screaming : 4
 
-search : 1
+search : 2
 
 engaged : 1
 
-fight : 2
+fight : 12
 
 croqueting : 1
 
-helpless : 1
+helpless : 2
 
 collected : 2
 
 appealed : 1
 
-settle : 1
+settle : 3
 
 arguments : 1
 
-unless : 2
+unless : 6
 
-weren : 1
+weren : 2
 
-anxious : 3
+anxious : 9
 
-prison : 1
+prison : 5
 
 arrow : 1
 
 fading : 1
 
-entirely : 2
+entirely : 5
 
-disappeared : 2
+disappeared : 3
 
-wildly : 2
+wildly : 7
 
-ix : 1
+ix : 2
 
 mock : 56
 
 turtle : 59
 
-affectionately : 1
+affectionately : 2
 
-pleasant : 1
+pleasant : 5
 
-hopeful : 1
+hopeful : 2
 
-tempered : 2
+tempered : 3
 
-vinegar : 1
+vinegar : 2
 
 sour : 1
 
 camomile : 1
 
-bitter : 1
+bitter : 2
 
 barley : 1
 
-sugar : 2
+sugar : 4
 
-sweet : 1
+sweet : 2
 
 stingy : 1
 
-forget : 2
+forget : 4
 
 moral : 8
 
-hasn : 2
+hasn : 3
 
 tut : 2
 
 squeezed : 1
 
-closer : 1
+closer : 2
 
-keeping : 2
+keeping : 6
 
 uncomfortably : 1
 
 bore : 1
 
-tis : 5
+tis : 7
 
 minding : 1
 
 morals : 1
 
-waist : 1
+waist : 2
 
-experiment : 2
+experiment : 3
 
-bite : 2
+bite : 4
 
 mustard : 3
 
-feather : 1
+feather : 7
 
 flock : 1
 
-mineral : 1
+mineral : 2
 
-agree : 2
+agree : 3
 
-attended : 1
+attended : 2
 
-vegetable : 1
+vegetable : 2
 
 imagine : 2
 
 cheap : 1
 
-birthday : 1
+birthday : 7
 
-dig : 1
+dig : 2
 
 worried : 1
 
 died : 1
 
-favourite : 1
+favourite : 3
 
 linked : 1
 
-hers : 4
+hers : 5
 
 tremble : 1
 
-thunderstorm : 1
+thunderstorm : 4
 
-fair : 1
+fair : 3
 
 warning : 1
 
-choice : 2
+choice : 3
 
 absence : 1
 
-shade : 1
+shade : 2
 
 delay : 1
 
 cost : 1
 
-whom : 1
+whom : 3
 
 sentenced : 1
 
@@ -4320,17 +4312,17 @@ executions : 2
 
 gryphon : 55
 
-sun : 2
+sun : 8
 
-picture : 1
+picture : 2
 
 lazy : 1
 
-leaving : 1
+leaving : 2
 
-rubbed : 1
+rubbed : 4
 
-watched : 2
+watched : 10
 
 chuckled : 1
 
@@ -4338,15 +4330,15 @@ executes : 1
 
 ledge : 1
 
-rock : 1
+rock : 2
 
-heart : 2
+heart : 5
 
 pitied : 1
 
 sorrow : 2
 
-hollow : 1
+hollow : 2
 
 occasional : 1
 
@@ -4354,7 +4346,7 @@ exclamation : 1
 
 hjckrrh : 1
 
-heavy : 2
+heavy : 8
 
 calmly : 1
 
@@ -4368,7 +4360,7 @@ mayn : 1
 
 educations : 1
 
-proud : 2
+proud : 6
 
 extras : 1
 
@@ -4378,13 +4370,13 @@ relief : 2
 
 ours : 1
 
-extra : 1
+extra : 2
 
 afford : 1
 
-regular : 2
+regular : 7
 
-inquired : 1
+inquired : 4
 
 reeling : 1
 
@@ -4400,7 +4392,7 @@ uglification : 2
 
 derision : 1
 
-lifted : 1
+lifted : 6
 
 uglifying : 1
 
@@ -4412,13 +4404,13 @@ uglify : 1
 
 simpleton : 1
 
-encouraged : 1
+encouraged : 2
 
 mystery : 2
 
-counting : 1
+counting : 3
 
-subjects : 1
+subjects : 2
 
 flappers : 1
 
@@ -4432,13 +4424,13 @@ drawling : 3
 
 conger : 1
 
-week : 3
+week : 7
 
 fainting : 1
 
 coils : 1
 
-stiff : 1
+stiff : 3
 
 classics : 1
 
@@ -4456,7 +4448,7 @@ twelfth : 1
 
 games : 1
 
-x : 1
+x : 2
 
 lobster : 7
 
@@ -4464,21 +4456,21 @@ quadrille : 4
 
 flapper : 1
 
-sobs : 4
+sobs : 5
 
-bone : 1
+bone : 4
 
 punching : 1
 
-recovered : 2
+recovered : 5
 
-cheeks : 1
+cheeks : 4
 
-introduced : 1
+introduced : 3
 
 delightful : 2
 
-dance : 13
+dance : 15
 
 form : 1
 
@@ -4490,7 +4482,7 @@ turtles : 2
 
 salmon : 1
 
-cleared : 1
+cleared : 2
 
 jelly : 1
 
@@ -4504,29 +4496,29 @@ lobsters : 7
 
 retire : 1
 
-bound : 1
+bound : 3
 
 capering : 1
 
 yelled : 1
 
-land : 1
+land : 3
 
-figure : 3
+figure : 4
 
-dropping : 1
+dropping : 2
 
-pretty : 1
+pretty : 9
 
-dancing : 2
+dancing : 6
 
 treading : 2
 
-toes : 3
+toes : 4
 
 forepaws : 1
 
-mark : 3
+mark : 5
 
 whiting : 8
 
@@ -4536,17 +4528,17 @@ porpoise : 4
 
 shingle : 1
 
-join : 9
+join : 12
 
 askance : 1
 
-thanked : 1
+thanked : 3
 
-kindly : 2
+kindly : 7
 
 scaly : 1
 
-england : 1
+england : 3
 
 france : 1
 
@@ -4564,23 +4556,25 @@ shiny : 1
 
 blacking : 1
 
-soles : 1
+soles : 2
 
 eels : 1
 
 shrimp : 1
 
-thoughts : 2
+thoughts : 7
 
-obliged : 3
+obliged : 5
 
 anywhere : 1
 
-journey : 1
+journey : 4
 
-purpose : 1
+purpose : 2
 
-impatient : 1
+adventures : 7
+
+impatient : 2
 
 explanations : 1
 
@@ -4588,7 +4582,7 @@ gained : 1
 
 listeners : 1
 
-part : 2
+part : 9
 
 sluggard : 1
 
@@ -4598,9 +4592,9 @@ eyelids : 1
 
 trims : 1
 
-belt : 1
+belt : 4
 
-buttons : 1
+buttons : 4
 
 [later : 2
 
@@ -4608,7 +4602,7 @@ editions : 2
 
 follows : 3
 
-sands : 1
+sands : 2
 
 gay : 1
 
@@ -4624,7 +4618,7 @@ tide : 1
 
 rises : 1
 
-sharks : 1
+sharks : 2
 
 around : 3
 
@@ -4634,7 +4628,7 @@ tremulous : 1
 
 uncommon : 1
 
-explained : 1
+explained : 7
 
 persisted : 2
 
@@ -4646,17 +4640,17 @@ panther : 3
 
 sharing : 1
 
-pie : 3
+pie : 4
 
-crust : 1
+crust : 2
 
-gravy : 1
+gravy : 2
 
-meat : 1
+meat : 2
 
 share : 1
 
-treat : 1
+treat : 4
 
 boon : 1
 
@@ -4664,7 +4658,7 @@ permitted : 1
 
 received : 1
 
-fork : 1
+fork : 2
 
 banquet : 1
 
@@ -4674,13 +4668,13 @@ accounting : 1
 
 tastes : 1
 
-rich : 1
+rich : 2
 
-tureen : 1
+tureen : 3
 
 dainties : 1
 
-evening : 5
+evening : 7
 
 beau : 4
 
@@ -4690,7 +4684,7 @@ soo : 7
 
 oop : 7
 
-e : 6
+e : 11
 
 cares : 2
 
@@ -4700,33 +4694,33 @@ beauti : 1
 
 ful : 1
 
-panted : 1
+panted : 7
 
 faintly : 1
 
 breeze : 1
 
-xi : 1
+xi : 2
 
 stole : 2
 
 tarts : 7
 
-seated : 1
+seated : 3
 
 throne : 1
 
-arrived : 1
+arrived : 2
 
-standing : 1
+standing : 6
 
 chains : 1
 
-soldier : 1
+soldier : 2
 
-guard : 1
+guard : 6
 
-trumpet : 3
+trumpet : 4
 
 scroll : 2
 
@@ -4734,9 +4728,9 @@ parchment : 2
 
 court : 18
 
-refreshments : 1
+refreshments : 2
 
-pass : 1
+pass : 3
 
 justice : 1
 
@@ -4746,7 +4740,7 @@ wore : 1
 
 frontispiece : 1
 
-comfortable : 1
+comfortable : 2
 
 becoming : 1
 
@@ -4754,25 +4748,25 @@ jurors : 4
 
 rightly : 1
 
-men : 1
+men : 9
 
 slates : 8
 
-indignant : 1
+indignant : 2
 
-spectacles : 3
+spectacles : 4
 
-spell : 1
+spell : 2
 
 neighbour : 1
 
 muddle : 1
 
-pencil : 2
+pencil : 5
 
-squeaked : 1
+squeaked : 2
 
-quickly : 2
+quickly : 8
 
 juror : 1
 
@@ -4780,11 +4774,11 @@ herald : 1
 
 accusation : 1
 
-blew : 2
+blew : 5
 
 blasts : 2
 
-summer : 2
+summer : 6
 
 verdict : 4
 
@@ -4792,7 +4786,7 @@ witness : 10
 
 teacup : 3
 
-sent : 2
+sent : 10
 
 fourteenth : 1
 
@@ -4804,7 +4798,7 @@ wrote : 3
 
 dates : 1
 
-reduced : 1
+reduced : 2
 
 shillings : 1
 
@@ -4814,7 +4808,7 @@ hat : 1
 
 stolen : 1
 
-memorandum : 1
+memorandum : 8
 
 fidgeted : 1
 
@@ -4822,41 +4816,41 @@ evidence : 7
 
 spot : 1
 
-encourage : 1
+encourage : 2
 
 shifting : 1
 
-remain : 1
+remain : 7
 
-squeeze : 1
+squeeze : 4
 
 boldly : 1
 
-reasonable : 1
+reasonable : 2
 
 pace : 1
 
-ridiculous : 1
+ridiculous : 5
 
 fashion : 2
 
 officers : 4
 
-list : 3
+list : 5
 
 singers : 2
 
-thin : 1
+thin : 4
 
 dunce : 1
 
 twinkled : 1
 
-deny : 2
+deny : 8
 
 denies : 1
 
-miserable : 2
+miserable : 4
 
 speaker : 1
 
@@ -4864,11 +4858,11 @@ suppressed : 4
 
 canvas : 1
 
-bag : 1
+bag : 8
 
-tied : 1
+tied : 2
 
-strings : 1
+strings : 3
 
 newspapers : 1
 
@@ -4878,9 +4872,9 @@ attempts : 1
 
 applause : 1
 
-understood : 1
+understood : 2
 
-lower : 1
+lower : 3
 
 officer : 1
 
@@ -4888,7 +4882,7 @@ examine : 2
 
 folding : 1
 
-collar : 1
+collar : 5
 
 shrieked : 1
 
@@ -4902,7 +4896,7 @@ ache : 1
 
 fumbled : 1
 
-xii : 1
+xii : 2
 
 flurry : 1
 
@@ -4924,23 +4918,23 @@ goldfish : 2
 
 accidentally : 1
 
-dismay : 1
+dismay : 3
 
-accident : 2
+accident : 3
 
 vague : 1
 
-die : 1
+die : 5
 
-cannot : 1
+cannot : 3
 
-emphasis : 1
+emphasis : 2
 
-haste : 1
+haste : 2
 
-downwards : 1
+downwards : 3
 
-unable : 1
+unable : 2
 
 signifies : 1
 
@@ -4948,7 +4942,7 @@ shock : 1
 
 pencils : 1
 
-diligently : 1
+diligently : 2
 
 overcome : 1
 
@@ -4966,13 +4960,13 @@ forty : 1
 
 persons : 1
 
-mile : 2
+mile : 4
 
-invented : 1
+invented : 5
 
 oldest : 1
 
-prisoner : 2
+prisoner : 5
 
 directed : 2
 
@@ -4980,7 +4974,7 @@ verses : 4
 
 handwriting : 1
 
-queerest : 1
+queerest : 2
 
 imitated : 1
 
@@ -4990,11 +4984,11 @@ signed : 2
 
 sign : 1
 
-mischief : 1
+mischief : 4
 
 honest : 1
 
-clapping : 1
+clapping : 3
 
 proves : 2
 
@@ -5002,9 +4996,9 @@ guilt : 1
 
 character : 1
 
-push : 1
+push : 2
 
-returned : 2
+returned : 6
 
 involved : 1
 
@@ -5012,13 +5006,13 @@ affair : 1
 
 trusts : 1
 
-fit : 3
+fit : 8
 
 obstacle : 1
 
 ourselves : 1
 
-secret : 1
+secret : 2
 
 sixpence : 1
 
@@ -5026,9 +5020,9 @@ atom : 2
 
 attempted : 1
 
-saves : 1
+saves : 3
 
-spreading : 1
+spreading : 2
 
 cardboard : 1
 
@@ -5040,7 +5034,7 @@ furiously : 1
 
 inkstand : 1
 
-ink : 1
+ink : 5
 
 trickling : 1
 
@@ -5050,7 +5044,7 @@ twentieth : 1
 
 purple : 1
 
-flying : 1
+flying : 6
 
 brushing : 1
 
@@ -5060,17 +5054,17 @@ kissed : 1
 
 wonderful : 2
 
-setting : 1
+setting : 2
 
-dreaming : 1
+dreaming : 8
 
-dreamed : 1
+dreamed : 3
 
-clasped : 1
+clasped : 3
 
-toss : 1
+toss : 2
 
-listened : 1
+listened : 3
 
 rustled : 1
 
@@ -5078,7 +5072,7 @@ splashed : 1
 
 neighbouring : 1
 
-rattle : 1
+rattle : 7
 
 teacups : 2
 
@@ -5088,9 +5082,11 @@ meal : 1
 
 crashed : 1
 
-choking : 1
+choking : 3
 
-believed : 1
+believed : 2
+
+wonderland : 3
 
 reality : 1
 
@@ -5102,7 +5098,7 @@ reeds : 1
 
 tinkling : 1
 
-sheep : 1
+sheep : 22
 
 bells : 1
 
@@ -5116,7 +5112,7 @@ clamour : 1
 
 farm : 1
 
-yard : 1
+yard : 2
 
 lowing : 1
 
@@ -5128,7 +5124,7 @@ pictured : 1
 
 riper : 1
 
-years : 1
+years : 4
 
 loving : 1
 
@@ -5142,5 +5138,2463 @@ joys : 1
 
 remembering : 1
 
-happy : 1
+happy : 5
+
+kitten : 24
+
+black : 5
+
+fault : 5
+
+washed : 4
+
+quarter : 1
+
+bearing : 1
+
+purr : 5
+
+earlier : 1
+
+afternoon : 3
+
+romps : 1
+
+ball : 6
+
+worsted : 5
+
+rolling : 5
+
+undone : 3
+
+rug : 3
+
+knots : 1
+
+tangles : 1
+
+wicked : 1
+
+disgrace : 1
+
+reproachfully : 1
+
+scrambled : 4
+
+winding : 2
+
+kitty : 25
+
+demurely : 1
+
+progress : 1
+
+touching : 3
+
+morrow : 4
+
+boys : 1
+
+bonfire : 2
+
+snowed : 1
+
+wound : 1
+
+scramble : 1
+
+rolled : 5
+
+unwound : 2
+
+snow : 5
+
+mischievous : 1
+
+darling : 2
+
+faults : 3
+
+excuses : 2
+
+snowdrop : 2
+
+thirsty : 4
+
+saving : 1
+
+punishments : 2
+
+wednesday : 2
+
+saved : 1
+
+punishment : 1
+
+fifty : 2
+
+dinners : 1
+
+panes : 1
+
+kissing : 1
+
+loves : 2
+
+fields : 2
+
+kisses : 1
+
+covers : 2
+
+snug : 1
+
+quilt : 1
+
+darlings : 1
+
+dress : 3
+
+clap : 1
+
+woods : 2
+
+autumn : 3
+
+chess : 2
+
+check : 4
+
+purred : 2
+
+knight : 57
+
+wiggling : 1
+
+phrase : 1
+
+hyaena : 1
+
+model : 1
+
+imitate : 1
+
+succeed : 2
+
+principally : 1
+
+fold : 2
+
+properly : 2
+
+punish : 2
+
+attend : 1
+
+ideas : 2
+
+smokes : 1
+
+pretence : 1
+
+peep : 1
+
+beyond : 4
+
+gauze : 1
+
+mist : 2
+
+melt : 2
+
+silvery : 2
+
+lightly : 1
+
+blazing : 1
+
+brightly : 1
+
+warm : 3
+
+warmer : 2
+
+scold : 1
+
+uninteresting : 1
+
+wall : 5
+
+chessmen : 3
+
+cinders : 3
+
+knees : 4
+
+frightening : 1
+
+shovel : 1
+
+castles : 1
+
+invisible : 2
+
+pawns : 1
+
+roll : 1
+
+kicking : 1
+
+lily : 16
+
+imperial : 2
+
+fiddlestick : 1
+
+covered : 3
+
+ashes : 5
+
+noisy : 1
+
+gasped : 2
+
+rapid : 1
+
+hug : 3
+
+volcano : 2
+
+struggled : 2
+
+bar : 2
+
+mightn : 2
+
+dust : 3
+
+dusted : 1
+
+astonished : 4
+
+rounder : 3
+
+smoothed : 1
+
+assure : 2
+
+ends : 3
+
+horror : 1
+
+strong : 5
+
+thinner : 1
+
+writes : 1
+
+intend : 1
+
+sliding : 1
+
+balances : 1
+
+badly : 2
+
+fainted : 1
+
+language : 3
+
+ykcowrebbaj : 1
+
+sevot : 1
+
+yhtils : 1
+
+eht : 4
+
+dna : 3
+
+gillirb : 1
+
+sawt : 1
+
+ebaw : 1
+
+ni : 1
+
+elbmig : 1
+
+eryg : 1
+
+sevogorob : 1
+
+erew : 1
+
+ysmim : 1
+
+lla : 1
+
+ebargtuo : 1
+
+shtar : 1
+
+emom : 1
+
+poem : 3
+
+jabberwocky : 2
+
+twas : 3
+
+brillig : 4
+
+slithy : 5
+
+toves : 5
+
+gyre : 5
+
+gimble : 5
+
+wabe : 5
+
+mimsy : 4
+
+borogoves : 3
+
+mome : 5
+
+raths : 4
+
+outgrabe : 4
+
+beware : 2
+
+jabberwock : 3
+
+jubjub : 1
+
+shun : 1
+
+frumious : 1
+
+bandersnatch : 3
+
+vorpal : 2
+
+sword : 2
+
+manxome : 1
+
+foe : 1
+
+sought : 1
+
+rested : 2
+
+tumtum : 1
+
+awhile : 1
+
+uffish : 1
+
+whiffling : 1
+
+tulgey : 1
+
+burbled : 1
+
+blade : 2
+
+snicker : 1
+
+snack : 1
+
+galumphing : 1
+
+hast : 1
+
+thou : 1
+
+slain : 2
+
+beamish : 1
+
+frabjous : 1
+
+callooh : 1
+
+callay : 1
+
+chortled : 1
+
+joy : 1
+
+confess : 3
+
+fill : 5
+
+killed : 1
+
+invention : 8
+
+tips : 1
+
+fingers : 5
+
+rail : 1
+
+floated : 2
+
+post : 2
+
+floating : 1
+
+hill : 14
+
+path : 6
+
+leads : 2
+
+curiously : 1
+
+twists : 1
+
+corkscrew : 3
+
+arguing : 1
+
+resolutely : 1
+
+determined : 3
+
+described : 2
+
+start : 2
+
+border : 1
+
+willow : 1
+
+tiger : 12
+
+gracefully : 1
+
+anybody : 6
+
+colour : 2
+
+petals : 4
+
+criticised : 1
+
+aren : 2
+
+planted : 1
+
+danger : 2
+
+wough : 1
+
+boughs : 1
+
+passionately : 1
+
+excitement : 3
+
+bending : 1
+
+quivering : 1
+
+stooping : 2
+
+tongues : 1
+
+pick : 5
+
+worst : 2
+
+speaks : 1
+
+wither : 1
+
+compliment : 2
+
+gardens : 3
+
+severe : 2
+
+stupider : 1
+
+violet : 1
+
+snore : 2
+
+bud : 1
+
+bushy : 1
+
+awkward : 3
+
+redder : 1
+
+dahlia : 1
+
+anyhow : 2
+
+fade : 3
+
+untidy : 4
+
+thorny : 1
+
+wear : 2
+
+thorns : 1
+
+larkspur : 1
+
+footstep : 1
+
+gravel : 1
+
+fresh : 2
+
+wonderfully : 2
+
+grander : 1
+
+provoked : 1
+
+everywhere : 1
+
+spied : 1
+
+aiming : 1
+
+twiddle : 1
+
+kinder : 1
+
+awe : 1
+
+disbelieve : 1
+
+patting : 1
+
+compared : 2
+
+wilderness : 1
+
+point : 2
+
+hills : 1
+
+comparison : 1
+
+valley : 2
+
+contradicting : 1
+
+sensible : 2
+
+dictionary : 1
+
+curtseyed : 2
+
+brooks : 2
+
+divided : 3
+
+squares : 2
+
+reached : 4
+
+brook : 12
+
+chessboard : 1
+
+huge : 1
+
+pawn : 4
+
+companion : 1
+
+pleasantly : 1
+
+square : 12
+
+eighth : 5
+
+remembers : 1
+
+dragged : 2
+
+pant : 1
+
+blowing : 1
+
+skim : 1
+
+exhausted : 1
+
+breathless : 1
+
+propped : 1
+
+slow : 4
+
+biscuit : 2
+
+refreshing : 1
+
+measurements : 1
+
+ribbon : 2
+
+measuring : 1
+
+sticking : 4
+
+peg : 5
+
+thirst : 1
+
+quenched : 1
+
+faced : 1
+
+third : 2
+
+tweedledum : 34
+
+tweedledee : 26
+
+sixth : 1
+
+humpty : 53
+
+dumpty : 53
+
+faltered : 1
+
+seventh : 1
+
+forest : 5
+
+knights : 2
+
+feasting : 1
+
+guessing : 1
+
+insects : 6
+
+survey : 1
+
+travel : 1
+
+hopes : 2
+
+principal : 3
+
+rivers : 1
+
+mountains : 1
+
+towns : 1
+
+honey : 3
+
+bees : 5
+
+bustling : 1
+
+poking : 1
+
+proboscis : 1
+
+elephant : 1
+
+cottages : 1
+
+roofs : 1
+
+stalks : 1
+
+quantities : 2
+
+checking : 1
+
+excuse : 3
+
+dusty : 1
+
+elephants : 2
+
+tease : 2
+
+tickets : 1
+
+ticket : 5
+
+carriage : 4
+
+office : 2
+
+inch : 1
+
+bought : 4
+
+driver : 1
+
+drives : 1
+
+puff : 1
+
+tonight : 1
+
+microscope : 1
+
+opera : 1
+
+travelling : 1
+
+gentleman : 3
+
+goat : 3
+
+alphabet : 1
+
+beetle : 2
+
+passengers : 1
+
+luggage : 1
+
+engines : 1
+
+joke : 7
+
+gentle : 5
+
+lass : 1
+
+message : 2
+
+telegraph : 1
+
+train : 2
+
+leaned : 1
+
+return : 4
+
+stops : 1
+
+vain : 2
+
+pitying : 2
+
+consequence : 2
+
+tickled : 1
+
+unhappiness : 1
+
+insect : 4
+
+sting : 1
+
+jump : 1
+
+satisfied : 2
+
+trains : 1
+
+nearest : 1
+
+beard : 2
+
+touched : 2
+
+gnat : 18
+
+balancing : 1
+
+twig : 2
+
+chicken : 2
+
+rejoice : 2
+
+kinds : 4
+
+carelessly : 2
+
+bush : 2
+
+rocking : 2
+
+gets : 5
+
+swinging : 1
+
+sap : 1
+
+sawdust : 1
+
+repainted : 1
+
+sticky : 1
+
+dragon : 3
+
+snap : 3
+
+plum : 9
+
+pudding : 15
+
+holly : 1
+
+raisin : 1
+
+frumenty : 1
+
+mince : 1
+
+candles : 3
+
+flies : 1
+
+observe : 2
+
+slices : 2
+
+lump : 2
+
+cream : 1
+
+supposing : 1
+
+suggested : 2
+
+pondering : 1
+
+amused : 2
+
+humming : 1
+
+careless : 3
+
+convenient : 1
+
+governess : 2
+
+excusing : 1
+
+servants : 2
+
+jokes : 1
+
+sighs : 1
+
+chilly : 1
+
+darker : 2
+
+advertisements : 1
+
+dash : 1
+
+rambling : 1
+
+shady : 1
+
+stepped : 1
+
+trunk : 1
+
+l : 2
+
+fawn : 6
+
+stroke : 1
+
+lovingly : 2
+
+human : 2
+
+darted : 1
+
+vexation : 2
+
+traveller : 1
+
+posts : 3
+
+road : 12
+
+divides : 1
+
+starting : 1
+
+dum : 2
+
+embroidered : 1
+
+dee : 5
+
+tweedle : 2
+
+wax : 4
+
+pay : 2
+
+nohow : 5
+
+contrariwise : 5
+
+ringing : 1
+
+ticking : 1
+
+agreed : 1
+
+battle : 7
+
+spoiled : 1
+
+monstrous : 2
+
+crow : 5
+
+tar : 1
+
+barrel : 1
+
+heroes : 1
+
+ain : 1
+
+logic : 1
+
+schoolboys : 1
+
+briskly : 1
+
+shout : 2
+
+brothers : 4
+
+hurting : 3
+
+fiddles : 1
+
+fiddle : 4
+
+mulberry : 1
+
+dancers : 1
+
+poetry : 10
+
+es : 1
+
+carpenter : 12
+
+longest : 1
+
+affectionate : 1
+
+billows : 1
+
+smooth : 2
+
+spoil : 1
+
+cloud : 4
+
+maids : 1
+
+mops : 1
+
+swept : 2
+
+shed : 1
+
+tear : 3
+
+oysters : 10
+
+beseech : 1
+
+briny : 1
+
+beach : 1
+
+eldest : 2
+
+winked : 1
+
+choose : 4
+
+coats : 1
+
+brushed : 2
+
+hopping : 1
+
+frothy : 1
+
+waves : 1
+
+conveniently : 1
+
+ships : 1
+
+sealing : 2
+
+cabbages : 1
+
+boiling : 2
+
+chat : 1
+
+loaf : 3
+
+chiefly : 2
+
+need : 1
+
+feed : 2
+
+blue : 3
+
+kindness : 2
+
+dismal : 1
+
+admire : 1
+
+view : 2
+
+slice : 4
+
+deaf : 2
+
+shame : 1
+
+trick : 3
+
+weep : 2
+
+sympathize : 1
+
+sorted : 1
+
+handkerchief : 4
+
+streaming : 1
+
+scarcely : 2
+
+count : 2
+
+puzzler : 1
+
+characters : 1
+
+puffing : 1
+
+lions : 1
+
+tigers : 1
+
+snoring : 5
+
+sleeping : 1
+
+honestly : 1
+
+tall : 2
+
+cap : 1
+
+tassel : 1
+
+crumpled : 1
+
+damp : 1
+
+thoughtful : 5
+
+retorted : 1
+
+bang : 2
+
+ditto : 3
+
+waking : 4
+
+realler : 1
+
+rain : 3
+
+umbrella : 7
+
+chooses : 1
+
+objection : 1
+
+selfish : 1
+
+sprang : 2
+
+seized : 2
+
+wrist : 1
+
+yellow : 2
+
+careful : 1
+
+examination : 2
+
+rattlesnake : 1
+
+stamp : 1
+
+spoilt : 1
+
+greater : 1
+
+perfect : 1
+
+attention : 2
+
+ended : 4
+
+bundled : 1
+
+calmer : 2
+
+bolsters : 1
+
+blankets : 1
+
+rugs : 1
+
+cloths : 1
+
+coal : 1
+
+scuttles : 1
+
+pinning : 1
+
+tying : 2
+
+fuss : 1
+
+bustled : 1
+
+quantity : 3
+
+fastening : 1
+
+bundles : 1
+
+clothes : 2
+
+bolster : 1
+
+serious : 2
+
+cough : 1
+
+helmet : 10
+
+headache : 1
+
+toothache : 1
+
+overheard : 1
+
+peace : 1
+
+excited : 2
+
+trifle : 2
+
+flap : 1
+
+hurricane : 1
+
+shawl : 9
+
+wool : 3
+
+owner : 1
+
+civilly : 1
+
+dressing : 2
+
+groaned : 2
+
+single : 2
+
+crooked : 2
+
+pins : 2
+
+pinned : 2
+
+pin : 3
+
+comb : 1
+
+released : 1
+
+altering : 1
+
+maid : 1
+
+twopence : 3
+
+jam : 8
+
+hire : 1
+
+objected : 5
+
+backwards : 4
+
+astonishment : 2
+
+plaster : 2
+
+messenger : 14
+
+crime : 2
+
+commits : 1
+
+difference : 2
+
+higher : 1
+
+squeak : 2
+
+unfinished : 1
+
+bleeding : 2
+
+screams : 1
+
+pricked : 3
+
+expect : 3
+
+fasten : 1
+
+brooch : 4
+
+clutched : 1
+
+clasp : 1
+
+light : 3
+
+loneliness : 1
+
+wringing : 2
+
+midst : 1
+
+decision : 1
+
+exactually : 1
+
+months : 3
+
+breakfast : 2
+
+gust : 1
+
+triumphant : 1
+
+etter : 3
+
+ehh : 1
+
+bleat : 1
+
+wrapped : 1
+
+shop : 7
+
+counter : 3
+
+rub : 1
+
+knitting : 7
+
+buy : 5
+
+contented : 1
+
+oddest : 1
+
+shelf : 6
+
+flow : 1
+
+plaintive : 1
+
+spent : 1
+
+vainly : 2
+
+pursuing : 1
+
+doll : 2
+
+failed : 1
+
+teetotum : 1
+
+needles : 8
+
+working : 2
+
+fourteen : 1
+
+knit : 1
+
+porcupine : 1
+
+handing : 1
+
+oars : 5
+
+boat : 11
+
+gliding : 1
+
+needed : 1
+
+bunch : 2
+
+crabs : 4
+
+vexed : 3
+
+glided : 3
+
+weeds : 1
+
+river : 2
+
+scented : 3
+
+rushes : 11
+
+transport : 1
+
+beauties : 1
+
+rowing : 1
+
+drift : 1
+
+stream : 2
+
+sleeves : 1
+
+plunged : 1
+
+breaking : 3
+
+tangled : 1
+
+dipping : 1
+
+tipple : 1
+
+prettiest : 1
+
+obstinacy : 1
+
+flushed : 1
+
+arrange : 1
+
+treasures : 1
+
+mattered : 1
+
+scent : 1
+
+beauty : 1
+
+melted : 1
+
+heaps : 2
+
+handle : 3
+
+seat : 1
+
+scornfully : 1
+
+echoed : 1
+
+fivepence : 1
+
+farthing : 1
+
+cheaper : 1
+
+purse : 1
+
+money : 2
+
+groped : 1
+
+tables : 3
+
+chairs : 2
+
+step : 1
+
+turk : 1
+
+balance : 2
+
+steadily : 1
+
+stuffed : 1
+
+horses : 6
+
+chattering : 1
+
+wishing : 1
+
+safer : 1
+
+anxiety : 2
+
+tremendously : 1
+
+pursed : 1
+
+unwisely : 1
+
+mayhap : 1
+
+offered : 1
+
+talks : 2
+
+calculation : 1
+
+suggestion : 1
+
+assistance : 1
+
+corrected : 3
+
+cravat : 3
+
+chosen : 2
+
+relented : 1
+
+un : 4
+
+sixty : 4
+
+birthdays : 1
+
+remains : 2
+
+worked : 1
+
+sum : 2
+
+____ : 1
+
+___ : 1
+
+upside : 3
+
+gaily : 1
+
+shows : 1
+
+glory : 3
+
+scornful : 1
+
+particularly : 1
+
+verbs : 2
+
+proudest : 1
+
+adjectives : 1
+
+lot : 2
+
+impenetrability : 2
+
+mention : 3
+
+saturday : 1
+
+wagging : 1
+
+wages : 1
+
+paid : 1
+
+explaining : 2
+
+poems : 1
+
+broiling : 1
+
+lithe : 2
+
+slimy : 1
+
+active : 1
+
+portmanteau : 2
+
+meanings : 1
+
+packed : 1
+
+badgers : 1
+
+lizards : 1
+
+corkscrews : 1
+
+nests : 1
+
+dials : 1
+
+cheese : 1
+
+gyroscope : 1
+
+holes : 1
+
+gimlet : 1
+
+plot : 1
+
+dial : 1
+
+ingenuity : 1
+
+flimsy : 1
+
+borogove : 1
+
+shabby : 1
+
+mop : 1
+
+rath : 1
+
+outgrabing : 1
+
+bellowing : 1
+
+yonder : 2
+
+easier : 2
+
+folk : 1
+
+amusement : 2
+
+sharper : 1
+
+spring : 1
+
+pen : 1
+
+obey : 2
+
+deed : 1
+
+hop : 1
+
+pump : 1
+
+plain : 1
+
+shudder : 2
+
+pushed : 2
+
+kicked : 1
+
+discontented : 2
+
+complain : 2
+
+marking : 1
+
+thumb : 2
+
+unsatisfactory : 2
+
+lion : 18
+
+unicorn : 22
+
+twos : 1
+
+threes : 1
+
+crowds : 1
+
+uncertain : 1
+
+tripping : 1
+
+stumbled : 2
+
+rider : 2
+
+referring : 1
+
+messengers : 2
+
+town : 8
+
+fretful : 1
+
+intently : 1
+
+shading : 2
+
+attitudes : 3
+
+skipping : 1
+
+fans : 1
+
+anglo : 5
+
+saxon : 5
+
+haigha : 10
+
+rhyme : 1
+
+mayor : 1
+
+h : 4
+
+hideous : 1
+
+fed : 1
+
+ham : 2
+
+sandwiches : 2
+
+hay : 6
+
+joining : 1
+
+hesitating : 1
+
+hatta : 11
+
+wave : 2
+
+fearful : 1
+
+introducing : 1
+
+sandwich : 3
+
+devoured : 1
+
+greedily : 1
+
+murmured : 2
+
+revived : 1
+
+munched : 2
+
+sal : 1
+
+volatile : 1
+
+walks : 2
+
+slower : 1
+
+news : 1
+
+whispering : 1
+
+earthquake : 2
+
+trotted : 2
+
+drummed : 1
+
+wins : 1
+
+fearfully : 2
+
+distinguish : 1
+
+horn : 2
+
+shells : 1
+
+trickled : 3
+
+cheek : 2
+
+drank : 3
+
+effort : 2
+
+eighty : 1
+
+allowed : 1
+
+rough : 1
+
+trays : 1
+
+drums : 2
+
+bounding : 1
+
+grasshopper : 1
+
+enemy : 2
+
+runs : 1
+
+sauntered : 1
+
+pockets : 1
+
+glancing : 1
+
+nervously : 3
+
+attitude : 1
+
+fabulous : 3
+
+monsters : 2
+
+dreamily : 2
+
+curling : 1
+
+unicorns : 1
+
+bargain : 1
+
+beckoned : 1
+
+carving : 1
+
+conjuring : 2
+
+blinking : 1
+
+tolling : 1
+
+bell : 5
+
+monster : 6
+
+slyly : 1
+
+quivered : 1
+
+bridge : 3
+
+market : 1
+
+sawing : 1
+
+obediently : 2
+
+rang : 2
+
+deafened : 1
+
+looks : 1
+
+feast : 4
+
+uproar : 1
+
+drum : 1
+
+gradually : 1
+
+belonging : 1
+
+ahoy : 4
+
+armour : 3
+
+galloping : 1
+
+brandishing : 1
+
+club : 1
+
+mounted : 2
+
+saddle : 7
+
+bewilderment : 1
+
+rescued : 1
+
+banging : 1
+
+hiding : 1
+
+hits : 1
+
+knocks : 1
+
+misses : 1
+
+tumbles : 1
+
+punch : 1
+
+judy : 1
+
+tumble : 4
+
+galloped : 1
+
+glorious : 1
+
+victory : 1
+
+shaggy : 1
+
+mild : 4
+
+tin : 1
+
+fastened : 3
+
+lid : 3
+
+admiring : 1
+
+friendly : 1
+
+unfastened : 1
+
+bushes : 1
+
+strike : 1
+
+hive : 2
+
+trap : 2
+
+provided : 1
+
+anklets : 1
+
+bites : 1
+
+handy : 1
+
+candlesticks : 1
+
+loaded : 1
+
+bunches : 2
+
+carrots : 1
+
+enquired : 1
+
+fruit : 1
+
+falls : 1
+
+hangs : 1
+
+upwards : 1
+
+habit : 2
+
+sideways : 1
+
+riding : 3
+
+helping : 1
+
+heartily : 1
+
+art : 2
+
+heavily : 1
+
+bridle : 1
+
+wheels : 2
+
+smoothly : 2
+
+clasping : 2
+
+inventing : 4
+
+gate : 5
+
+proudly : 1
+
+lightning : 3
+
+fastness : 3
+
+headlong : 1
+
+ditch : 2
+
+cleverest : 1
+
+during : 1
+
+cooked : 3
+
+courses : 1
+
+cheer : 1
+
+blotting : 1
+
+groan : 1
+
+mixing : 1
+
+gunpowder : 1
+
+hears : 1
+
+brings : 1
+
+haddocks : 2
+
+interested : 1
+
+aged : 5
+
+oughtn : 1
+
+bewildered : 1
+
+tune : 3
+
+reins : 3
+
+lighting : 1
+
+enjoyed : 2
+
+scene : 1
+
+gleaming : 1
+
+blaze : 2
+
+dazzled : 1
+
+cropping : 1
+
+shadows : 1
+
+thee : 2
+
+attentively : 1
+
+relate : 1
+
+sieve : 1
+
+butterflies : 1
+
+wheat : 1
+
+mutton : 9
+
+pies : 1
+
+street : 1
+
+unto : 1
+
+sail : 1
+
+stormy : 1
+
+seas : 1
+
+dye : 1
+
+thumped : 1
+
+accents : 1
+
+mountain : 1
+
+rill : 1
+
+thence : 1
+
+rolands : 1
+
+macassar : 1
+
+oil : 1
+
+halfpenny : 2
+
+toil : 1
+
+batter : 1
+
+fatter : 2
+
+hunt : 1
+
+heather : 1
+
+gold : 1
+
+coin : 1
+
+shine : 1
+
+copper : 1
+
+purchase : 1
+
+rolls : 1
+
+limed : 1
+
+twigs : 1
+
+grassy : 1
+
+knolls : 1
+
+hansom : 1
+
+cabs : 1
+
+wealth : 2
+
+gladly : 1
+
+noble : 2
+
+health : 4
+
+completed : 1
+
+design : 1
+
+menai : 1
+
+rust : 1
+
+er : 1
+
+glue : 2
+
+madly : 1
+
+shoe : 1
+
+toe : 1
+
+weight : 1
+
+reminds : 2
+
+whiter : 1
+
+aglow : 1
+
+distracted : 1
+
+woe : 1
+
+rocked : 1
+
+fro : 1
+
+mumblingly : 1
+
+dough : 1
+
+snorted : 1
+
+buffalo : 1
+
+ballad : 1
+
+gathered : 1
+
+rode : 1
+
+leisurely : 1
+
+waved : 1
+
+steps : 1
+
+bounded : 1
+
+lawn : 1
+
+moss : 1
+
+dotted : 1
+
+scolding : 1
+
+lolling : 1
+
+dignified : 1
+
+stiffly : 3
+
+comforted : 1
+
+oddly : 1
+
+obeyed : 1
+
+frown : 1
+
+moaned : 2
+
+vicious : 1
+
+invite : 4
+
+teach : 1
+
+sums : 3
+
+addition : 3
+
+subtraction : 4
+
+eight : 2
+
+division : 1
+
+divide : 1
+
+b : 1
+
+discouraged : 1
+
+flour : 1
+
+acres : 1
+
+mustn : 1
+
+feverish : 1
+
+languages : 1
+
+de : 3
+
+bargains : 1
+
+correct : 1
+
+fixes : 1
+
+consequences : 1
+
+unclasping : 1
+
+tuesday : 1
+
+tuesdays : 1
+
+nights : 3
+
+warmth : 1
+
+thursdays : 1
+
+lumps : 1
+
+stroking : 1
+
+amazing : 1
+
+papers : 1
+
+wonders : 1
+
+lend : 1
+
+nightcap : 2
+
+lullabies : 1
+
+nap : 1
+
+perplexity : 1
+
+distinct : 1
+
+arched : 1
+
+visitors : 1
+
+visitor : 1
+
+servant : 2
+
+admittance : 1
+
+hobbled : 2
+
+stamped : 1
+
+irritation : 1
+
+drawl : 1
+
+vexes : 1
+
+sceptre : 1
+
+dine : 1
+
+hundreds : 1
+
+glasses : 3
+
+sprinkle : 1
+
+bran : 1
+
+coffee : 1
+
+thirty : 2
+
+cheering : 1
+
+ninety : 3
+
+quoth : 1
+
+favour : 1
+
+privilege : 1
+
+mix : 1
+
+cider : 1
+
+longing : 1
+
+joint : 3
+
+waiters : 3
+
+leg : 4
+
+carve : 1
+
+bow : 3
+
+etiquette : 1
+
+remove : 2
+
+orders : 1
+
+waiter : 1
+
+conquered : 1
+
+shyness : 1
+
+impertinence : 1
+
+suety : 1
+
+gasp : 1
+
+cooing : 1
+
+stroked : 1
+
+penny : 1
+
+sup : 1
+
+cover : 2
+
+holds : 2
+
+lies : 1
+
+easiest : 1
+
+dishcover : 1
+
+queerly : 1
+
+extinguishers : 1
+
+decanters : 1
+
+edges : 1
+
+kangaroos : 1
+
+lapping : 1
+
+trough : 1
+
+thanks : 2
+
+support : 1
+
+submit : 1
+
+grace : 1
+
+pull : 2
+
+seizing : 1
+
+fireworks : 1
+
+bottles : 1
+
+forks : 1
+
+fluttering : 1
+
+broad : 1
+
+ladle : 1
+
+beckoning : 1
+
+cloth : 1
+
+crashing : 1
+
+fiercely : 1
+
+dwindled : 1
+
+trailing : 1
+
+lighted : 1
+
+resistance : 1
+
+softer : 1
+
+respectfully : 1
+
+inconvenient : 1
+
+kittens : 2
+
+mew : 1
+
+occasion : 1
+
+hunted : 1
+
+pretended : 2
+
+merry : 1
+
+undergoing : 1
+
+toilet : 1
+
+scrubbing : 1
+
+disrespectful : 1
+
+prattled : 1
+
+beneath : 1
+
+sunny : 2
+
+lingering : 2
+
+onward : 1
+
+july : 2
+
+nestle : 2
+
+willing : 2
+
+paled : 1
+
+echoes : 1
+
+memories : 1
+
+frosts : 1
+
+haunts : 1
+
+phantomwise : 1
+
+skies : 1
+
+summers : 1
+
+drifting : 1
+
+gleam : 1
 

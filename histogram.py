@@ -10,6 +10,7 @@ def histogram_dict(text_list):
     get = alice_dict.get
     for word in text_list:
         alice_dict[word] = get(word, 0) + 1
+    # print(alice_dict)
     return alice_dict
 
 
@@ -26,7 +27,7 @@ def histogram_list(clean_txt):
             word_freq.append(first_list)
     # Sort the list by frequency of word
     word_freq = sorted(word_freq, key=itemgetter(1))
-    # print(word_freq)
+    print(word_freq)
     return word_freq
 
 
@@ -75,13 +76,13 @@ def run_histogram():
     start_time = time.time()
     print(start_time)
     # Takes in a text file, cleans it, and returns a list of words.
-    text_list = c.clean_txt("alice-in-wonderland.txt")
-    print(text_list)
+    text_list = c.clean_txt("corpus.txt")
+    # print(text_list)
     alice_dict = histogram_dict(text_list)
     write_to_file(alice_dict)
     # print(alice_dict)
     # unique_words(alice_dict)
-    # print(frequency(alice_dict, "alice"))
+    print(frequency(alice_dict, "alice"))
     # histogram_list(text_list)
     # histogram_list_tuples(text_list)
     end_time = time.time()
