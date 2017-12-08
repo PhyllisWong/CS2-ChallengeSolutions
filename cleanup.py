@@ -11,7 +11,7 @@ def clean_txt(filename):
     remove_punctuation(words_list)
     result_list = []
 
-    items = re.findall("CHAPTER([A-z]+\'?[A-z]*|\$[0-9]*)", words_list)
+    items = re.findall("[A-z]+\'?[A-z]*|\$[0-9]*", words_list)
     for item in items:
         result_list.append(item)
     return result_list
