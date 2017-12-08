@@ -120,6 +120,7 @@ def limit_140_chars(rand_sentence):
     tweet = re.sub("i s", "is", tweet)
     tweet = re.sub("i'd", "I'd", tweet)
     tweet = re.sub("does n", "doesn't", tweet)
+    tweet = re.sub("t", "", tweet)
     print(tweet)
     return tweet
 
