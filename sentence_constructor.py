@@ -95,8 +95,8 @@ def find_word_after_rand_wrd(rand_wrd, markov_dict):
             # print("-> {}: {}".format(types, histogram))
 
 def construct_sentence(wrd_num):
-    clean_list = c.clean_txt('alice-in-wonderland.txt')
-    dictionary = create_dict_from_file('alice-in-wonderland.txt')
+    clean_list = c.clean_txt('corpus.txt')
+    dictionary = create_dict_from_file('corpus.txt')
     dict_w_weights = calculate_probability(dictionary)
     rand_wrd = get_random_wrd_prob(dict_w_weights)
     markov_dict = m.markov_chain(clean_list)
