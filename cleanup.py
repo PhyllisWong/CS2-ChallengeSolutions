@@ -21,6 +21,7 @@ def remove_punctuation(text):
     no_punc_txt = re.sub('[,.()]', '', text)
     no_punc_txt = re.sub('--', ' ', no_punc_txt)
     no_punc_txt = re.sub(':', ' ', no_punc_txt)
+    no_punc_txt = re.sub('/(?<!\S).(?!\S)\s*/', '', no_punc_txt)
     return no_punc_txt
 
 

@@ -28,32 +28,35 @@ class Markov(dict):
 
     def frequency(self, word):
         """Return frequency count of given word, or 0 if word is not found."""
-        # TODO: Retrieve word frequency count
+        # Retrieve word frequency count
         if word not in self:
             return 0
         return self[word]
 
 
 def markov_chain(word_list):
-    # Holds the Dictionary of histograms
+    # Holds the Dictionary of dictograms
     markov = {}
     index = 0
     # Search through the list of words
-    while index < len(word_list)-1:
+    while index < len(word_list)-2:
         curr_word = word_list[index]
         next_word = word_list[index+1]
+        wrd_after_nxt = word_list[index+2]
         # Add the word to the dictionary if not in in there
-        if curr_word not in markov.keys():
-            # Set newly added word with the value of a dictionary object
-            markov[curr_word] = Markov()
+        if (curr_word, next_word) not in markov.keys():
+            # Set newly added word as a tuple[0] and next_word as tuple[1]
+            # with the value of a dictionary object
+            markov[(curr_word, next_word)] = Markov()
         # If the word is already in the dictionary, increase the count
-        markov[curr_word].add_count(next_word)
+        markov[(curr_word, next_word)].add_count(wrd_after_nxt)
         # Look at the next word, repeat the loop
         index+=1
     return markov
 
 
 def print_histogram(word_list):
+    print("print_function: is printing HERE!!!")
     print('word list: {}'.format(word_list))
     # Create a dictogram and display its contents
     histogram = Markov(word_list)
@@ -62,8 +65,6 @@ def print_histogram(word_list):
     for word in word_list[-2:]:
         freq = histogram.frequency(word)
         print('{!r} occurs {} times'.format(word, freq))
-    print()
-
 
 
 def main():
