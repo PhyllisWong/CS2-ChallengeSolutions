@@ -5,13 +5,13 @@ import markov as m
 # import sys, string, re, time coming from the histogram file
 
 
-def create_dict_from_file(filename):
+def create_dict_from_list(clean_list):
     '''Take a user input, convert to a clean list, return dictionary structure.
     Each unique wrd stored as key : frequency of the word stored as value.'''
     # raw_txt_lst = h.take_usr_input('alice-in-wonderland.txt')
     # txt_list = h.clean_source_txt(raw_txt_lst)
-    clean_text = c.clean_txt(filename)
-    dictionary = h.histogram_dict(clean_text)
+    dictionary = h.histogram_dict(clean_list)
+    # print(dictionary)
     return dictionary
 
 
@@ -41,10 +41,10 @@ def get_random_wrd_prob(dict_w_weights):
     rand_float = random.random()
     probability = 0.0
     for wrd, wrd_weight in dict_w_weights.items():
-        # print(wrd_weight, rand_float, probability)
         probability += wrd_weight
         if rand_float < probability:
             break
+    # print(dict_w_weights)
     return wrd
 
 
@@ -67,12 +67,28 @@ def create_sentence(wrd_num, dict_w_weights, markov_dict):
     sentence = []
     while len(sentence) < wrd_num:
         rand_wrd = get_random_wrd_prob(dict_w_weights)
-        sentence.append(rand_wrd)
-        nxt_wrd = find_word_after_rand_wrd(rand_wrd, markov_dict)
-        sentence.append(nxt_wrd)
-    joined = " ".join(sentence) + "."
+
+        pair_wrds = find_pair_of_words(rand_wrd, markov_dict)
+        # print(pair_wrds)
+        sentence.append(pair_wrds[0])
+        sentence.append(pair_wrds[1])
+        # nxt_wrd = find_word_after_rand_wrd(rand_wrd, markov_dict)
+        # sentence.append(nxt_wrd)
+    # joined = " ".join(sentence) + "."
     # print(joined)
-    return joined
+    return pair_wrds
+
+def find_pair_of_words(rand_wrd, markov_dict):
+    print("THIS RANDOM WORD: {}".format(rand_wrd))
+    for (tuple_key, dictogram) in markov_dict.items():
+        if tuple_key[0] == rand_wrd:
+            print(tuple_key)
+            return tuple_key
+
+def find_wrd_after_tuple_key(tuple_key, markov_dict):
+    # print("USE THIS Tuple: {}\n".format(tuple_key))
+    print("SECOND ORDER markov: {}\n".format(markov_dict))
+    return tuple_key
 
 def find_word_after_rand_wrd(rand_wrd, markov_dict):
     # locate a histogram within the markov dict by the key
@@ -80,34 +96,36 @@ def find_word_after_rand_wrd(rand_wrd, markov_dict):
     for (types, histogram) in markov_dict.items():
         if types == rand_wrd:
             histogram = markov_dict[types]
-            # print(len(histogram))
             if len(histogram) > 1:
                 # for (k, v) in histogram.items():
                 nxt_rand_wrd = get_random_wrd(histogram)
                 return nxt_rand_wrd
-                # print("rand_wrd: {} nxt_wrd: {}".format(rand_wrd, nxt_rand_wrd))
-                # print("This is the second word: {}".format(k))
+
             else:
                 for (k, v) in histogram.items():
                     nxt_rand_wrd = k
                     return nxt_rand_wrd
-                    # print(nxt_rand_wrd)
-            # print("-> {}: {}".format(types, histogram))
+
 
 def construct_sentence(wrd_num):
-    clean_list = c.clean_txt('corpus.txt')
-    dictionary = create_dict_from_file('corpus.txt')
+    clean_list = c.clean_txt('onefish.txt')
+    clean_list.append("STOP")
+
+    dictionary = create_dict_from_list(clean_list)
+    # print(dictionary)
     dict_w_weights = calculate_probability(dictionary)
     rand_wrd = get_random_wrd_prob(dict_w_weights)
-    markov_dict = m.markov_chain(clean_list)
+    markov_dict = m.second_order_markov_chain(clean_list)
 
-    # print(markov_dict)
+    # print("SECOND ORDER markov: {}\n".format(markov_dict))
 
-    find_word_after_rand_wrd(rand_wrd, markov_dict)
+    tuple_key = find_pair_of_words(rand_wrd, markov_dict)
+    nxt_wrd = find_wrd_after_tuple_key(tuple_key, markov_dict)
     rand_sentence = create_sentence(wrd_num, dict_w_weights, markov_dict)
 
-    tweet = limit_140_chars(rand_sentence)
-    return tweet
+    # tweet = limit_140_chars(rand_sentence)
+    return rand_sentence
+    # return tweet
 
 
 def limit_140_chars(rand_sentence):
@@ -120,12 +138,18 @@ def limit_140_chars(rand_sentence):
     tweet = re.sub("i'd", "I'd", tweet)
     tweet = re.sub("does n", "doesn't", tweet)
     tweet = re.sub("doesn t", "doesn't", tweet)
-    print(tweet)
+    # print(tweet)
     return tweet
 
 
 if __name__ == '__main__':
-    construct_sentence()
+    # clean_list = c.clean_txt('onefish.txt')
+    # # print(clean_list)
+    # clean_list.append("STOP")
+    # print(clean_list)
+    # dictionary = create_dict_from_list(clean_list)
+
+    construct_sentence(8)
 
     # Proof that many random words returns each word within the desired range
     # get_many_rand_wrds(dict_w_weights, usr_input_count)

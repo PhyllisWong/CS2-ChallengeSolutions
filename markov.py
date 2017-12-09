@@ -39,6 +39,25 @@ def markov_chain(word_list):
     markov = {}
     index = 0
     # Search through the list of words
+    while index < len(word_list)-1:
+        curr_word = word_list[index]
+        next_word = word_list[index+1]
+        # Add the word to the dictionary if not in in there
+        if curr_word not in markov.keys():
+            # Set newly added word with the value of a dictionary object
+            markov[curr_word] = Markov()
+        # If the word is already in the dictionary, increase the count
+        markov[curr_word].add_count(next_word)
+        # Look at the next word, repeat the loop
+        index+=1
+    return markov
+
+
+def second_order_markov_chain(word_list):
+    # Holds the Dictionary of dictograms
+    markov = {}
+    index = 0
+    # Search through the list of words
     while index < len(word_list)-2:
         curr_word = word_list[index]
         next_word = word_list[index+1]
@@ -49,7 +68,10 @@ def markov_chain(word_list):
             # with the value of a dictionary object
             markov[(curr_word, next_word)] = Markov()
         # If the word is already in the dictionary, increase the count
+        # print((curr_word, next_word), "word after next: {}".format(wrd_after_nxt))
         markov[(curr_word, next_word)].add_count(wrd_after_nxt)
+        # if wrd_after_nxt == "STOP":
+        #     print("None!!!")
         # Look at the next word, repeat the loop
         index+=1
     return markov
@@ -77,10 +99,11 @@ def main():
         print_histogram(arguments)
     else:
         onefish_list = clean.clean_txt('onefish.txt')
-        print(onefish_list)
+        onefish_list.append("STOP")
+        # print(onefish_list)
         # Create the Dictionary of Histograms
-        markov_dict = markov_chain(onefish_list)
-        print(markov_dict)
+        markov_dict = second_order_markov_chain(onefish_list)
+        # print(markov_dict)
         # Test histogram on words in a long repetitive sentence
         # woodchuck_text = ('how much wood would a wood chuck chuck'
         #                   ' if a wood chuck could chuck wood')

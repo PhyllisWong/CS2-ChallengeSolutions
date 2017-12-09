@@ -6,12 +6,12 @@ import cleanup as c
 def histogram_dict(text_list):
     '''Take a list argument, return a histogram dictionary structure.
     Store each unique word as the key and frequency of the word as value.'''
-    alice_dict = {}
-    get = alice_dict.get
+    dictogram = {}
+    get = dictogram.get
     for word in text_list:
-        alice_dict[word] = get(word, 0) + 1
+        dictogram[word] = get(word, 0) + 1
     # print(alice_dict)
-    return alice_dict
+    return dictogram
 
 
 def histogram_list(clean_txt):
@@ -76,13 +76,13 @@ def run_histogram():
     start_time = time.time()
     print(start_time)
     # Takes in a text file, cleans it, and returns a list of words.
-    text_list = c.clean_txt("corpus.txt")
+    text_list = c.clean_txt('onefish.txt')
     # print(text_list)
-    alice_dict = histogram_dict(text_list)
-    write_to_file(alice_dict)
-    # print(alice_dict)
+    onefish_dict = histogram_dict(text_list)
+    # write_to_file(alice_dict)
+    print(onefish_dict)
     # unique_words(alice_dict)
-    print(frequency(alice_dict, "alice"))
+    # print(frequency(alice_dict, "alice"))
     # histogram_list(text_list)
     # histogram_list_tuples(text_list)
     end_time = time.time()
