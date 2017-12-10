@@ -6,17 +6,22 @@ import markov as m
 
 
 def create_dict_from_list(clean_list):
-    '''Take a user input, convert to a clean list, return dictionary structure.
-    Each unique wrd stored as key : frequency of the word stored as value.'''
-    # raw_txt_lst = h.take_usr_input('alice-in-wonderland.txt')
-    # txt_list = h.clean_source_txt(raw_txt_lst)
-    dictionary = h.histogram_dict(clean_list)
+    '''Take a clean list, return dictionary structure.
+    Each unique ('word', 'second_wrd') stored as key : frequency of the tuple stored as value.'''
+    list_of_pairs = []
+
+    for index in range(0, len(clean_list)-1):
+        cur = clean_list[index]
+        nxt = clean_list[index+1]
+        # print("iterator: {}".format(index))
+        list_of_pairs.append((cur, nxt))
+    dictionary = h.histogram_dict(list_of_pairs)
     # print(dictionary)
     return dictionary
 
 
 def get_random_wrd(dictionary):
-    '''Return a random word from a dictionary.'''
+    '''Return a random tuple from a dictionary.'''
     rand_index = random.randint(0, len(dictionary) - 1)
     # Convert dictionary into list of unique words with indecies
     key_list = list(dictionary)
@@ -29,23 +34,25 @@ def calculate_probability(dictionary):
     Convert the values from frequencies, to weights.'''
     total_tokens = sum(dictionary.values())
     dict_w_weights = {}
+
     for (wrd, value) in dictionary.items():
         weight = float(value / total_tokens)
         # Set the value to the weight
         dict_w_weights[wrd] = weight
+    del dict_w_weights[('fish', 'STOP')]
     return dict_w_weights
 
 
-def get_random_wrd_prob(dict_w_weights):
+def get_random_tuple_prob(dict_w_weights):
     '''Take a dictionary, select random word based on its probability.'''
     rand_float = random.random()
     probability = 0.0
-    for wrd, wrd_weight in dict_w_weights.items():
+    for tpl, wrd_weight in dict_w_weights.items():
         probability += wrd_weight
         if rand_float < probability:
             break
     # print(dict_w_weights)
-    return wrd
+    return tpl
 
 
 def get_many_rand_wrds(dictionary, num):
@@ -57,38 +64,27 @@ def get_many_rand_wrds(dictionary, num):
             rand_dict[rand_wrd] = 1
         else:
             rand_dict[rand_wrd] += 1
-    # print(rand_dict)
     return rand_dict
 
 
-def create_sentence(wrd_num, dict_w_weights, markov_dict):
-    '''Create a sentence using stocastic sampling.
-    Take in num of words in sentence, and histogram. Return a sentence.'''
-    sentence = []
-    while len(sentence) < wrd_num:
-        rand_wrd = get_random_wrd_prob(dict_w_weights)
-
-        pair_wrds = find_pair_of_words(rand_wrd, markov_dict)
-        # print(pair_wrds)
-        sentence.append(pair_wrds[0])
-        sentence.append(pair_wrds[1])
-        # nxt_wrd = find_word_after_rand_wrd(rand_wrd, markov_dict)
-        # sentence.append(nxt_wrd)
-    # joined = " ".join(sentence) + "."
-    # print(joined)
-    return pair_wrds
-
-def find_pair_of_words(rand_wrd, markov_dict):
-    print("THIS RANDOM WORD: {}".format(rand_wrd))
-    for (tuple_key, dictogram) in markov_dict.items():
-        if tuple_key[0] == rand_wrd:
-            print(tuple_key)
-            return tuple_key
-
 def find_wrd_after_tuple_key(tuple_key, markov_dict):
     # print("USE THIS Tuple: {}\n".format(tuple_key))
-    print("SECOND ORDER markov: {}\n".format(markov_dict))
-    return tuple_key
+    # print("SECOND ORDER markov: {}\n".format(markov_dict))
+    for (k, histogram) in markov_dict.items():
+        if k == tuple_key:
+            histogram = markov_dict.get(tuple_key)
+            # print("histogram matching the tuple: {}\n".format(histogram))
+            nxt_rand_wrd = get_random_wrd(histogram)
+            # print("line 96 {}".format(nxt_rand_wrd))
+            if len(histogram) > 1:
+                nxt_rand_wrd = get_random_wrd(histogram)
+                # print("This is the next word: {}".format(nxt_rand_wrd))
+                return nxt_rand_wrd
+            else:
+                for (k, v) in histogram.items():
+                    nxt_rand_wrd = k
+                    return nxt_rand_wrd
+
 
 def find_word_after_rand_wrd(rand_wrd, markov_dict):
     # locate a histogram within the markov dict by the key
@@ -100,11 +96,28 @@ def find_word_after_rand_wrd(rand_wrd, markov_dict):
                 # for (k, v) in histogram.items():
                 nxt_rand_wrd = get_random_wrd(histogram)
                 return nxt_rand_wrd
-
             else:
                 for (k, v) in histogram.items():
                     nxt_rand_wrd = k
                     return nxt_rand_wrd
+
+
+def create_sentence(wrd_num, dict_w_weights, markov_dict):
+    '''Create a sentence using stocastic sampling.
+    Take in num of words in sentence, and histogram. Return a sentence.'''
+    sentence = []
+    while len(sentence) < wrd_num:
+        rand_tuple = get_random_tuple_prob(dict_w_weights)
+        # print("This is my random tpl: {}".format(rand_tuple))
+        nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
+        # print(nxt_wrd)
+        sentence.append(rand_tuple[0])
+        sentence.append(rand_tuple[1])
+        if nxt_wrd == "STOP":
+            break
+        sentence.append(nxt_wrd)
+    joined = " ".join(sentence) + "."
+    return joined
 
 
 def construct_sentence(wrd_num):
@@ -112,19 +125,16 @@ def construct_sentence(wrd_num):
     clean_list.append("STOP")
 
     dictionary = create_dict_from_list(clean_list)
-    # print(dictionary)
-    dict_w_weights = calculate_probability(dictionary)
-    rand_wrd = get_random_wrd_prob(dict_w_weights)
     markov_dict = m.second_order_markov_chain(clean_list)
-
-    # print("SECOND ORDER markov: {}\n".format(markov_dict))
-
-    tuple_key = find_pair_of_words(rand_wrd, markov_dict)
-    nxt_wrd = find_wrd_after_tuple_key(tuple_key, markov_dict)
+    # print(markov_dict)
+    dict_w_weights = calculate_probability(dictionary)
+    # print(dict_w_weights)
+    # nxt_wrd = find_wrd_after_tuple_key(tuple_key, markov_dict)
+    # print("This should be the next word: {}".format(nxt_wrd))
     rand_sentence = create_sentence(wrd_num, dict_w_weights, markov_dict)
-
-    # tweet = limit_140_chars(rand_sentence)
-    return rand_sentence
+    print("This is my sentence: {}".format(rand_sentence))
+    # # tweet = limit_140_chars(rand_sentence)
+    # return rand_sentence
     # return tweet
 
 
