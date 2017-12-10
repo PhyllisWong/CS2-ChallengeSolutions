@@ -108,14 +108,17 @@ def create_sentence(wrd_num, dict_w_weights, markov_dict):
     sentence = []
     while len(sentence) < wrd_num:
         rand_tuple = get_random_tuple_prob(dict_w_weights)
-        # print("This is my random tpl: {}".format(rand_tuple))
-        nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
-        # print(nxt_wrd)
-        sentence.append(rand_tuple[0])
-        sentence.append(rand_tuple[1])
-        if nxt_wrd == "STOP":
+        cur = rand_tuple[0]
+        nxt = rand_tuple[1]
+        nxt_nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
+        sentence.append(cur)
+        sentence.append(nxt)
+        if nxt == "STOP":
             break
-        sentence.append(nxt_wrd)
+        sentence.append(nxt_nxt_wrd)
+        for (k, v) in markov_dict.items():
+            if k == (nxt, nxt_nxt_wrd):
+                rand_tuple = k
     joined = " ".join(sentence) + "."
     return joined
 
@@ -125,12 +128,11 @@ def construct_sentence(wrd_num):
     clean_list.append("STOP")
 
     dictionary = create_dict_from_list(clean_list)
+    print("Dictionary of tuples: {}\n".format(dictionary))
     markov_dict = m.second_order_markov_chain(clean_list)
-    # print(markov_dict)
+    print("Second order markov chain: {}\n".format(markov_dict))
     dict_w_weights = calculate_probability(dictionary)
-    # print(dict_w_weights)
-    # nxt_wrd = find_wrd_after_tuple_key(tuple_key, markov_dict)
-    # print("This should be the next word: {}".format(nxt_wrd))
+    print(dict_w_weights)
     rand_sentence = create_sentence(wrd_num, dict_w_weights, markov_dict)
     print("This is my sentence: {}".format(rand_sentence))
     # # tweet = limit_140_chars(rand_sentence)
@@ -153,13 +155,7 @@ def limit_140_chars(rand_sentence):
 
 
 if __name__ == '__main__':
-    # clean_list = c.clean_txt('onefish.txt')
-    # # print(clean_list)
-    # clean_list.append("STOP")
-    # print(clean_list)
-    # dictionary = create_dict_from_list(clean_list)
-
-    construct_sentence(8)
+    construct_sentence()
 
     # Proof that many random words returns each word within the desired range
     # get_many_rand_wrds(dict_w_weights, usr_input_count)
