@@ -2,6 +2,7 @@ import histogram as h
 import cleanup as c
 import random, sys, re
 import markov as m
+from collections import deque
 # import sys, string, re, time coming from the histogram file
 
 
@@ -106,19 +107,19 @@ def create_sentence(wrd_num, dict_w_weights, markov_dict):
     '''Create a sentence using stocastic sampling.
     Take in num of words in sentence, and histogram. Return a sentence.'''
     sentence = []
+    rand_tuple = get_random_tuple_prob(dict_w_weights)
+    cur = rand_tuple[0]
+    nxt = rand_tuple[1]
+    sentence.append(cur)
+    sentence.append(nxt)
     while len(sentence) < wrd_num:
-        rand_tuple = get_random_tuple_prob(dict_w_weights)
-        cur = rand_tuple[0]
-        nxt = rand_tuple[1]
         nxt_nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
-        sentence.append(cur)
-        sentence.append(nxt)
-        if nxt == "STOP":
-            break
-        sentence.append(nxt_nxt_wrd)
-        for (k, v) in markov_dict.items():
-            if k == (nxt, nxt_nxt_wrd):
-                rand_tuple = k
+        print(nxt_nxt_wrd)
+        if nxt_nxt_wrd != 'STOP':
+            sentence.append(nxt_nxt_wrd)
+            rand_tuple = (nxt, nxt_nxt_wrd)
+
+
     joined = " ".join(sentence) + "."
     return joined
 
@@ -155,7 +156,10 @@ def limit_140_chars(rand_sentence):
 
 
 if __name__ == '__main__':
-    construct_sentence()
+    construct_sentence(10)
+    clean_list = c.clean_txt('onefish.txt')
+
+
 
     # Proof that many random words returns each word within the desired range
     # get_many_rand_wrds(dict_w_weights, usr_input_count)
