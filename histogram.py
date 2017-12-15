@@ -81,6 +81,7 @@ def run_histogram():
     onefish_dict = histogram_dict(text_list)
     # write_to_file(alice_dict)
     print(onefish_dict)
+    print(list(onefish_dict.items()))
     # unique_words(alice_dict)
     # print(frequency(alice_dict, "alice"))
     # histogram_list(text_list)

@@ -2,6 +2,7 @@ import histogram as h
 import cleanup as c
 import random, sys, re
 import markov as m
+from pprint import pprint
 from collections import deque
 # import sys, string, re, time coming from the histogram file
 
@@ -71,20 +72,11 @@ def get_many_rand_wrds(dictionary, num):
 def find_wrd_after_tuple_key(tuple_key, markov_dict):
     # print("USE THIS Tuple: {}\n".format(tuple_key))
     # print("SECOND ORDER markov: {}\n".format(markov_dict))
-    for (k, histogram) in markov_dict.items():
-        if k == tuple_key:
-            histogram = markov_dict.get(tuple_key)
-            # print("histogram matching the tuple: {}\n".format(histogram))
-            nxt_rand_wrd = get_random_wrd(histogram)
-            # print("line 96 {}".format(nxt_rand_wrd))
-            if len(histogram) > 1:
-                nxt_rand_wrd = get_random_wrd(histogram)
-                # print("This is the next word: {}".format(nxt_rand_wrd))
-                return nxt_rand_wrd
-            else:
-                for (k, v) in histogram.items():
-                    nxt_rand_wrd = k
-                    return nxt_rand_wrd
+    histogram = markov_dict.get(tuple_key)
+    # print("histogram matching the tuple: {}\n".format(histogram))
+    nxt_rand_wrd = get_random_wrd(histogram)
+    # print("line 96 {}".format(nxt_rand_wrd))
+    return nxt_rand_wrd
 
 
 def find_word_after_rand_wrd(rand_wrd, markov_dict):
@@ -108,32 +100,45 @@ def create_sentence(wrd_num, dict_w_weights, markov_dict):
     Take in num of words in sentence, and histogram. Return a sentence.'''
     sentence = []
     rand_tuple = get_random_tuple_prob(dict_w_weights)
+    print('rand_tuple:', rand_tuple)
     cur = rand_tuple[0]
     nxt = rand_tuple[1]
     sentence.append(cur)
     sentence.append(nxt)
     while len(sentence) < wrd_num:
+        print('sentence:', sentence)
+        nxt = nxt_nxt_wrd
         nxt_nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
-        print(nxt_nxt_wrd)
+        # if nxt_nxt_wrd is None:
+        print('nxt_nxt_wrd:', nxt_nxt_wrd)
         if nxt_nxt_wrd != 'STOP':
             sentence.append(nxt_nxt_wrd)
-            rand_tuple = (nxt, nxt_nxt_wrd)
 
+            rand_tuple = (nxt, nxt_nxt_wrd)
+            print('rand_tuple:', rand_tuple)
+        else:
+            break
 
     joined = " ".join(sentence) + "."
     return joined
 
 
 def construct_sentence(wrd_num):
-    clean_list = c.clean_txt('onefish.txt')
+    clean_list = c.clean_txt('bluefish.txt')
     clean_list.append("STOP")
 
-    dictionary = create_dict_from_list(clean_list)
-    print("Dictionary of tuples: {}\n".format(dictionary))
     markov_dict = m.second_order_markov_chain(clean_list)
-    print("Second order markov chain: {}\n".format(markov_dict))
+    print("Second order markov chain:")
+    pprint(markov_dict)
+
+    dictionary = create_dict_from_list(clean_list)
+    print("Dictionary of tuples:")
+    pprint(dictionary)
+
     dict_w_weights = calculate_probability(dictionary)
-    print(dict_w_weights)
+    print("Dictionary with weights:")
+    pprint(dict_w_weights)
+
     rand_sentence = create_sentence(wrd_num, dict_w_weights, markov_dict)
     print("This is my sentence: {}".format(rand_sentence))
     # # tweet = limit_140_chars(rand_sentence)
@@ -157,7 +162,7 @@ def limit_140_chars(rand_sentence):
 
 if __name__ == '__main__':
     construct_sentence(10)
-    clean_list = c.clean_txt('onefish.txt')
+    clean_list = c.clean_txt('bluefish.txt')
 
 
 
