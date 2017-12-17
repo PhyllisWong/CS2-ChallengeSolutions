@@ -105,10 +105,11 @@ def create_sentence(wrd_num, dict_w_weights, markov_dict):
     nxt = rand_tuple[1]
     sentence.append(second_to_last)
     sentence.append(nxt)
+    nxt_nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
+
     while len(sentence) < wrd_num:
         print('sentence:', sentence)
         nxt = nxt_nxt_wrd
-        nxt_nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
         # if nxt_nxt_wrd is None:
         print('nxt_nxt_wrd:', nxt_nxt_wrd)
         if nxt_nxt_wrd != 'STOP':
