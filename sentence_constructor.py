@@ -103,7 +103,7 @@ def create_sentence(wrd_num, dict_w_weights, markov_dict):
     print('rand_tuple:', rand_tuple)
     second_to_last = rand_tuple[0]
     nxt = rand_tuple[1]
-    sentence.append(cur)
+    sentence.append(second_to_last)
     sentence.append(nxt)
     while len(sentence) < wrd_num:
         print('sentence:', sentence)
