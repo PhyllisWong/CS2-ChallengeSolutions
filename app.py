@@ -10,12 +10,6 @@ import sentence_constructor as s
 app = Flask(__name__)
 
 
-def clean_text():
-    clean_list = c.clean_txt('corpus.txt')
-    clean_list.append("STOP")
-    return clean_list
-
-
 # ROUTES
 @app.route('/')
 def rand_sentence(clean_list):
@@ -23,8 +17,8 @@ def rand_sentence(clean_list):
     # print(sentence)
     return sentence
 
-
-clean_list = clean_text()
+clean_list = s.clean_text()
+clean_list.append("STOP")
 rand_sentence(clean_list)
 # if __name__ == '__main__':
 #     app.run()
