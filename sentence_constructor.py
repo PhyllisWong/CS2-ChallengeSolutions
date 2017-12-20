@@ -41,7 +41,7 @@ def calculate_probability(dictionary):
         weight = float(value / total_tokens)
         # Set the value to the weight
         dict_w_weights[wrd] = weight
-    del dict_w_weights[('fish', 'STOP')]
+    del dict_w_weights[('dream', 'STOP')]
     return dict_w_weights
 
 
@@ -106,30 +106,25 @@ def create_sentence(wrd_num, dict_w_weights, markov_dict):
     sentence.append(second_to_last)
     sentence.append(last_wrd)
     nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
-
     while len(sentence) < wrd_num:
         print('sentence:', sentence)
         rand_tuple = (last_wrd, nxt_wrd)
         second_to_last = last_wrd
         last_wrd = nxt_wrd
-
         # if nxt_nxt_wrd is None:
         print('nxt_wrd:', nxt_wrd)
         if nxt_wrd != 'STOP':
             sentence.append(nxt_wrd)
-
             nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
-
             print('rand_tuple:', rand_tuple)
         else:
             break
-
     joined = " ".join(sentence) + "."
     return joined
 
 
 def construct_sentence(wrd_num):
-    clean_list = c.clean_txt('bluefish.txt')
+    clean_list = c.clean_txt('corpus.txt')
     clean_list.append("STOP")
 
     markov_dict = m.second_order_markov_chain(clean_list)
@@ -167,7 +162,7 @@ def limit_140_chars(rand_sentence):
 
 if __name__ == '__main__':
     construct_sentence(10)
-    clean_list = c.clean_txt('bluefish.txt')
+    clean_list = c.clean_txt('corpus.txt')
 
 
 
