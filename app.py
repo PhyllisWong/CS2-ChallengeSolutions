@@ -1,5 +1,6 @@
 # DELCARATIONS
 from flask import Flask
+import cleanup as c
 import os
 
 import sentence_constructor as s
@@ -8,14 +9,22 @@ import sentence_constructor as s
 
 app = Flask(__name__)
 
+
+def clean_text():
+    clean_list = c.clean_txt('corpus.txt')
+    clean_list.append("STOP")
+    return clean_list
+
+
 # ROUTES
 @app.route('/')
-def rand_sentence():
-    sentence = s.construct_sentence(18)
+def rand_sentence(clean_list):
+    sentence = s.construct_sentence(18, clean_list)
     # print(sentence)
     return sentence
 
 
-rand_sentence()
+clean_list = clean_text()
+rand_sentence(clean_list)
 # if __name__ == '__main__':
 #     app.run()

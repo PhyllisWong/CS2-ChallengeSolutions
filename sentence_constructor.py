@@ -129,8 +129,10 @@ def clean_text():
     return clean_list
 
 
-def construct_sentence(wrd_num):
-    clean_list = clean_text()
+clean_list = clean_text()
+
+
+def construct_sentence(wrd_num, clean_list):
     markov_dict = m.second_order_markov_chain(clean_list)
     # print("Second order markov chain:")
     # pprint(markov_dict)
@@ -167,7 +169,7 @@ def limit_140_chars(rand_sentence):
 
 if __name__ == '__main__':
     clean_list = clean_text()
-    construct_sentence(10)
+    construct_sentence(18, clean_list)
 
 
 
