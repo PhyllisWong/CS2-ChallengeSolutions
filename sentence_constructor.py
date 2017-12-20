@@ -100,50 +100,55 @@ def create_sentence(wrd_num, dict_w_weights, markov_dict):
     Take in num of words in sentence, and histogram. Return a sentence.'''
     sentence = []
     rand_tuple = get_random_tuple_prob(dict_w_weights)
-    print('rand_tuple:', rand_tuple)
+    # print('rand_tuple:', rand_tuple)
     second_to_last = rand_tuple[0]
     last_wrd = rand_tuple[1]
     sentence.append(second_to_last)
     sentence.append(last_wrd)
     nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
     while len(sentence) < wrd_num:
-        print('sentence:', sentence)
+        # print('sentence:', sentence)
         rand_tuple = (last_wrd, nxt_wrd)
         second_to_last = last_wrd
         last_wrd = nxt_wrd
         # if nxt_nxt_wrd is None:
-        print('nxt_wrd:', nxt_wrd)
+        # print('nxt_wrd:', nxt_wrd)
         if nxt_wrd != 'STOP':
             sentence.append(nxt_wrd)
             nxt_wrd = find_wrd_after_tuple_key(rand_tuple, markov_dict)
-            print('rand_tuple:', rand_tuple)
+            # print('rand_tuple:', rand_tuple)
         else:
             break
     joined = " ".join(sentence) + "."
     return joined
 
 
-def construct_sentence(wrd_num):
+def clean_text():
     clean_list = c.clean_txt('corpus.txt')
     clean_list.append("STOP")
+    return clean_list
 
+
+def construct_sentence(wrd_num):
+    clean_list = clean_text()
     markov_dict = m.second_order_markov_chain(clean_list)
-    print("Second order markov chain:")
-    pprint(markov_dict)
+    # print("Second order markov chain:")
+    # pprint(markov_dict)
 
     dictionary = create_dict_from_list(clean_list)
-    print("Dictionary of tuples:")
-    pprint(dictionary)
+    # print("Dictionary of tuples:")
+    # pprint(dictionary)
 
     dict_w_weights = calculate_probability(dictionary)
-    print("Dictionary with weights:")
-    pprint(dict_w_weights)
+    # print("Dictionary with weights:")
+    # pprint(dict_w_weights)
 
     rand_sentence = create_sentence(wrd_num, dict_w_weights, markov_dict)
-    print("This is my sentence: {}".format(rand_sentence))
-    # # tweet = limit_140_chars(rand_sentence)
+    # print("This is my sentence: {}".format(rand_sentence))
+    tweet = limit_140_chars(rand_sentence)
     # return rand_sentence
-    # return tweet
+    print(tweet)
+    return tweet
 
 
 def limit_140_chars(rand_sentence):
@@ -161,8 +166,8 @@ def limit_140_chars(rand_sentence):
 
 
 if __name__ == '__main__':
+    clean_list = clean_text()
     construct_sentence(10)
-    clean_list = c.clean_txt('corpus.txt')
 
 
 
