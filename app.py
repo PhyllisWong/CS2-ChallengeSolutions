@@ -19,6 +19,7 @@ def rand_sentence(clean_list):
 
 clean_list = s.clean_text()
 clean_list.append("STOP")
+
 rand_sentence(clean_list)
 # if __name__ == '__main__':
 #     app.run()
