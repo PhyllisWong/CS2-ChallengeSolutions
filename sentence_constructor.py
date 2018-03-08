@@ -37,7 +37,7 @@ def calculate_probability(dictionary):
     for (wrd, value) in dictionary.items():
         weight = float(value / total_tokens)
         dict_w_weights[wrd] = weight
-    del dict_w_weights[('dream', 'STOP')]
+    del dict_w_weights[('staff', 'STOP')]
     return dict_w_weights
 
 
@@ -132,11 +132,11 @@ def limit_140_chars(rand_sentence):
     tweet = rand_sentence[0:140]
     tweet = re.sub('([a-zA-Z])', lambda x: x.groups()[0].upper(), tweet, 1)
     tweet = re.sub(' i ', ' I ', tweet)
-    tweet = re.sub("i'm", "I'm", tweet)
+    tweet = re.sub("i'm", "I\'m", tweet)
     tweet = re.sub("i s", "is", tweet)
-    tweet = re.sub("i'd", "I'd", tweet)
-    tweet = re.sub("does n", "doesn't", tweet)
-    tweet = re.sub("doesn t", "doesn't", tweet)
+    tweet = re.sub("i'd", "I\'d", tweet)
+    tweet = re.sub("does n", "doesn\'t", tweet)
+    tweet = re.sub("doesn t", "doesn\'t", tweet)
     return tweet
 
 

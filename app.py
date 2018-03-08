@@ -19,8 +19,11 @@ def rand_sentence():
     # print(sentence)
     return sentence
 
-
-
 rand_sentence()
+
 # if __name__ == '__main__':
 #     app.run()
+
+# interact with the twitter API
+# make an account for the tweet gen
+# set a timeout in the rand_sentence func
