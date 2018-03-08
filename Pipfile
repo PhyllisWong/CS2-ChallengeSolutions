@@ -3,8 +3,7 @@ url = "https://alice-in-wonderland-tweet-gen.herokuapp.com/"
 verify_ssl = true
 
 [packages]
-gunicorn = "*"
-whitenoise = "*"
+
 
 [requires]
 python_version = "3.6"
